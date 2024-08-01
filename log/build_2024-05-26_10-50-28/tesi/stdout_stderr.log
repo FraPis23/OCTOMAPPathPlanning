@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[ 50%] Built target octo_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In constructor ‘[01m[KOctoPlanner::OctoPlanner()[m[K’:
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:33:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDynamicEDTOctomapBase<octomap::OcTree>::DynamicEDTOctomapBase()[m[K’
+   33 |     : Node("octo_planner"[01;31m[K)[m[K
+      |                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.h:128[m[K,
+                 from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:16[m[K:
+[01m[K/opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.hxx:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KDynamicEDTOctomapBase<TREE>::DynamicEDTOctomapBase(float, TREE*, octomap::point3d, octomap::point3d, bool) [with TREE = octomap::OcTree; octomap::point3d = octomath::Vector3][m[K’
+   45 | [01;36m[KDynamicEDTOctomapBase<TREE>[m[K::DynamicEDTOctomapBase(float maxdist, TREE* _octree, octomap::point3d bbxMin, octomap::point3d bbxMax, bool treatUnknownAsOccupied)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.hxx:45:1:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 0 provided
+In file included from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:16[m[K:
+[01m[K/opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.h:47:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KDynamicEDTOctomapBase<octomap::OcTree>::DynamicEDTOctomapBase(const DynamicEDTOctomapBase<octomap::OcTree>&)[m[K’
+   47 | class [01;36m[KDynamicEDTOctomapBase[m[K: private DynamicEDT3D {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.h:47:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/octo_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

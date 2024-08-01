@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target octo_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[ 50%] Built target octo_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In lambda function:
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:85:24:[m[K [01;31m[Kerror: [m[K‘[01m[KisStateValid[m[K’ was not declared in this scope
+   85 |                 return [01;31m[KisStateValid[m[K(state, distmap);
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In member function ‘[01m[Kvoid OctoPlanner::octo_callback(const Octomap&)[m[K’:
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:83:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kompl::base::SpaceInformation::setStateValidityChecker(OctoPlanner::octo_callback(const Octomap&)::<lambda(const ompl::base::State*)>)[m[K’
+   83 |             [01;31m[Ksi->setStateValidityChecker([this, &distmap](const ob::State *state)[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   84 | [01;31m[K            {[m[K
+      |             [01;31m[K~[m[K                           
+   85 | [01;31m[K                return isStateValid(state, distmap);[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   86 | [01;31m[K            })[m[K;
+      |             [01;31m[K~~[m[K                          
+In file included from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:8[m[K:
+[01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:146:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ompl::base::SpaceInformation::setStateValidityChecker(const StateValidityCheckerPtr&)[m[K’
+  146 |             void [01;36m[KsetStateValidityChecker[m[K(const StateValidityCheckerPtr &svc)
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:146:73:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KOctoPlanner::octo_callback(const Octomap&)::<lambda(const ompl::base::State*)>[m[K’ to ‘[01m[Kconst StateValidityCheckerPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<ompl::base::StateValidityChecker>&[m[K’}
+  146 |             void setStateValidityChecker([01;36m[Kconst StateValidityCheckerPtr &svc[m[K)
+      |                                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:157:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ompl::base::SpaceInformation::setStateValidityChecker(const StateValidityCheckerFn&)[m[K’
+  157 |             void [01;36m[KsetStateValidityChecker[m[K(const StateValidityCheckerFn &svc);
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:157:72:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KOctoPlanner::octo_callback(const Octomap&)::<lambda(const ompl::base::State*)>[m[K’ to ‘[01m[Kconst StateValidityCheckerFn&[m[K’ {aka ‘[01m[Kconst std::function<bool(const ompl::base::State*)>&[m[K’}
+  157 |             void setStateValidityChecker([01;36m[Kconst StateValidityCheckerFn &svc[m[K);
+      |                                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/octo_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,10 @@
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In member function ‘[01m[Kvoid OctoPlanner::octo_callback(const Octomap&)[m[K’:
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:86:41:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kbool OctoPlanner::isStateValid(const ompl::base::State*)[m[K’
+   86 |             si->setStateValidityChecker([01;31m[KisStateValid[m[K);
+      |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:163:11:[m[K [01;36m[Knote: [m[Kdeclared here
+  163 |      bool [01;36m[KisStateValid[m[K(const ob::State *state)
+      |           [01;36m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/octo_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

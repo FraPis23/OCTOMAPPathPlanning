@@ -1,0 +1,17 @@
+/home/ws/install/tesi/lib/tesi/octo_publisher
+/home/ws/install/tesi/lib/tesi/octo_planner
+/home/ws/install/tesi/share/ament_index/resource_index/package_run_dependencies/tesi
+/home/ws/install/tesi/share/ament_index/resource_index/parent_prefix_path/tesi
+/home/ws/install/tesi/share/tesi/environment/ament_prefix_path.sh
+/home/ws/install/tesi/share/tesi/environment/ament_prefix_path.dsv
+/home/ws/install/tesi/share/tesi/environment/path.sh
+/home/ws/install/tesi/share/tesi/environment/path.dsv
+/home/ws/install/tesi/share/tesi/local_setup.bash
+/home/ws/install/tesi/share/tesi/local_setup.sh
+/home/ws/install/tesi/share/tesi/local_setup.zsh
+/home/ws/install/tesi/share/tesi/local_setup.dsv
+/home/ws/install/tesi/share/tesi/package.dsv
+/home/ws/install/tesi/share/ament_index/resource_index/packages/tesi
+/home/ws/install/tesi/share/tesi/cmake/tesiConfig.cmake
+/home/ws/install/tesi/share/tesi/cmake/tesiConfig-version.cmake
+/home/ws/install/tesi/share/tesi/package.xml

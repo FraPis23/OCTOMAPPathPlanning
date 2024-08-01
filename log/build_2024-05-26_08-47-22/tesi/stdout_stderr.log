@@ -1,0 +1,78 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found ompl: /usr/include/ompl-1.5;/usr/include;/usr/include/eigen3  
+-- Found octomap_msgs: 2.0.0 (/opt/ros/humble/share/octomap_msgs/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ws/build/tesi
+[ 50%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/octo_publisher.dir/tesi/src/octo_publisher.cpp.o[0m
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In lambda function:
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:85:24:[m[K [01;31m[Kerror: [m[K‘[01m[KisStateValid[m[K’ was not declared in this scope
+   85 |                 return [01;31m[KisStateValid[m[K(state, distmap);
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In member function ‘[01m[Kvoid OctoPlanner::octo_callback(const Octomap&)[m[K’:
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:83:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kompl::base::SpaceInformation::setStateValidityChecker(OctoPlanner::octo_callback(const Octomap&)::<lambda(const ompl::base::State*)>)[m[K’
+   83 |             [01;31m[Ksi->setStateValidityChecker([this, &distmap](const ob::State *state)[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   84 | [01;31m[K            {[m[K
+      |             [01;31m[K~[m[K                           
+   85 | [01;31m[K                return isStateValid(state, distmap);[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   86 | [01;31m[K            })[m[K;
+      |             [01;31m[K~~[m[K                          
+In file included from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:8[m[K:
+[01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:146:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ompl::base::SpaceInformation::setStateValidityChecker(const StateValidityCheckerPtr&)[m[K’
+  146 |             void [01;36m[KsetStateValidityChecker[m[K(const StateValidityCheckerPtr &svc)
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:146:73:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KOctoPlanner::octo_callback(const Octomap&)::<lambda(const ompl::base::State*)>[m[K’ to ‘[01m[Kconst StateValidityCheckerPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<ompl::base::StateValidityChecker>&[m[K’}
+  146 |             void setStateValidityChecker([01;36m[Kconst StateValidityCheckerPtr &svc[m[K)
+      |                                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:157:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ompl::base::SpaceInformation::setStateValidityChecker(const StateValidityCheckerFn&)[m[K’
+  157 |             void [01;36m[KsetStateValidityChecker[m[K(const StateValidityCheckerFn &svc);
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:157:72:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KOctoPlanner::octo_callback(const Octomap&)::<lambda(const ompl::base::State*)>[m[K’ to ‘[01m[Kconst StateValidityCheckerFn&[m[K’ {aka ‘[01m[Kconst std::function<bool(const ompl::base::State*)>&[m[K’}
+  157 |             void setStateValidityChecker([01;36m[Kconst StateValidityCheckerFn &svc[m[K);
+      |                                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[ 75%] [32m[1mLinking CXX executable octo_publisher[0m
+[ 75%] Built target octo_publisher
+gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/octo_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

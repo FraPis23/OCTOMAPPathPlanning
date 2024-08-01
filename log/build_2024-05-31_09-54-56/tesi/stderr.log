@@ -1,0 +1,7 @@
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kompl/geometric/planners/rrt/RRstar.h: No such file or directory
+   10 | #include [01;31m[K<ompl/geometric/planners/rrt/RRstar.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/octo_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

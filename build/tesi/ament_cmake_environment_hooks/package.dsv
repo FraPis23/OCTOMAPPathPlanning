@@ -1,0 +1,4 @@
+source;share/tesi/local_setup.bash
+source;share/tesi/local_setup.dsv
+source;share/tesi/local_setup.sh
+source;share/tesi/local_setup.zsh

@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000687] (tesi) JobQueued: {'identifier': 'tesi', 'dependencies': OrderedDict()}
+[0.000837] (tesi) JobStarted: {'identifier': 'tesi'}
+[0.009797] (tesi) JobProgress: {'identifier': 'tesi', 'progress': 'cmake'}
+[0.010336] (tesi) JobProgress: {'identifier': 'tesi', 'progress': 'build'}
+[0.011188] (tesi) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ws/build/tesi', '--', '-j12', '-l12'], 'cwd': '/home/ws/build/tesi', 'env': OrderedDict([('HOSTNAME', 'francesco'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-de2bb511-d5a4-4882-88d7-c84eb8e55dbe.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ded1a857-1470-4cf7-a1a0-5df31303c579.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-ded1a857-1470-4cf7-a1a0-5df31303c579.sock","/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-81232fafb5.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-ded1a857-1470-4cf7-a1a0-5df31303c579.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/tesi'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.062554] (tesi) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octo_planner\x1b[0m\n'}
+[0.078031] (tesi) StdoutLine: {'line': b'[ 50%] Built target octo_publisher\n'}
+[0.089871] (tesi) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o\x1b[0m\n'}
+[0.099836] (-) TimerEvent: {}
+[0.200231] (-) TimerEvent: {}
+[0.300624] (-) TimerEvent: {}
+[0.401040] (-) TimerEvent: {}
+[0.501398] (-) TimerEvent: {}
+[0.601756] (-) TimerEvent: {}
+[0.702103] (-) TimerEvent: {}
+[0.802502] (-) TimerEvent: {}
+[0.902905] (-) TimerEvent: {}
+[1.003294] (-) TimerEvent: {}
+[1.103677] (-) TimerEvent: {}
+[1.204042] (-) TimerEvent: {}
+[1.304344] (-) TimerEvent: {}
+[1.404661] (-) TimerEvent: {}
+[1.505059] (-) TimerEvent: {}
+[1.605357] (-) TimerEvent: {}
+[1.705716] (-) TimerEvent: {}
+[1.806009] (-) TimerEvent: {}
+[1.906334] (-) TimerEvent: {}
+[2.006677] (-) TimerEvent: {}
+[2.107016] (-) TimerEvent: {}
+[2.207339] (-) TimerEvent: {}
+[2.307692] (-) TimerEvent: {}
+[2.408007] (-) TimerEvent: {}
+[2.508347] (-) TimerEvent: {}
+[2.608675] (-) TimerEvent: {}
+[2.709023] (-) TimerEvent: {}
+[2.809313] (-) TimerEvent: {}
+[2.909594] (-) TimerEvent: {}
+[3.009956] (-) TimerEvent: {}
+[3.110280] (-) TimerEvent: {}
+[3.210604] (-) TimerEvent: {}
+[3.310946] (-) TimerEvent: {}
+[3.411288] (-) TimerEvent: {}
+[3.511642] (-) TimerEvent: {}
+[3.612090] (-) TimerEvent: {}
+[3.712442] (-) TimerEvent: {}
+[3.812812] (-) TimerEvent: {}
+[3.913201] (-) TimerEvent: {}
+[4.013526] (-) TimerEvent: {}
+[4.113886] (-) TimerEvent: {}
+[4.214239] (-) TimerEvent: {}
+[4.314588] (-) TimerEvent: {}
+[4.415008] (-) TimerEvent: {}
+[4.515353] (-) TimerEvent: {}
+[4.615739] (-) TimerEvent: {}
+[4.716108] (-) TimerEvent: {}
+[4.816467] (-) TimerEvent: {}
+[4.916843] (-) TimerEvent: {}
+[5.017199] (-) TimerEvent: {}
+[5.117540] (-) TimerEvent: {}
+[5.217923] (-) TimerEvent: {}
+[5.318294] (-) TimerEvent: {}
+[5.418660] (-) TimerEvent: {}
+[5.519012] (-) TimerEvent: {}
+[5.619346] (-) TimerEvent: {}
+[5.719732] (-) TimerEvent: {}
+[5.820088] (-) TimerEvent: {}
+[5.920400] (-) TimerEvent: {}
+[6.020755] (-) TimerEvent: {}
+[6.121137] (-) TimerEvent: {}
+[6.221430] (-) TimerEvent: {}
+[6.321767] (-) TimerEvent: {}
+[6.422170] (-) TimerEvent: {}
+[6.522580] (-) TimerEvent: {}
+[6.622900] (-) TimerEvent: {}
+[6.723211] (-) TimerEvent: {}
+[6.823532] (-) TimerEvent: {}
+[6.923884] (-) TimerEvent: {}
+[7.024231] (-) TimerEvent: {}
+[7.124613] (-) TimerEvent: {}
+[7.225037] (-) TimerEvent: {}
+[7.325402] (-) TimerEvent: {}
+[7.425726] (-) TimerEvent: {}
+[7.526114] (-) TimerEvent: {}
+[7.626491] (-) TimerEvent: {}
+[7.726831] (-) TimerEvent: {}
+[7.827254] (-) TimerEvent: {}
+[7.927622] (-) TimerEvent: {}
+[8.027987] (-) TimerEvent: {}
+[8.128350] (-) TimerEvent: {}
+[8.228679] (-) TimerEvent: {}
+[8.329062] (-) TimerEvent: {}
+[8.429391] (-) TimerEvent: {}
+[8.529873] (-) TimerEvent: {}
+[8.630167] (-) TimerEvent: {}
+[8.730515] (-) TimerEvent: {}
+[8.830863] (-) TimerEvent: {}
+[8.931207] (-) TimerEvent: {}
+[9.031501] (-) TimerEvent: {}
+[9.131854] (-) TimerEvent: {}
+[9.232147] (-) TimerEvent: {}
+[9.332496] (-) TimerEvent: {}
+[9.432863] (-) TimerEvent: {}
+[9.533232] (-) TimerEvent: {}
+[9.633558] (-) TimerEvent: {}
+[9.733901] (-) TimerEvent: {}
+[9.834247] (-) TimerEvent: {}
+[9.934607] (-) TimerEvent: {}
+[10.034964] (-) TimerEvent: {}
+[10.135304] (-) TimerEvent: {}
+[10.235639] (-) TimerEvent: {}
+[10.336029] (-) TimerEvent: {}
+[10.436466] (-) TimerEvent: {}
+[10.536803] (-) TimerEvent: {}
+[10.637256] (-) TimerEvent: {}
+[10.737748] (-) TimerEvent: {}
+[10.838063] (-) TimerEvent: {}
+[10.938434] (-) TimerEvent: {}
+[11.038789] (-) TimerEvent: {}
+[11.139171] (-) TimerEvent: {}
+[11.239531] (-) TimerEvent: {}
+[11.292979] (tesi) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable octo_planner\x1b[0m\n'}
+[11.339652] (-) TimerEvent: {}
+[11.439994] (-) TimerEvent: {}
+[11.540374] (-) TimerEvent: {}
+[11.640756] (-) TimerEvent: {}
+[11.741135] (-) TimerEvent: {}
+[11.841577] (-) TimerEvent: {}
+[11.942004] (-) TimerEvent: {}
+[12.042405] (-) TimerEvent: {}
+[12.046921] (tesi) StdoutLine: {'line': b'[100%] Built target octo_planner\n'}
+[12.142686] (-) TimerEvent: {}
+[12.243026] (-) TimerEvent: {}
+[12.310701] (tesi) CommandEnded: {'returncode': 0}
+[12.343214] (-) TimerEvent: {}
+[12.372495] (tesi) JobProgress: {'identifier': 'tesi', 'progress': 'install'}
+[12.382766] (tesi) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ws/build/tesi'], 'cwd': '/home/ws/build/tesi', 'env': OrderedDict([('HOSTNAME', 'francesco'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-de2bb511-d5a4-4882-88d7-c84eb8e55dbe.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ded1a857-1470-4cf7-a1a0-5df31303c579.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-ded1a857-1470-4cf7-a1a0-5df31303c579.sock","/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-81232fafb5.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-ded1a857-1470-4cf7-a1a0-5df31303c579.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/tesi'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.390331] (tesi) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.390817] (tesi) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.391138] (tesi) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ws/install/tesi/lib/tesi/octo_publisher\n'}
+[12.391294] (tesi) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ws/install/tesi/lib/tesi/octo_planner\n'}
+[12.391421] (tesi) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ws/install/tesi/share/ament_index/resource_index/package_run_dependencies/tesi\n'}
+[12.391602] (tesi) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ws/install/tesi/share/ament_index/resource_index/parent_prefix_path/tesi\n'}
+[12.391891] (tesi) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/environment/ament_prefix_path.sh\n'}
+[12.392195] (tesi) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/environment/ament_prefix_path.dsv\n'}
+[12.392374] (tesi) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/environment/path.sh\n'}
+[12.392575] (tesi) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/environment/path.dsv\n'}
+[12.392749] (tesi) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/local_setup.bash\n'}
+[12.393025] (tesi) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/local_setup.sh\n'}
+[12.393195] (tesi) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/local_setup.zsh\n'}
+[12.393380] (tesi) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/local_setup.dsv\n'}
+[12.393553] (tesi) StdoutLine: {'line': b'-- Symlinking: /home/ws/install/tesi/share/tesi/package.dsv\n'}
+[12.403612] (tesi) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ws/install/tesi/share/ament_index/resource_index/packages/tesi\n'}
+[12.403970] (tesi) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/cmake/tesiConfig.cmake\n'}
+[12.404202] (tesi) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/cmake/tesiConfig-version.cmake\n'}
+[12.404412] (tesi) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/package.xml\n'}
+[12.406566] (tesi) CommandEnded: {'returncode': 0}
+[12.443338] (-) TimerEvent: {}
+[12.543690] (-) TimerEvent: {}
+[12.644069] (-) TimerEvent: {}
+[12.744465] (-) TimerEvent: {}
+[12.844815] (-) TimerEvent: {}
+[12.945395] (-) TimerEvent: {}
+[13.045881] (-) TimerEvent: {}
+[13.146570] (-) TimerEvent: {}
+[13.247233] (-) TimerEvent: {}
+[13.347914] (-) TimerEvent: {}
+[13.448607] (-) TimerEvent: {}
+[13.499888] (tesi) JobEnded: {'identifier': 'tesi', 'rc': 0}
+[13.838008] (-) TimerEvent: {}
+[13.838357] (-) EventReactorShutdown: {}

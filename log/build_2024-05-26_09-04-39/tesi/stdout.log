@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[ 50%] Built target octo_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m

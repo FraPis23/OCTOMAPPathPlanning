@@ -1,0 +1,126 @@
+[0.240s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.240s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b50e2ad26b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b50e2ad2140>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b50e2ad2140>>, mixin_verb=('build',))
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.528s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.529s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.530s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ws'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.576s] DEBUG:colcon.colcon_core.package_identification:Package 'src' with type 'ros.ament_cmake' and name 'tesi'
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'tesi' build argument 'cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'tesi' build argument 'cmake_target' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'tesi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'tesi' build argument 'cmake_clean_cache' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'tesi' build argument 'cmake_clean_first' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'tesi' build argument 'cmake_force_configure' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'tesi' build argument 'ament_cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'tesi' build argument 'catkin_cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'tesi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.626s] DEBUG:colcon.colcon_core.verb:Building package 'tesi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ws/build/tesi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ws/install/tesi', 'merge_install': False, 'path': '/home/ws/src', 'symlink_install': False, 'test_result_base': None}
+[0.626s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.628s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.629s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ws/src' with build type 'ament_cmake'
+[0.629s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ws/src'
+[0.633s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/tesi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12
+[25.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/tesi' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12
+[25.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/tesi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ws/build/tesi
+[25.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tesi)
+[25.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/tesi' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ws/build/tesi
+[25.802s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/tesi' for CMake module files
+[25.804s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/tesi' for CMake config files
+[25.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('tesi', 'cmake_prefix_path')
+[25.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/tesi/share/tesi/hook/cmake_prefix_path.ps1'
+[25.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/tesi/share/tesi/hook/cmake_prefix_path.dsv'
+[25.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/tesi/share/tesi/hook/cmake_prefix_path.sh'
+[25.811s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/tesi/lib'
+[25.812s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/tesi/bin'
+[25.812s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/tesi/lib/pkgconfig/tesi.pc'
+[25.844s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/tesi/lib/python3.10/site-packages'
+[25.844s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/tesi/bin'
+[25.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/tesi/share/tesi/package.ps1'
+[25.847s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/tesi/share/tesi/package.dsv'
+[25.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/tesi/share/tesi/package.sh'
+[25.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/tesi/share/tesi/package.bash'
+[25.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/tesi/share/tesi/package.zsh'
+[25.855s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/tesi/share/colcon-core/packages/tesi)
+[25.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tesi)
+[25.913s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/tesi' for CMake module files
+[25.914s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/tesi' for CMake config files
+[25.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('tesi', 'cmake_prefix_path')
+[25.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/tesi/share/tesi/hook/cmake_prefix_path.ps1'
+[25.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/tesi/share/tesi/hook/cmake_prefix_path.dsv'
+[25.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/tesi/share/tesi/hook/cmake_prefix_path.sh'
+[25.917s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/tesi/lib'
+[25.917s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/tesi/bin'
+[25.917s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/tesi/lib/pkgconfig/tesi.pc'
+[25.917s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/tesi/lib/python3.10/site-packages'
+[25.918s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/tesi/bin'
+[25.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/tesi/share/tesi/package.ps1'
+[25.919s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/tesi/share/tesi/package.dsv'
+[25.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/tesi/share/tesi/package.sh'
+[25.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/tesi/share/tesi/package.bash'
+[25.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/tesi/share/tesi/package.zsh'
+[25.925s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/tesi/share/colcon-core/packages/tesi)
+[25.925s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.925s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.925s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[25.925s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.938s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[25.939s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.939s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.939s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.943s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[25.944s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.946s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ws/install/local_setup.ps1'
+[25.949s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ws/install/_local_setup_util_ps1.py'
+[25.953s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ws/install/setup.ps1'
+[25.956s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ws/install/local_setup.sh'
+[25.958s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ws/install/_local_setup_util_sh.py'
+[25.960s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ws/install/setup.sh'
+[25.965s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ws/install/local_setup.bash'
+[25.966s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ws/install/setup.bash'
+[25.968s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ws/install/local_setup.zsh'
+[25.969s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ws/install/setup.zsh'

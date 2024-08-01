@@ -1,0 +1,131 @@
+[0.009s] Invoking command in '/home/ws/build/tesi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[0.050s] [ 50%] Built target octo_publisher
+[0.057s] [ 75%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[2.840s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:25:27:[m[K [01;31m[Kerror: [m[K‘[01m[KmaxDist[m[K’ was not declared in this scope
+[2.840s]    25 | DynamicEDTOctomap distmap([01;31m[KmaxDist[m[K, tree_, min, max, unknownAsOccupied);
+[2.840s]       |                           [01;31m[K^~~~~~~[m[K
+[2.843s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:25:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ktree_[m[K’ was not declared in this scope
+[2.843s]    25 | DynamicEDTOctomap distmap(maxDist, [01;31m[Ktree_[m[K, min, max, unknownAsOccupied);
+[2.843s]       |                                    [01;31m[K^~~~~[m[K
+[2.844s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:25:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin[m[K’ was not declared in this scope
+[2.844s]    25 | DynamicEDTOctomap distmap(maxDist, tree_, [01;31m[Kmin[m[K, max, unknownAsOccupied);
+[2.844s]       |                                           [01;31m[K^~~[m[K
+[2.844s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:25:43:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.844s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[2.844s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[2.844s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.844s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.844s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.845s]                  from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:3[m[K:
+[2.845s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3455:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::min[m[K’
+[2.845s]  3455 |     [01;36m[Kmin[m[K(initializer_list<_Tp> __l, _Compare __comp)
+[2.845s]       |     [01;36m[K^~~[m[K
+[2.845s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:176[m[K,
+[2.845s]                  from [01m[K/usr/include/ompl-1.5/ompl/base/ProjectionEvaluator.h:49[m[K,
+[2.845s]                  from [01m[K/usr/include/ompl-1.5/ompl/base/StateSpace.h:43[m[K,
+[2.845s]                  from [01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:43[m[K,
+[2.845s]                  from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:8[m[K:
+[2.845s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:739:45:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::half_impl::min[m[K’
+[2.845s]   739 | EIGEN_STRONG_INLINE EIGEN_DEVICE_FUNC half ([01;36m[Kmin[m[K)(const half& a, const half& b) {
+[2.845s]       |                                             [01;36m[K^~~[m[K
+[2.845s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:177[m[K,
+[2.845s]                  from [01m[K/usr/include/ompl-1.5/ompl/base/ProjectionEvaluator.h:49[m[K,
+[2.845s]                  from [01m[K/usr/include/ompl-1.5/ompl/base/StateSpace.h:43[m[K,
+[2.845s]                  from [01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:43[m[K,
+[2.845s]                  from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:8[m[K:
+[2.846s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:571:49:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::bfloat16_impl::min[m[K’
+[2.846s]   571 | EIGEN_STRONG_INLINE EIGEN_DEVICE_FUNC bfloat16 ([01;36m[Kmin[m[K)(const bfloat16& a, const bfloat16& b) {
+[2.846s]       |                                                 [01;36m[K^~~[m[K
+[2.846s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:25:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax[m[K’ was not declared in this scope
+[2.846s]    25 | DynamicEDTOctomap distmap(maxDist, tree_, min, [01;31m[Kmax[m[K, unknownAsOccupied);
+[2.846s]       |                                                [01;31m[K^~~[m[K
+[2.846s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:25:48:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.846s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[2.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[2.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.846s]                  from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:3[m[K:
+[2.846s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3467:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::max[m[K’
+[2.846s]  3467 |     [01;36m[Kmax[m[K(initializer_list<_Tp> __l, _Compare __comp)
+[2.846s]       |     [01;36m[K^~~[m[K
+[2.846s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:176[m[K,
+[2.846s]                  from [01m[K/usr/include/ompl-1.5/ompl/base/ProjectionEvaluator.h:49[m[K,
+[2.846s]                  from [01m[K/usr/include/ompl-1.5/ompl/base/StateSpace.h:43[m[K,
+[2.846s]                  from [01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:43[m[K,
+[2.847s]                  from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:8[m[K:
+[2.847s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:749:45:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::half_impl::max[m[K’
+[2.847s]   749 | EIGEN_STRONG_INLINE EIGEN_DEVICE_FUNC half ([01;36m[Kmax[m[K)(const half& a, const half& b) {
+[2.847s]       |                                             [01;36m[K^~~[m[K
+[2.847s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:177[m[K,
+[2.847s]                  from [01m[K/usr/include/ompl-1.5/ompl/base/ProjectionEvaluator.h:49[m[K,
+[2.847s]                  from [01m[K/usr/include/ompl-1.5/ompl/base/StateSpace.h:43[m[K,
+[2.847s]                  from [01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:43[m[K,
+[2.847s]                  from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:8[m[K:
+[2.847s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:576:49:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::bfloat16_impl::max[m[K’
+[2.847s]   576 | EIGEN_STRONG_INLINE EIGEN_DEVICE_FUNC bfloat16 ([01;36m[Kmax[m[K)(const bfloat16& a, const bfloat16& b) {
+[2.847s]       |                                                 [01;36m[K^~~[m[K
+[2.852s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:25:53:[m[K [01;31m[Kerror: [m[K‘[01m[KunknownAsOccupied[m[K’ was not declared in this scope
+[2.853s]    25 | DynamicEDTOctomap distmap(maxDist, tree_, min, max, [01;31m[KunknownAsOccupied[m[K);
+[2.853s]       |                                                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.853s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:27:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble y1[m[K’ redeclared as different kind of entity
+[2.853s]    27 | double x1,[01;31m[Ky1[m[K,z1, x2, y2, z2;
+[2.853s]       |           [01;31m[K^~[m[K
+[2.853s] In file included from [01m[K/usr/include/features.h:486[m[K,
+[2.853s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:39[m[K,
+[2.853s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:586[m[K,
+[2.853s]                  from [01m[K/usr/include/c++/11/bits/stl_algobase.h:59[m[K,
+[2.853s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[2.853s]                  from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:1[m[K:
+[2.853s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:224:1:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble y1(double)[m[K’
+[2.854s]   224 | [01;36m[K__MATHCALL[m[K (y1,, (_Mdouble_));
+[2.854s]       | [01;36m[K^~~~~~~~~~[m[K
+[2.854s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:28:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Koctomath::Vector3::Vector3(double&, double (&)(double) noexcept, double&)[m[K’
+[2.854s]    28 | octomap::point3d min(x1,y1,z1[01;31m[K)[m[K;
+[2.854s]       |                              [01;31m[K^[m[K
+[2.854s] In file included from [01m[K/opt/ros/humble/include/octomap/octomap_types.h:42[m[K,
+[2.854s]                  from [01m[K/opt/ros/humble/include/octomap/octomap.h:34[m[K,
+[2.854s]                  from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:14[m[K:
+[2.854s] [01m[K/opt/ros/humble/include/octomap/math/Vector3.h:75:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Koctomath::Vector3::Vector3(float, float, float)[m[K’
+[2.854s]    75 |     [01;36m[KVector3[m[K (float x, float y, float z) {
+[2.854s]       |     [01;36m[K^~~~~~~[m[K
+[2.854s] [01m[K/opt/ros/humble/include/octomap/math/Vector3.h:75:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kdouble(double) noexcept[m[K’ to ‘[01m[Kfloat[m[K’
+[2.854s]    75 |     Vector3 (float x, [01;36m[Kfloat y[m[K, float z) {
+[2.854s]       |                       [01;36m[K~~~~~~^[m[K
+[2.854s] [01m[K/opt/ros/humble/include/octomap/math/Vector3.h:63:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Koctomath::Vector3::Vector3(const octomath::Vector3&)[m[K’
+[2.854s]    63 |     [01;36m[KVector3[m[K (const Vector3& other) {
+[2.854s]       |     [01;36m[K^~~~~~~[m[K
+[2.854s] [01m[K/opt/ros/humble/include/octomap/math/Vector3.h:63:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[2.854s] [01m[K/opt/ros/humble/include/octomap/math/Vector3.h:56:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Koctomath::Vector3::Vector3()[m[K’
+[2.854s]    56 |     [01;36m[KVector3[m[K () { data[0] = data[1] = data[2] = 0.0; }
+[2.854s]       |     [01;36m[K^~~~~~~[m[K
+[2.854s] [01m[K/opt/ros/humble/include/octomap/math/Vector3.h:56:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[2.896s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In member function ‘[01m[Kvoid OctoPlanner::octo_callback(const Octomap&)[m[K’:
+[2.896s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:62:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Koctomap::OcTree::getMetricMin(double&, double (&)(double) noexcept, double&)[m[K’
+[2.896s]    62 |             [01;31m[Ktree_->getMetricMin(x1,y1,z1)[m[K;
+[2.896s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[2.897s] In file included from [01m[K/opt/ros/humble/include/octomap/OcTreeBaseImpl.h:573[m[K,
+[2.897s]                  from [01m[K/opt/ros/humble/include/octomap/OccupancyOcTreeBase.h:44[m[K,
+[2.897s]                  from [01m[K/opt/ros/humble/include/octomap/OcTree.h:38[m[K,
+[2.897s]                  from [01m[K/opt/ros/humble/include/octomap/octomap.h:37[m[K,
+[2.897s]                  from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:14[m[K:
+[2.897s] [01m[K/opt/ros/humble/include/octomap/OcTreeBaseImpl.hxx:942:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid octomap::OcTreeBaseImpl<NODE, INTERFACE>::getMetricMin(double&, double&, double&) [with NODE = octomap::OcTreeNode; INTERFACE = octomap::AbstractOccupancyOcTree][m[K’
+[2.897s]   942 |   void [01;36m[KOcTreeBaseImpl<NODE,I>[m[K::getMetricMin(double& x, double& y, double& z){
+[2.897s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.897s] [01m[K/opt/ros/humble/include/octomap/OcTreeBaseImpl.hxx:942:64:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kdouble(double) noexcept[m[K’ to ‘[01m[Kdouble&[m[K’
+[2.897s]   942 |   void OcTreeBaseImpl<NODE,I>::getMetricMin(double& x, [01;36m[Kdouble& y[m[K, double& z){
+[2.897s]       |                                                        [01;36m[K~~~~~~~~^[m[K
+[2.897s] [01m[K/opt/ros/humble/include/octomap/OcTreeBaseImpl.hxx:960:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid octomap::OcTreeBaseImpl<NODE, INTERFACE>::getMetricMin(double&, double&, double&) const [with NODE = octomap::OcTreeNode; INTERFACE = octomap::AbstractOccupancyOcTree][m[K’
+[2.897s]   960 |   void [01;36m[KOcTreeBaseImpl<NODE,I>[m[K::getMetricMin(double& mx, double& my, double& mz) const {
+[2.897s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.897s] [01m[K/opt/ros/humble/include/octomap/OcTreeBaseImpl.hxx:960:65:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kdouble(double) noexcept[m[K’ to ‘[01m[Kdouble&[m[K’
+[2.897s]   960 |   void OcTreeBaseImpl<NODE,I>::getMetricMin(double& mx, [01;36m[Kdouble& my[m[K, double& mz) const {
+[2.897s]       |                                                         [01;36m[K~~~~~~~~^~[m[K
+[2.906s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:87:41:[m[K [01;31m[Kerror: [m[K‘[01m[KisStateValid[m[K’ was not declared in this scope
+[2.906s]    87 |             si->setStateValidityChecker([01;31m[KisStateValid[m[K);
+[2.906s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[4.882s] gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1
+[4.882s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/octo_planner.dir/all] Error 2
+[4.882s] gmake: *** [Makefile:146: all] Error 2
+[4.884s] Invoked command in '/home/ws/build/tesi' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12

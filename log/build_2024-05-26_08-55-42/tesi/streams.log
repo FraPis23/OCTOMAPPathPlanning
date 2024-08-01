@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/ws/build/tesi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[0.049s] [ 50%] Built target octo_publisher
+[0.056s] [ 75%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[2.867s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:25:19:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDynamicEDTOctomapBase<octomap::OcTree>::DynamicEDTOctomapBase()[m[K’
+[2.867s]    25 | DynamicEDTOctomap [01;31m[Kglobal_distmap[m[K;
+[2.867s]       |                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.867s] In file included from [01m[K/opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.h:128[m[K,
+[2.867s]                  from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:16[m[K:
+[2.867s] [01m[K/opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.hxx:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KDynamicEDTOctomapBase<TREE>::DynamicEDTOctomapBase(float, TREE*, octomap::point3d, octomap::point3d, bool) [with TREE = octomap::OcTree; octomap::point3d = octomath::Vector3][m[K’
+[2.867s]    45 | [01;36m[KDynamicEDTOctomapBase<TREE>[m[K::DynamicEDTOctomapBase(float maxdist, TREE* _octree, octomap::point3d bbxMin, octomap::point3d bbxMax, bool treatUnknownAsOccupied)
+[2.868s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.946s] [01m[K/opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.hxx:45:1:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 0 provided
+[2.946s] In file included from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:16[m[K:
+[2.946s] [01m[K/opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.h:47:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KDynamicEDTOctomapBase<octomap::OcTree>::DynamicEDTOctomapBase(const DynamicEDTOctomapBase<octomap::OcTree>&)[m[K’
+[2.946s]    47 | class [01;36m[KDynamicEDTOctomapBase[m[K: private DynamicEDT3D {
+[2.946s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.946s] [01m[K/opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.h:47:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[2.998s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In member function ‘[01m[Kvoid OctoPlanner::octo_callback(const Octomap&)[m[K’:
+[2.998s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:89:41:[m[K [01;31m[Kerror: [m[K‘[01m[KisStateValid[m[K’ was not declared in this scope
+[2.998s]    89 |             si->setStateValidityChecker([01;31m[KisStateValid[m[K);
+[2.999s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[5.015s] gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1
+[5.015s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/octo_planner.dir/all] Error 2
+[5.015s] gmake: *** [Makefile:146: all] Error 2
+[5.017s] Invoked command in '/home/ws/build/tesi' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12

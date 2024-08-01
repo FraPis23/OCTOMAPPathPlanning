@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000176] (tesi) JobQueued: {'identifier': 'tesi', 'dependencies': OrderedDict()}
+[0.000248] (tesi) JobStarted: {'identifier': 'tesi'}
+[0.005715] (tesi) JobProgress: {'identifier': 'tesi', 'progress': 'cmake'}
+[0.006239] (tesi) JobProgress: {'identifier': 'tesi', 'progress': 'build'}
+[0.006808] (tesi) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ws/build/tesi', '--', '-j12', '-l12'], 'cwd': '/home/ws/build/tesi', 'env': OrderedDict([('HOSTNAME', 'francesco'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1ab740f7-a94d-42ed-90f7-d9e9932e2870.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f4cac378-33cf-4963-bb48-ce53082cdaef.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-81232fafb5.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-f4cac378-33cf-4963-bb48-ce53082cdaef.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/tesi'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.040439] (tesi) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octo_planner\x1b[0m\n'}
+[0.049374] (tesi) StdoutLine: {'line': b'[ 50%] Built target octo_publisher\n'}
+[0.055735] (tesi) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o\x1b[0m\n'}
+[0.099425] (-) TimerEvent: {}
+[0.199744] (-) TimerEvent: {}
+[0.300012] (-) TimerEvent: {}
+[0.400291] (-) TimerEvent: {}
+[0.500561] (-) TimerEvent: {}
+[0.600822] (-) TimerEvent: {}
+[0.701097] (-) TimerEvent: {}
+[0.801359] (-) TimerEvent: {}
+[0.901613] (-) TimerEvent: {}
+[1.001850] (-) TimerEvent: {}
+[1.102157] (-) TimerEvent: {}
+[1.202477] (-) TimerEvent: {}
+[1.302769] (-) TimerEvent: {}
+[1.403265] (-) TimerEvent: {}
+[1.503656] (-) TimerEvent: {}
+[1.603996] (-) TimerEvent: {}
+[1.704270] (-) TimerEvent: {}
+[1.804549] (-) TimerEvent: {}
+[1.904828] (-) TimerEvent: {}
+[2.005103] (-) TimerEvent: {}
+[2.105399] (-) TimerEvent: {}
+[2.205673] (-) TimerEvent: {}
+[2.305948] (-) TimerEvent: {}
+[2.406235] (-) TimerEvent: {}
+[2.506551] (-) TimerEvent: {}
+[2.606823] (-) TimerEvent: {}
+[2.707094] (-) TimerEvent: {}
+[2.807378] (-) TimerEvent: {}
+[2.859889] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:26:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble y1\x1b[m\x1b[K\xe2\x80\x99 redeclared as different kind of entity\n'}
+[2.860144] (tesi) StderrLine: {'line': b'   26 | double x1,\x1b[01;31m\x1b[Ky1\x1b[m\x1b[K,z1, x2, y2, z2;\n'}
+[2.860245] (tesi) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.860332] (tesi) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/features.h:486\x1b[m\x1b[K,\n'}
+[2.860417] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:39\x1b[m\x1b[K,\n'}
+[2.860505] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:586\x1b[m\x1b[K,\n'}
+[2.860590] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:59\x1b[m\x1b[K,\n'}
+[2.860674] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[2.860756] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:1\x1b[m\x1b[K:\n'}
+[2.860837] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:224:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kdouble y1(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.860922] (tesi) StderrLine: {'line': b'  224 | \x1b[01;36m\x1b[K__MATHCALL\x1b[m\x1b[K (y1,, (_Mdouble_));\n'}
+[2.861006] (tesi) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.902241] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid OctoPlanner::octo_callback(const Octomap&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.902531] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:60:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Koctomap::OcTree::getMetricMin(double&, double (&)(double) noexcept, double&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.902632] (tesi) StderrLine: {'line': b'   60 |             \x1b[01;31m\x1b[Ktree_->getMetricMin(x1,y1,z1)\x1b[m\x1b[K;\n'}
+[2.902722] (tesi) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.902809] (tesi) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/octomap/OcTreeBaseImpl.h:573\x1b[m\x1b[K,\n'}
+[2.902897] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/octomap/OccupancyOcTreeBase.h:44\x1b[m\x1b[K,\n'}
+[2.902978] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/octomap/OcTree.h:38\x1b[m\x1b[K,\n'}
+[2.903047] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/octomap/octomap.h:37\x1b[m\x1b[K,\n'}
+[2.903126] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:14\x1b[m\x1b[K:\n'}
+[2.903197] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/octomap/OcTreeBaseImpl.hxx:942:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid octomap::OcTreeBaseImpl<NODE, INTERFACE>::getMetricMin(double&, double&, double&) [with NODE = octomap::OcTreeNode; INTERFACE = octomap::AbstractOccupancyOcTree]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.903269] (tesi) StderrLine: {'line': b'  942 |   void \x1b[01;36m\x1b[KOcTreeBaseImpl<NODE,I>\x1b[m\x1b[K::getMetricMin(double& x, double& y, double& z){\n'}
+[2.903340] (tesi) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.903412] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/octomap/OcTreeBaseImpl.hxx:942:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kdouble(double) noexcept\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.903528] (tesi) StderrLine: {'line': b'  942 |   void OcTreeBaseImpl<NODE,I>::getMetricMin(double& x, \x1b[01;36m\x1b[Kdouble& y\x1b[m\x1b[K, double& z){\n'}
+[2.903603] (tesi) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K~~~~~~~~^\x1b[m\x1b[K\n'}
+[2.903686] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/octomap/OcTreeBaseImpl.hxx:960:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid octomap::OcTreeBaseImpl<NODE, INTERFACE>::getMetricMin(double&, double&, double&) const [with NODE = octomap::OcTreeNode; INTERFACE = octomap::AbstractOccupancyOcTree]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.903773] (tesi) StderrLine: {'line': b'  960 |   void \x1b[01;36m\x1b[KOcTreeBaseImpl<NODE,I>\x1b[m\x1b[K::getMetricMin(double& mx, double& my, double& mz) const {\n'}
+[2.903857] (tesi) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.903942] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/octomap/OcTreeBaseImpl.hxx:960:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kdouble(double) noexcept\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.904031] (tesi) StderrLine: {'line': b'  960 |   void OcTreeBaseImpl<NODE,I>::getMetricMin(double& mx, \x1b[01;36m\x1b[Kdouble& my\x1b[m\x1b[K, double& mz) const {\n'}
+[2.904126] (tesi) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.904207] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:61:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Koctomath::Vector3::Vector3(double&, double (&)(double) noexcept, double&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.904284] (tesi) StderrLine: {'line': b'   61 |             min = octomap::point3d(x1,y1,z1\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.904371] (tesi) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.904457] (tesi) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/octomap/octomap_types.h:42\x1b[m\x1b[K,\n'}
+[2.904544] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/octomap/octomap.h:34\x1b[m\x1b[K,\n'}
+[2.904635] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:14\x1b[m\x1b[K:\n'}
+[2.904721] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/octomap/math/Vector3.h:75:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Koctomath::Vector3::Vector3(float, float, float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.904816] (tesi) StderrLine: {'line': b'   75 |     \x1b[01;36m\x1b[KVector3\x1b[m\x1b[K (float x, float y, float z) {\n'}
+[2.904904] (tesi) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.904993] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/octomap/math/Vector3.h:75:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kdouble(double) noexcept\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.905083] (tesi) StderrLine: {'line': b'   75 |     Vector3 (float x, \x1b[01;36m\x1b[Kfloat y\x1b[m\x1b[K, float z) {\n'}
+[2.905171] (tesi) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K~~~~~~^\x1b[m\x1b[K\n'}
+[2.905258] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/octomap/math/Vector3.h:63:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Koctomath::Vector3::Vector3(const octomath::Vector3&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.905345] (tesi) StderrLine: {'line': b'   63 |     \x1b[01;36m\x1b[KVector3\x1b[m\x1b[K (const Vector3& other) {\n'}
+[2.905423] (tesi) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.905500] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/octomap/math/Vector3.h:63:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[2.905579] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/octomap/math/Vector3.h:56:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Koctomath::Vector3::Vector3()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.905657] (tesi) StderrLine: {'line': b'   56 |     \x1b[01;36m\x1b[KVector3\x1b[m\x1b[K () { data[0] = data[1] = data[2] = 0.0; }\n'}
+[2.905732] (tesi) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.905807] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/octomap/math/Vector3.h:56:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 3 provided\n'}
+[2.907436] (-) TimerEvent: {}
+[2.913531] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:86:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KisStateValid\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.913683] (tesi) StderrLine: {'line': b'   86 |             si->setStateValidityChecker(\x1b[01;31m\x1b[KisStateValid\x1b[m\x1b[K);\n'}
+[2.913778] (tesi) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.007569] (-) TimerEvent: {}
+[3.107848] (-) TimerEvent: {}
+[3.208127] (-) TimerEvent: {}
+[3.308396] (-) TimerEvent: {}
+[3.408728] (-) TimerEvent: {}
+[3.509018] (-) TimerEvent: {}
+[3.609319] (-) TimerEvent: {}
+[3.709624] (-) TimerEvent: {}
+[3.809899] (-) TimerEvent: {}
+[3.910200] (-) TimerEvent: {}
+[4.010496] (-) TimerEvent: {}
+[4.110758] (-) TimerEvent: {}
+[4.211060] (-) TimerEvent: {}
+[4.311466] (-) TimerEvent: {}
+[4.411768] (-) TimerEvent: {}
+[4.512097] (-) TimerEvent: {}
+[4.612412] (-) TimerEvent: {}
+[4.712819] (-) TimerEvent: {}
+[4.813171] (-) TimerEvent: {}
+[4.874841] (tesi) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1\n'}
+[4.875104] (tesi) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/octo_planner.dir/all] Error 2\n'}
+[4.875292] (tesi) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.876861] (tesi) CommandEnded: {'returncode': 2}
+[4.908030] (tesi) JobEnded: {'identifier': 'tesi', 'rc': 2}
+[4.913246] (-) TimerEvent: {}
+[4.918572] (-) EventReactorShutdown: {}

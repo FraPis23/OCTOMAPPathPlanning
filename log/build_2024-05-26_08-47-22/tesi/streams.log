@@ -1,0 +1,82 @@
+[0.030s] Invoking command in '/home/ws/build/tesi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ws/src -DCMAKE_INSTALL_PREFIX=/home/ws/install/tesi
+[0.677s] -- The C compiler identification is GNU 11.4.0
+[0.981s] -- The CXX compiler identification is GNU 11.4.0
+[0.999s] -- Detecting C compiler ABI info
+[1.180s] -- Detecting C compiler ABI info - done
+[1.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.186s] -- Detecting C compile features
+[1.198s] -- Detecting C compile features - done
+[1.211s] -- Detecting CXX compiler ABI info
+[1.287s] -- Detecting CXX compiler ABI info - done
+[1.293s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.294s] -- Detecting CXX compile features
+[1.294s] -- Detecting CXX compile features - done
+[1.355s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.659s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.862s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.112s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.139s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.158s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.408s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.420s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.925s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.976s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.010s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.067s] -- Looking for pthread.h
+[3.220s] -- Looking for pthread.h - found
+[3.220s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.272s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.273s] -- Found Threads: TRUE  
+[3.516s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.600s] -- Found ompl: /usr/include/ompl-1.5;/usr/include;/usr/include/eigen3  
+[3.627s] -- Found octomap_msgs: 2.0.0 (/opt/ros/humble/share/octomap_msgs/cmake)
+[3.731s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.850s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.850s] -- Configured cppcheck include dirs: 
+[3.850s] -- Configured cppcheck exclude dirs and/or files: 
+[3.854s] -- Added test 'lint_cmake' to check CMake code style
+[3.859s] -- Added test 'uncrustify' to check C / C++ code style
+[3.859s] -- Configured uncrustify additional arguments: 
+[3.860s] -- Added test 'xmllint' to check XML markup files
+[3.863s] -- Configuring done
+[3.990s] -- Generating done
+[3.991s] -- Build files have been written to: /home/ws/build/tesi
+[3.998s] Invoked command in '/home/ws/build/tesi' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ws/src -DCMAKE_INSTALL_PREFIX=/home/ws/install/tesi
+[3.999s] Invoking command in '/home/ws/build/tesi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12
+[4.037s] [ 50%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[4.037s] [ 50%] [32mBuilding CXX object CMakeFiles/octo_publisher.dir/tesi/src/octo_publisher.cpp.o[0m
+[7.310s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In lambda function:
+[7.310s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:85:24:[m[K [01;31m[Kerror: [m[K‘[01m[KisStateValid[m[K’ was not declared in this scope
+[7.310s]    85 |                 return [01;31m[KisStateValid[m[K(state, distmap);
+[7.310s]       |                        [01;31m[K^~~~~~~~~~~~[m[K
+[7.311s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In member function ‘[01m[Kvoid OctoPlanner::octo_callback(const Octomap&)[m[K’:
+[7.311s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:83:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kompl::base::SpaceInformation::setStateValidityChecker(OctoPlanner::octo_callback(const Octomap&)::<lambda(const ompl::base::State*)>)[m[K’
+[7.311s]    83 |             [01;31m[Ksi->setStateValidityChecker([this, &distmap](const ob::State *state)[m[K
+[7.311s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.311s]    84 | [01;31m[K            {[m[K
+[7.311s]       |             [01;31m[K~[m[K                           
+[7.311s]    85 | [01;31m[K                return isStateValid(state, distmap);[m[K
+[7.311s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.311s]    86 | [01;31m[K            })[m[K;
+[7.311s]       |             [01;31m[K~~[m[K                          
+[7.311s] In file included from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:8[m[K:
+[7.311s] [01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:146:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ompl::base::SpaceInformation::setStateValidityChecker(const StateValidityCheckerPtr&)[m[K’
+[7.311s]   146 |             void [01;36m[KsetStateValidityChecker[m[K(const StateValidityCheckerPtr &svc)
+[7.311s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.311s] [01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:146:73:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KOctoPlanner::octo_callback(const Octomap&)::<lambda(const ompl::base::State*)>[m[K’ to ‘[01m[Kconst StateValidityCheckerPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<ompl::base::StateValidityChecker>&[m[K’}
+[7.311s]   146 |             void setStateValidityChecker([01;36m[Kconst StateValidityCheckerPtr &svc[m[K)
+[7.311s]       |                                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[7.311s] [01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:157:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ompl::base::SpaceInformation::setStateValidityChecker(const StateValidityCheckerFn&)[m[K’
+[7.311s]   157 |             void [01;36m[KsetStateValidityChecker[m[K(const StateValidityCheckerFn &svc);
+[7.311s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.312s] [01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:157:72:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KOctoPlanner::octo_callback(const Octomap&)::<lambda(const ompl::base::State*)>[m[K’ to ‘[01m[Kconst StateValidityCheckerFn&[m[K’ {aka ‘[01m[Kconst std::function<bool(const ompl::base::State*)>&[m[K’}
+[7.312s]   157 |             void setStateValidityChecker([01;36m[Kconst StateValidityCheckerFn &svc[m[K);
+[7.312s]       |                                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.052s] [ 75%] [32m[1mLinking CXX executable octo_publisher[0m
+[8.622s] [ 75%] Built target octo_publisher
+[9.239s] gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1
+[9.239s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/octo_planner.dir/all] Error 2
+[9.239s] gmake: *** [Makefile:146: all] Error 2
+[9.240s] Invoked command in '/home/ws/build/tesi' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12

@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[ 50%] Built target octo_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In member function ‘[01m[Kbool OctoPlanner::isStateValid(const ompl::base::State*, DynamicEDTOctomap)[m[K’:
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:160:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdistmap[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  160 |          bool isStateValid(const ob::State *state, [01;35m[KDynamicEDTOctomap distmap[m[K)
+      |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable octo_planner[0m
+[100%] Built target octo_planner
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ws/install/tesi/lib/tesi/octo_publisher
+-- Up-to-date symlink: /home/ws/install/tesi/lib/tesi/octo_planner
+-- Up-to-date symlink: /home/ws/install/tesi/share/ament_index/resource_index/package_run_dependencies/tesi
+-- Up-to-date symlink: /home/ws/install/tesi/share/ament_index/resource_index/parent_prefix_path/tesi
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/environment/path.sh
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/environment/path.dsv
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/local_setup.bash
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/local_setup.sh
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/local_setup.zsh
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/local_setup.dsv
+-- Symlinking: /home/ws/install/tesi/share/tesi/package.dsv
+-- Up-to-date symlink: /home/ws/install/tesi/share/ament_index/resource_index/packages/tesi
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/cmake/tesiConfig.cmake
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/cmake/tesiConfig-version.cmake
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/package.xml

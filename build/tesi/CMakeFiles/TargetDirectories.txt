@@ -1,0 +1,11 @@
+/home/ws/build/tesi/CMakeFiles/uninstall.dir
+/home/ws/build/tesi/CMakeFiles/tesi_uninstall.dir
+/home/ws/build/tesi/CMakeFiles/octo_publisher.dir
+/home/ws/build/tesi/CMakeFiles/octo_planner.dir
+/home/ws/build/tesi/CMakeFiles/test.dir
+/home/ws/build/tesi/CMakeFiles/edit_cache.dir
+/home/ws/build/tesi/CMakeFiles/rebuild_cache.dir
+/home/ws/build/tesi/CMakeFiles/list_install_components.dir
+/home/ws/build/tesi/CMakeFiles/install.dir
+/home/ws/build/tesi/CMakeFiles/install/local.dir
+/home/ws/build/tesi/CMakeFiles/install/strip.dir

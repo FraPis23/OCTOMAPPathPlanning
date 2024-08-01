@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/ompl-1.5/**",
+                "/usr/include/eigen3",
+                "/opt/ros/humble/include/**",
+                "/usr/include/ompl-1.5",
+                "/opt/ros/humble/include",
+                "/opt/ros/humble/include/geometry_msgs"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

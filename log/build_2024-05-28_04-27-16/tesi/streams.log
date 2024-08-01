@@ -1,0 +1,28 @@
+[0.012s] Invoking command in '/home/ws/build/tesi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[0.070s] [ 50%] Built target octo_publisher
+[0.080s] [ 75%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[11.179s] [100%] [32m[1mLinking CXX executable octo_planner[0m
+[11.771s] [100%] Built target octo_planner
+[11.786s] Invoked command in '/home/ws/build/tesi' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12
+[11.822s] Invoking command in '/home/ws/build/tesi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ws/build/tesi
+[11.828s] -- Install configuration: ""
+[11.828s] -- Execute custom install script
+[11.829s] -- Up-to-date symlink: /home/ws/install/tesi/lib/tesi/octo_publisher
+[11.829s] -- Up-to-date symlink: /home/ws/install/tesi/lib/tesi/octo_planner
+[11.830s] -- Up-to-date symlink: /home/ws/install/tesi/share/ament_index/resource_index/package_run_dependencies/tesi
+[11.830s] -- Up-to-date symlink: /home/ws/install/tesi/share/ament_index/resource_index/parent_prefix_path/tesi
+[11.830s] -- Up-to-date symlink: /home/ws/install/tesi/share/tesi/environment/ament_prefix_path.sh
+[11.830s] -- Up-to-date symlink: /home/ws/install/tesi/share/tesi/environment/ament_prefix_path.dsv
+[11.830s] -- Up-to-date symlink: /home/ws/install/tesi/share/tesi/environment/path.sh
+[11.831s] -- Up-to-date symlink: /home/ws/install/tesi/share/tesi/environment/path.dsv
+[11.831s] -- Up-to-date symlink: /home/ws/install/tesi/share/tesi/local_setup.bash
+[11.831s] -- Up-to-date symlink: /home/ws/install/tesi/share/tesi/local_setup.sh
+[11.831s] -- Up-to-date symlink: /home/ws/install/tesi/share/tesi/local_setup.zsh
+[11.831s] -- Up-to-date symlink: /home/ws/install/tesi/share/tesi/local_setup.dsv
+[11.831s] -- Symlinking: /home/ws/install/tesi/share/tesi/package.dsv
+[11.842s] -- Up-to-date symlink: /home/ws/install/tesi/share/ament_index/resource_index/packages/tesi
+[11.843s] -- Up-to-date symlink: /home/ws/install/tesi/share/tesi/cmake/tesiConfig.cmake
+[11.843s] -- Up-to-date symlink: /home/ws/install/tesi/share/tesi/cmake/tesiConfig-version.cmake
+[11.843s] -- Up-to-date symlink: /home/ws/install/tesi/share/tesi/package.xml
+[11.845s] Invoked command in '/home/ws/build/tesi' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ws/build/tesi

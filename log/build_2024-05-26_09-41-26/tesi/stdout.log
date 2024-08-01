@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[ 50%] Built target octo_publisher
+[100%] Built target octo_planner
+-- Install configuration: ""
+-- Up-to-date: /home/ws/install/tesi/lib/tesi/octo_publisher
+-- Up-to-date: /home/ws/install/tesi/lib/tesi/octo_planner
+-- Up-to-date: /home/ws/install/tesi/share/ament_index/resource_index/package_run_dependencies/tesi
+-- Up-to-date: /home/ws/install/tesi/share/ament_index/resource_index/parent_prefix_path/tesi
+-- Up-to-date: /home/ws/install/tesi/share/tesi/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ws/install/tesi/share/tesi/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ws/install/tesi/share/tesi/environment/path.sh
+-- Up-to-date: /home/ws/install/tesi/share/tesi/environment/path.dsv
+-- Up-to-date: /home/ws/install/tesi/share/tesi/local_setup.bash
+-- Up-to-date: /home/ws/install/tesi/share/tesi/local_setup.sh
+-- Up-to-date: /home/ws/install/tesi/share/tesi/local_setup.zsh
+-- Up-to-date: /home/ws/install/tesi/share/tesi/local_setup.dsv
+-- Installing: /home/ws/install/tesi/share/tesi/package.dsv
+-- Up-to-date: /home/ws/install/tesi/share/ament_index/resource_index/packages/tesi
+-- Up-to-date: /home/ws/install/tesi/share/tesi/cmake/tesiConfig.cmake
+-- Up-to-date: /home/ws/install/tesi/share/tesi/cmake/tesiConfig-version.cmake
+-- Up-to-date: /home/ws/install/tesi/share/tesi/package.xml

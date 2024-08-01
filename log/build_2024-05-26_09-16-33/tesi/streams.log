@@ -1,0 +1,15 @@
+[0.008s] Invoking command in '/home/ws/build/tesi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[0.051s] [ 50%] Built target octo_publisher
+[0.056s] [ 75%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[2.928s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In member function ‘[01m[Kvoid OctoPlanner::octo_callback(const Octomap&)[m[K’:
+[2.929s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:86:41:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kbool OctoPlanner::isStateValid(const ompl::base::State*)[m[K’
+[2.929s]    86 |             si->setStateValidityChecker([01;31m[KisStateValid[m[K);
+[2.929s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[2.929s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:163:11:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.929s]   163 |      bool [01;36m[KisStateValid[m[K(const ob::State *state)
+[2.929s]       |           [01;36m[K^~~~~~~~~~~~[m[K
+[4.873s] gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1
+[4.874s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/octo_planner.dir/all] Error 2
+[4.874s] gmake: *** [Makefile:146: all] Error 2
+[4.875s] Invoked command in '/home/ws/build/tesi' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12

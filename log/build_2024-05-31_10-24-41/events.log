@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.000946] (tesi) JobQueued: {'identifier': 'tesi', 'dependencies': OrderedDict()}
+[0.001158] (tesi) JobStarted: {'identifier': 'tesi'}
+[0.094172] (tesi) JobProgress: {'identifier': 'tesi', 'progress': 'cmake'}
+[0.096722] (tesi) JobProgress: {'identifier': 'tesi', 'progress': 'build'}
+[0.099741] (tesi) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ws/build/tesi', '--', '-j12', '-l12'], 'cwd': '/home/ws/build/tesi', 'env': OrderedDict([('HOSTNAME', 'francesco'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1e7a4695-168e-4898-8ea9-4938653c0169.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cdc31009-327d-4789-8630-2bde115e2ec3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-81232fafb5.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cdc31009-327d-4789-8630-2bde115e2ec3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/tesi'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.107937] (-) TimerEvent: {}
+[0.188579] (tesi) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octo_planner\x1b[0m\n'}
+[0.204346] (tesi) StdoutLine: {'line': b'[ 50%] Built target octo_publisher\n'}
+[0.208269] (-) TimerEvent: {}
+[0.308907] (-) TimerEvent: {}
+[0.409189] (-) TimerEvent: {}
+[0.509813] (-) TimerEvent: {}
+[0.610760] (-) TimerEvent: {}
+[0.690220] (tesi) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o\x1b[0m\n'}
+[0.710956] (-) TimerEvent: {}
+[0.811546] (-) TimerEvent: {}
+[0.911890] (-) TimerEvent: {}
+[1.012396] (-) TimerEvent: {}
+[1.113648] (-) TimerEvent: {}
+[1.214774] (-) TimerEvent: {}
+[1.315152] (-) TimerEvent: {}
+[1.415546] (-) TimerEvent: {}
+[1.515958] (-) TimerEvent: {}
+[1.616590] (-) TimerEvent: {}
+[1.716897] (-) TimerEvent: {}
+[1.817428] (-) TimerEvent: {}
+[1.918044] (-) TimerEvent: {}
+[2.018836] (-) TimerEvent: {}
+[2.119663] (-) TimerEvent: {}
+[2.220559] (-) TimerEvent: {}
+[2.320938] (-) TimerEvent: {}
+[2.421363] (-) TimerEvent: {}
+[2.521763] (-) TimerEvent: {}
+[2.622175] (-) TimerEvent: {}
+[2.722790] (-) TimerEvent: {}
+[2.823577] (-) TimerEvent: {}
+[2.923915] (-) TimerEvent: {}
+[3.024450] (-) TimerEvent: {}
+[3.124843] (-) TimerEvent: {}
+[3.225194] (-) TimerEvent: {}
+[3.325812] (-) TimerEvent: {}
+[3.426584] (-) TimerEvent: {}
+[3.527558] (-) TimerEvent: {}
+[3.628414] (-) TimerEvent: {}
+[3.729822] (-) TimerEvent: {}
+[3.830823] (-) TimerEvent: {}
+[3.931517] (-) TimerEvent: {}
+[4.031787] (-) TimerEvent: {}
+[4.132062] (-) TimerEvent: {}
+[4.232594] (-) TimerEvent: {}
+[4.333331] (-) TimerEvent: {}
+[4.434406] (-) TimerEvent: {}
+[4.535246] (-) TimerEvent: {}
+[4.635723] (-) TimerEvent: {}
+[4.736516] (-) TimerEvent: {}
+[4.837229] (-) TimerEvent: {}
+[4.937757] (-) TimerEvent: {}
+[5.038363] (-) TimerEvent: {}
+[5.138681] (-) TimerEvent: {}
+[5.238985] (-) TimerEvent: {}
+[5.339365] (-) TimerEvent: {}
+[5.439828] (-) TimerEvent: {}
+[5.540249] (-) TimerEvent: {}
+[5.640785] (-) TimerEvent: {}
+[5.741702] (-) TimerEvent: {}
+[5.842649] (-) TimerEvent: {}
+[5.943094] (-) TimerEvent: {}
+[6.043563] (-) TimerEvent: {}
+[6.143908] (-) TimerEvent: {}
+[6.244319] (-) TimerEvent: {}
+[6.344719] (-) TimerEvent: {}
+[6.445373] (-) TimerEvent: {}
+[6.546142] (-) TimerEvent: {}
+[6.647099] (-) TimerEvent: {}
+[6.748147] (-) TimerEvent: {}
+[6.848455] (-) TimerEvent: {}
+[6.948771] (-) TimerEvent: {}
+[7.049237] (-) TimerEvent: {}
+[7.150112] (-) TimerEvent: {}
+[7.250877] (-) TimerEvent: {}
+[7.351525] (-) TimerEvent: {}
+[7.452141] (-) TimerEvent: {}
+[7.552458] (-) TimerEvent: {}
+[7.652943] (-) TimerEvent: {}
+[7.753748] (-) TimerEvent: {}
+[7.813980] (tesi) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[7.814233] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[7.814339] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[7.814425] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:1\x1b[m\x1b[K:\n'}
+[7.814505] (tesi) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ompl::geometric::VFRRT; _Args = {std::shared_ptr<ompl::base::SpaceInformation>&}; _Tp = ompl::geometric::VFRRT]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.814600] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ompl::geometric::VFRRT; _Args = {std::shared_ptr<ompl::base::SpaceInformation>&}; _Tp = ompl::geometric::VFRRT; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<ompl::geometric::VFRRT>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.814686] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<ompl::base::SpaceInformation>&}; _Tp = ompl::geometric::VFRRT; _Alloc = std::allocator<ompl::geometric::VFRRT>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.814775] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ompl::geometric::VFRRT; _Alloc = std::allocator<ompl::geometric::VFRRT>; _Args = {std::shared_ptr<ompl::base::SpaceInformation>&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.814855] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ompl::geometric::VFRRT>; _Args = {std::shared_ptr<ompl::base::SpaceInformation>&}; _Tp = ompl::geometric::VFRRT; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.814939] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ompl::geometric::VFRRT>; _Args = {std::shared_ptr<ompl::base::SpaceInformation>&}; _Tp = ompl::geometric::VFRRT]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.815034] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ompl::geometric::VFRRT; _Alloc = std::allocator<ompl::geometric::VFRRT>; _Args = {std::shared_ptr<ompl::base::SpaceInformation>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.815116] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ompl::geometric::VFRRT; _Args = {std::shared_ptr<ompl::base::SpaceInformation>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.815203] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:109:53:\x1b[m\x1b[K   required from here\n'}
+[7.815284] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kompl::geometric::VFRRT::VFRRT(std::shared_ptr<ompl::base::SpaceInformation>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.815368] (tesi) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[7.815457] (tesi) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.815545] (tesi) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:10\x1b[m\x1b[K:\n'}
+[7.815624] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ompl-1.5/ompl/geometric/planners/rrt/VFRRT.h:72:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kompl::geometric::VFRRT::VFRRT(const SpaceInformationPtr&, ompl::geometric::VFRRT::VectorField, double, double, unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.815713] (tesi) StderrLine: {'line': b'   72 |             \x1b[01;36m\x1b[KVFRRT\x1b[m\x1b[K(const base::SpaceInformationPtr &si, VectorField vf, double exploration, double initial_lambda,\n'}
+[7.815800] (tesi) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.833925] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ompl-1.5/ompl/geometric/planners/rrt/VFRRT.h:72:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 1 provided\n'}
+[7.854154] (-) TimerEvent: {}
+[7.955140] (-) TimerEvent: {}
+[8.055644] (-) TimerEvent: {}
+[8.156264] (-) TimerEvent: {}
+[8.256880] (-) TimerEvent: {}
+[8.357268] (-) TimerEvent: {}
+[8.457854] (-) TimerEvent: {}
+[8.558349] (-) TimerEvent: {}
+[8.659080] (-) TimerEvent: {}
+[8.759549] (-) TimerEvent: {}
+[8.859826] (-) TimerEvent: {}
+[8.960271] (-) TimerEvent: {}
+[9.060533] (-) TimerEvent: {}
+[9.161005] (-) TimerEvent: {}
+[9.261777] (-) TimerEvent: {}
+[9.362383] (-) TimerEvent: {}
+[9.462847] (-) TimerEvent: {}
+[9.563165] (-) TimerEvent: {}
+[9.663654] (-) TimerEvent: {}
+[9.764199] (-) TimerEvent: {}
+[9.864648] (-) TimerEvent: {}
+[9.959739] (tesi) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1\n'}
+[9.959920] (tesi) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/octo_planner.dir/all] Error 2\n'}
+[9.960037] (tesi) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.962244] (tesi) CommandEnded: {'returncode': 2}
+[9.965077] (-) TimerEvent: {}
+[10.029709] (tesi) JobEnded: {'identifier': 'tesi', 'rc': 2}
+[10.040771] (-) EventReactorShutdown: {}

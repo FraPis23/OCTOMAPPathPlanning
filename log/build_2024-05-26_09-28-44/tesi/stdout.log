@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[ 50%] Built target octo_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[100%] [32m[1mLinking CXX executable octo_planner[0m
+[100%] Built target octo_planner
+-- Install configuration: ""
+-- Installing: /home/ws/install/tesi/lib/tesi/octo_publisher
+-- Set runtime path of "/home/ws/install/tesi/lib/tesi/octo_publisher" to ""
+-- Installing: /home/ws/install/tesi/share/ament_index/resource_index/package_run_dependencies/tesi
+-- Installing: /home/ws/install/tesi/share/ament_index/resource_index/parent_prefix_path/tesi
+-- Installing: /home/ws/install/tesi/share/tesi/environment/ament_prefix_path.sh
+-- Installing: /home/ws/install/tesi/share/tesi/environment/ament_prefix_path.dsv
+-- Installing: /home/ws/install/tesi/share/tesi/environment/path.sh
+-- Installing: /home/ws/install/tesi/share/tesi/environment/path.dsv
+-- Installing: /home/ws/install/tesi/share/tesi/local_setup.bash
+-- Installing: /home/ws/install/tesi/share/tesi/local_setup.sh
+-- Installing: /home/ws/install/tesi/share/tesi/local_setup.zsh
+-- Installing: /home/ws/install/tesi/share/tesi/local_setup.dsv
+-- Installing: /home/ws/install/tesi/share/tesi/package.dsv
+-- Installing: /home/ws/install/tesi/share/ament_index/resource_index/packages/tesi
+-- Installing: /home/ws/install/tesi/share/tesi/cmake/tesiConfig.cmake
+-- Installing: /home/ws/install/tesi/share/tesi/cmake/tesiConfig-version.cmake
+-- Installing: /home/ws/install/tesi/share/tesi/package.xml
