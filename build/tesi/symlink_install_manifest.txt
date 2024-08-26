@@ -1,5 +1,6 @@
 /home/ws/install/tesi/lib/tesi/octo_publisher
 /home/ws/install/tesi/lib/tesi/octo_planner
+/home/ws/install/tesi/lib/tesi/octo_benchmark
 /home/ws/install/tesi/share/ament_index/resource_index/package_run_dependencies/tesi
 /home/ws/install/tesi/share/ament_index/resource_index/parent_prefix_path/tesi
 /home/ws/install/tesi/share/tesi/environment/ament_prefix_path.sh

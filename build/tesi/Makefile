@@ -223,6 +223,43 @@ octo_planner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/octo_planner.dir/build.make CMakeFiles/octo_planner.dir/build
 .PHONY : octo_planner/fast
 
+#=============================================================================
+# Target rules for targets named octo_benchmark
+
+# Build rule for target.
+octo_benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 octo_benchmark
+.PHONY : octo_benchmark
+
+# fast build rule for target.
+octo_benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/octo_benchmark.dir/build.make CMakeFiles/octo_benchmark.dir/build
+.PHONY : octo_benchmark/fast
+
+tesi/src/octo_benchmark.o: tesi/src/octo_benchmark.cpp.o
+.PHONY : tesi/src/octo_benchmark.o
+
+# target to build an object file
+tesi/src/octo_benchmark.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/octo_benchmark.dir/build.make CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o
+.PHONY : tesi/src/octo_benchmark.cpp.o
+
+tesi/src/octo_benchmark.i: tesi/src/octo_benchmark.cpp.i
+.PHONY : tesi/src/octo_benchmark.i
+
+# target to preprocess a source file
+tesi/src/octo_benchmark.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/octo_benchmark.dir/build.make CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.i
+.PHONY : tesi/src/octo_benchmark.cpp.i
+
+tesi/src/octo_benchmark.s: tesi/src/octo_benchmark.cpp.s
+.PHONY : tesi/src/octo_benchmark.s
+
+# target to generate assembly for a file
+tesi/src/octo_benchmark.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/octo_benchmark.dir/build.make CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.s
+.PHONY : tesi/src/octo_benchmark.cpp.s
+
 tesi/src/octo_planner.o: tesi/src/octo_planner.cpp.o
 .PHONY : tesi/src/octo_planner.o
 
@@ -286,8 +323,12 @@ help:
 	@echo "... test"
 	@echo "... tesi_uninstall"
 	@echo "... uninstall"
+	@echo "... octo_benchmark"
 	@echo "... octo_planner"
 	@echo "... octo_publisher"
+	@echo "... tesi/src/octo_benchmark.o"
+	@echo "... tesi/src/octo_benchmark.i"
+	@echo "... tesi/src/octo_benchmark.s"
 	@echo "... tesi/src/octo_planner.o"
 	@echo "... tesi/src/octo_planner.i"
 	@echo "... tesi/src/octo_planner.s"

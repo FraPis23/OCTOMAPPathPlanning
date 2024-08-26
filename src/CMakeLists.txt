@@ -36,6 +36,10 @@ ament_target_dependencies(octo_publisher rclcpp std_msgs octomap_msgs octomap)
 add_executable(octo_planner tesi/src/octo_planner.cpp)
 ament_target_dependencies(octo_planner rclcpp std_msgs octomap_msgs octomap ompl geometry_msgs dynamicEDT3D)
 
+add_executable(octo_benchmark tesi/src/octo_benchmark.cpp)
+ament_target_dependencies(octo_benchmark rclcpp std_msgs octomap_msgs octomap) 
+
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -48,6 +52,7 @@ endif()
 install(TARGETS
   octo_publisher
   octo_planner
+  octo_benchmark
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

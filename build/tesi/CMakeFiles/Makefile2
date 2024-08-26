@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/ws/build/tesi
 # The main recursive "all" target.
 all: CMakeFiles/octo_publisher.dir/all
 all: CMakeFiles/octo_planner.dir/all
+all: CMakeFiles/octo_benchmark.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/tesi_uninstall.dir/clean
 clean: CMakeFiles/octo_publisher.dir/clean
 clean: CMakeFiles/octo_planner.dir/clean
+clean: CMakeFiles/octo_benchmark.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -137,7 +139,7 @@ CMakeFiles/tesi_uninstall.dir/clean:
 CMakeFiles/octo_publisher.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/octo_publisher.dir/build.make CMakeFiles/octo_publisher.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/octo_publisher.dir/build.make CMakeFiles/octo_publisher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ws/build/tesi/CMakeFiles --progress-num=3,4 "Built target octo_publisher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ws/build/tesi/CMakeFiles --progress-num=5,6 "Built target octo_publisher"
 .PHONY : CMakeFiles/octo_publisher.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,7 +165,7 @@ CMakeFiles/octo_publisher.dir/clean:
 CMakeFiles/octo_planner.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/octo_planner.dir/build.make CMakeFiles/octo_planner.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/octo_planner.dir/build.make CMakeFiles/octo_planner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ws/build/tesi/CMakeFiles --progress-num=1,2 "Built target octo_planner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ws/build/tesi/CMakeFiles --progress-num=3,4 "Built target octo_planner"
 .PHONY : CMakeFiles/octo_planner.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +183,32 @@ octo_planner: CMakeFiles/octo_planner.dir/rule
 CMakeFiles/octo_planner.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/octo_planner.dir/build.make CMakeFiles/octo_planner.dir/clean
 .PHONY : CMakeFiles/octo_planner.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/octo_benchmark.dir
+
+# All Build rule for target.
+CMakeFiles/octo_benchmark.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/octo_benchmark.dir/build.make CMakeFiles/octo_benchmark.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/octo_benchmark.dir/build.make CMakeFiles/octo_benchmark.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ws/build/tesi/CMakeFiles --progress-num=1,2 "Built target octo_benchmark"
+.PHONY : CMakeFiles/octo_benchmark.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/octo_benchmark.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ws/build/tesi/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/octo_benchmark.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ws/build/tesi/CMakeFiles 0
+.PHONY : CMakeFiles/octo_benchmark.dir/rule
+
+# Convenience name for target.
+octo_benchmark: CMakeFiles/octo_benchmark.dir/rule
+.PHONY : octo_benchmark
+
+# clean rule for target.
+CMakeFiles/octo_benchmark.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/octo_benchmark.dir/build.make CMakeFiles/octo_benchmark.dir/clean
+.PHONY : CMakeFiles/octo_benchmark.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

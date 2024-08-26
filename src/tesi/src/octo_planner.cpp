@@ -7,7 +7,6 @@
 #include <ompl/base/StateValidityChecker.h>
 #include <ompl/base/SpaceInformation.h>
 #include <ompl/base/spaces/RealVectorStateSpace.h>
-#include <ompl/geometric/planners/rrt/RRTstar.h>
 #include <ompl/geometric/SimpleSetup.h>
 #include <ompl/config.h>
 #include <ompl/base/objectives/PathLengthOptimizationObjective.h>
@@ -17,6 +16,8 @@
 #include <dynamicEDT3D/dynamicEDTOctomap.h>
 
 #include <iostream>
+
+#include <ompl/geometric/planners/rrt/RRTstar.h>
 
 namespace ob = ompl::base;
 namespace og = ompl::geometric;

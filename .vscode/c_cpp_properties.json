@@ -7,9 +7,10 @@
                 "/usr/include/ompl-1.5/**",
                 "/usr/include/eigen3",
                 "/opt/ros/humble/include/**",
-                "/usr/include/ompl-1.5",
                 "/opt/ros/humble/include",
-                "/opt/ros/humble/include/geometry_msgs"
+                "/opt/ros/humble/include/geometry_msgs",
+                "/opt/ros/humble/include/rclcpp",
+                "/opt/ros/humble/include/octomap_msgs"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

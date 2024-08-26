@@ -938,8 +938,7 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
   /usr/include/ompl-1.5/ompl/base/ValidStateSampler.h \
   /usr/include/ompl-1.5/ompl/util/Exception.h \
   /usr/include/ompl-1.5/ompl/base/spaces/RealVectorStateSpace.h \
-  /usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTstar.h \
-  /usr/include/ompl-1.5/ompl/geometric/planners/PlannerIncludes.h \
+  /usr/include/ompl-1.5/ompl/geometric/SimpleSetup.h \
   /usr/include/ompl-1.5/ompl/base/Planner.h \
   /usr/include/ompl-1.5/ompl/base/ProblemDefinition.h \
   /usr/include/ompl-1.5/ompl/base/Goal.h \
@@ -954,16 +953,9 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
   /usr/include/ompl-1.5/ompl/base/PlannerTerminationCondition.h \
   /usr/include/ompl-1.5/ompl/util/Time.h \
   /usr/include/ompl-1.5/ompl/geometric/PathGeometric.h \
+  /usr/include/ompl-1.5/ompl/geometric/PathSimplifier.h \
   /usr/include/ompl-1.5/ompl/base/OptimizationObjective.h \
   /usr/include/ompl-1.5/ompl/base/samplers/InformedStateSampler.h \
-  /usr/include/ompl-1.5/ompl/datastructures/NearestNeighbors.h \
-  /usr/include/c++/11/queue \
-  /usr/include/c++/11/deque \
-  /usr/include/c++/11/bits/stl_deque.h \
-  /usr/include/c++/11/bits/deque.tcc \
-  /usr/include/c++/11/bits/stl_queue.h \
-  /usr/include/ompl-1.5/ompl/geometric/SimpleSetup.h \
-  /usr/include/ompl-1.5/ompl/geometric/PathSimplifier.h \
   /usr/include/ompl-1.5/ompl/base/goals/GoalSampleableRegion.h \
   /usr/include/ompl-1.5/ompl/base/goals/GoalRegion.h \
   /usr/include/ompl-1.5/ompl/base/objectives/PathLengthOptimizationObjective.h \
@@ -984,6 +976,9 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
   /opt/ros/humble/include/octomap/octomap_utils.h \
   /opt/ros/humble/include/octomap/OcTreeBaseImpl.h \
   /usr/include/c++/11/stack \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_stack.h \
   /usr/include/c++/11/bitset \
   /opt/ros/humble/include/octomap/OcTreeKey.h \
@@ -1019,13 +1014,44 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
   /opt/ros/humble/include/octomap/OccupancyOcTreeBase.h \
   /opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.h \
   /opt/ros/humble/include/dynamicEDT3D/dynamicEDT3D.h \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/bits/stl_queue.h \
   /opt/ros/humble/include/dynamicEDT3D/bucketedqueue.h \
   /opt/ros/humble/include/dynamicEDT3D/point.h \
   /opt/ros/humble/include/dynamicEDT3D/bucketedqueue.hxx \
   /opt/ros/humble/include/octomap/OcTree.h \
   /opt/ros/humble/include/octomap/OcTreeStamped.h \
-  /opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.hxx
+  /opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.hxx \
+  /usr/include/ompl-1.5/ompl/geometric/planners/stride/STRIDE.h \
+  /usr/include/ompl-1.5/ompl/datastructures/Grid.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/PlannerIncludes.h \
+  /usr/include/ompl-1.5/ompl/datastructures/PDF.h \
+  /usr/include/boost/scoped_ptr.hpp \
+  /usr/include/boost/smart_ptr/scoped_ptr.hpp \
+  /usr/include/boost/assert.hpp \
+  /usr/include/boost/checked_delete.hpp \
+  /usr/include/boost/core/checked_delete.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_noexcept.hpp \
+  /usr/include/boost/smart_ptr/detail/operator_bool.hpp
 
+
+/usr/include/boost/smart_ptr/detail/operator_bool.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_noexcept.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
+
+/usr/include/ompl-1.5/ompl/datastructures/PDF.h:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/PlannerIncludes.h:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/stride/STRIDE.h:
+
+/usr/include/c++/11/queue:
 
 /opt/ros/humble/include/octomap/ColorOcTree.h:
 
@@ -1049,6 +1075,10 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 
 /usr/include/c++/11/tr1/type_traits:
 
+/usr/include/c++/11/bits/stl_deque.h:
+
+/usr/include/c++/11/deque:
+
 /usr/include/c++/11/stack:
 
 /opt/ros/humble/include/octomap/OccupancyOcTreeBase.h:
@@ -1067,12 +1097,6 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 
 /usr/include/ompl-1.5/ompl/base/goals/GoalRegion.h:
 
-/usr/include/c++/11/bits/stl_deque.h:
-
-/usr/include/c++/11/deque:
-
-/usr/include/c++/11/queue:
-
 /opt/ros/humble/include/octomap/OcTreeIterator.hxx:
 
 /usr/include/boost/serialization/access.hpp:
@@ -1084,8 +1108,6 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 /usr/include/ompl-1.5/ompl/base/Path.h:
 
 /usr/include/ompl-1.5/ompl/base/ProblemDefinition.h:
-
-/usr/include/ompl-1.5/ompl/geometric/planners/PlannerIncludes.h:
 
 /usr/include/ompl-1.5/ompl/base/ValidStateSampler.h:
 
@@ -1290,8 +1312,6 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 /usr/include/ompl-1.5/ompl/base/SpaceInformation.h:
 
 /usr/include/ompl-1.5/ompl/util/ClassForward.h:
-
-/usr/include/ompl-1.5/ompl/datastructures/NearestNeighbors.h:
 
 /usr/include/boost/concept/detail/concept_undef.hpp:
 
@@ -1603,6 +1623,8 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
 
+/usr/include/ompl-1.5/ompl/datastructures/Grid.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
 
 /usr/include/ompl-1.5/ompl/geometric/PathGeometric.h:
@@ -1674,6 +1696,8 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:
+
+/usr/include/boost/core/checked_delete.hpp:
 
 /usr/include/c++/11/bits/hashtable.h:
 
@@ -1851,6 +1875,8 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
+/usr/include/boost/scoped_ptr.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
 /usr/include/c++/11/bits/erase_if.h:
@@ -1977,6 +2003,8 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
 
+/usr/include/boost/assert.hpp:
+
 /usr/include/c++/11/backward/auto_ptr.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
@@ -2004,8 +2032,6 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTstar.h:
 
 /usr/include/c++/11/bits/random.tcc:
 
@@ -2389,6 +2415,8 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 
 /opt/ros/humble/include/rcl/rcl/types.h:
 
+/usr/include/boost/smart_ptr/scoped_ptr.hpp:
+
 /usr/include/c++/11/mutex:
 
 /usr/include/x86_64-linux-gnu/bits/signum-generic.h:
@@ -2736,6 +2764,8 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 /usr/include/c++/11/clocale:
 
 /opt/ros/humble/include/rcl/rcl/event.h:
+
+/usr/include/boost/checked_delete.hpp:
 
 /opt/ros/humble/include/rcl/rcl/publisher.h:
 

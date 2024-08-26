@@ -1,0 +1,43 @@
+[0.051s] Invoking command in '/home/ws/build/tesi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12
+[0.115s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.197s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.231s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.252s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.254s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.259s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.268s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.326s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.327s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.422s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.549s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.586s] -- Found octomap_msgs: 2.0.0 (/opt/ros/humble/share/octomap_msgs/cmake)
+[0.647s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.706s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.706s] -- Configured cppcheck include dirs: 
+[0.707s] -- Configured cppcheck exclude dirs and/or files: 
+[0.707s] -- Added test 'lint_cmake' to check CMake code style
+[0.708s] -- Added test 'uncrustify' to check C / C++ code style
+[0.708s] -- Configured uncrustify additional arguments: 
+[0.708s] -- Added test 'xmllint' to check XML markup files
+[0.709s] -- Configuring done
+[0.728s] -- Generating done
+[0.730s] -- Build files have been written to: /home/ws/build/tesi
+[0.763s] [ 16%] [32mBuilding CXX object CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o[0m
+[0.771s] [35m[1mConsolidate compiler generated dependencies of target octo_publisher[0m
+[0.778s] [35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[0.791s] [ 33%] [32m[1mLinking CXX executable octo_publisher[0m
+[0.793s] In file included from [01m[K/home/ws/src/tesi/src/octo_benchmark.cpp:3[m[K:
+[0.794s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/executors.hpp: No such file or directory
+[0.794s]   155 | #include [01;31m[K"rclcpp/executors.hpp"[m[K
+[0.794s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.794s] compilation terminated.
+[0.795s] gmake[2]: *** [CMakeFiles/octo_benchmark.dir/build.make:76: CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o] Error 1
+[0.795s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/octo_benchmark.dir/all] Error 2
+[0.795s] gmake[1]: *** Waiting for unfinished jobs....
+[0.799s] [ 50%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[1.035s] [ 66%] Built target octo_publisher
+[9.820s] [ 83%] [32m[1mLinking CXX executable octo_planner[0m
+[10.350s] [ 83%] Built target octo_planner
+[10.351s] gmake: *** [Makefile:146: all] Error 2
+[10.353s] Invoked command in '/home/ws/build/tesi' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12

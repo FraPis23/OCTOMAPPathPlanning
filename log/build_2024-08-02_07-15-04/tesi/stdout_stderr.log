@@ -1,0 +1,58 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found octomap_msgs: 2.0.0 (/opt/ros/humble/share/octomap_msgs/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ws/build/tesi
+[35m[1mConsolidate compiler generated dependencies of target octo_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable octo_publisher[0m
+[ 66%] Built target octo_planner
+[ 83%] Built target octo_publisher
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/memory:64[m[K,
+                 from [01m[K/home/ws/src/tesi/src/octo_benchmark.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ompl::base::ProblemDefinition; _Args = {ompl::geometric::SimpleSetup&}; _Tp = ompl::base::ProblemDefinition][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ompl::base::ProblemDefinition; _Args = {ompl::geometric::SimpleSetup&}; _Tp = ompl::base::ProblemDefinition; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<ompl::base::ProblemDefinition>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {ompl::geometric::SimpleSetup&}; _Tp = ompl::base::ProblemDefinition; _Alloc = std::allocator<ompl::base::ProblemDefinition>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ompl::base::ProblemDefinition; _Alloc = std::allocator<ompl::base::ProblemDefinition>; _Args = {ompl::geometric::SimpleSetup&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ompl::base::ProblemDefinition>; _Args = {ompl::geometric::SimpleSetup&}; _Tp = ompl::base::ProblemDefinition; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ompl::base::ProblemDefinition>; _Args = {ompl::geometric::SimpleSetup&}; _Tp = ompl::base::ProblemDefinition][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ompl::base::ProblemDefinition; _Alloc = std::allocator<ompl::base::ProblemDefinition>; _Args = {ompl::geometric::SimpleSetup&}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ompl::base::ProblemDefinition; _Args = {ompl::geometric::SimpleSetup&}][m[K’
+[01m[K/home/ws/src/tesi/src/octo_benchmark.cpp:100:62:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kompl::base::ProblemDefinition::ProblemDefinition(ompl::geometric::SimpleSetup&)[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ompl-1.5/ompl/base/Planner.h:41[m[K,
+                 from [01m[K/usr/include/ompl-1.5/ompl/geometric/SimpleSetup.h:40[m[K,
+                 from [01m[K/home/ws/src/tesi/src/octo_benchmark.cpp:10[m[K:
+[01m[K/usr/include/ompl-1.5/ompl/base/ProblemDefinition.h:160:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kompl::base::ProblemDefinition::ProblemDefinition(ompl::base::SpaceInformationPtr)[m[K’
+  160 |             [01;36m[KProblemDefinition[m[K(SpaceInformationPtr si);
+      |             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/ompl-1.5/ompl/base/ProblemDefinition.h:160:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kompl::geometric::SimpleSetup[m[K’ to ‘[01m[Kompl::base::SpaceInformationPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<ompl::base::SpaceInformation>[m[K’}
+  160 |             ProblemDefinition([01;36m[KSpaceInformationPtr si[m[K);
+      |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/octo_benchmark.dir/build.make:76: CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/octo_benchmark.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

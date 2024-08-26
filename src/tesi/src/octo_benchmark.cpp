@@ -11,18 +11,22 @@
 #include <ompl/config.h>
 #include <ompl/base/objectives/PathLengthOptimizationObjective.h>
 
-#include <ompl/tools/benchmark/Benchmark.h>
-
 #include <octomap/octomap.h>
 #include <octomap_msgs/conversions.h>
 #include <dynamicEDT3D/dynamicEDTOctomap.h>
 
+#include <ompl/tools/benchmark/Benchmark.h>
+
 #include <iostream>
 
 #include <ompl/geometric/planners/rrt/RRTstar.h>
+#include <ompl/geometric/planners/rrt/RRT.h>
+#include <ompl/geometric/planners/rrt/RRTConnect.h>
+#include <ompl/geometric/planners/est/EST.h>
 
 namespace ob = ompl::base;
 namespace og = ompl::geometric;
+namespace ot = ompl::tools;
 
 using std::placeholders::_1;
 
@@ -36,7 +40,7 @@ class OctoPlanner : public rclcpp::Node
     OctoPlanner()
     : Node("octo_planner")
     {
-        octo_subs_ = this->create_subscription<octomap_msgs::msg::Octomap>("octomap_topic", 100, std::bind(&OctoPlanner::octo_callback, this, _1));
+        octo_benchmark_ = this->create_subscription<octomap_msgs::msg::Octomap>("octomap_topic", 100, std::bind(&OctoPlanner::octo_callback, this, _1));
         path_pub_ = this->create_publisher<geometry_msgs::msg::PoseArray>("path_topic", 100);
     }
 
@@ -44,12 +48,6 @@ class OctoPlanner : public rclcpp::Node
 
       void octo_callback(const octomap_msgs::msg::Octomap & msg)
         {
-
-            // // Convert the binary message back into an octomap::OcTree
-            // std::vector<char> binaryData(msg.data.size());
-            // std::memcpy(binaryData.data(), msg.data.data(), msg.data.size());
-
-            // Read the binary data back into the existing OcTree
             octomap::OcTree* tree_ = dynamic_cast<octomap::OcTree*>(octomap_msgs::binaryMsgToMap(msg));
 
             // Log the received OctoMap message
@@ -101,73 +99,34 @@ class OctoPlanner : public rclcpp::Node
             goal[1]=1.0;
             goal[2]=2.0; 
         
-            // create a problem instance
-            auto pdef(std::make_shared<ob::ProblemDefinition>(ss));
-        
             // set the start and goal states
-            pdef->setStartAndGoalStates(start, goal);
+            ss.setStartAndGoalStates(start, goal);
+            ss.solve();
 
-            // create a planner for the defined space
-            auto planner(std::make_shared<og::RRTstar>(si));
-        
-            // set the problem we are trying to solve for the planner
-            planner->setProblemDefinition(pdef);
-        
-            // perform setup steps for the planner
-            planner->setup();
-        
-            // print the settings for this space
-            si->printSettings(std::cout);
-        
-            // print the problem settings
-            pdef->print(std::cout);
+            // create a benchmark class:
+            ot::Benchmark b(ss, "Benchmark");
 
-            // attempt to solve the problem within one second of planning time
-            ob::PlannerStatus solved = planner->ob::Planner::solve(0.5);
+            // Add a planner to the benchmark
+            auto rrtstar = ob::PlannerPtr(new og::RRTstar(ss.getSpaceInformation()));
+            rrtstar->as<og::RRTstar>()->setGoalBias(0.2);
+            rrtstar->as<og::RRTstar>()->setFocusSearch(false);
+            rrtstar->as<og::RRTstar>()->setSampleRejection(false);
+            b.addPlanner(rrtstar);
+            b.addPlanner(ob::PlannerPtr(new og::RRT(ss.getSpaceInformation())));
+            b.addPlanner(ob::PlannerPtr(new og::RRTConnect(ss.getSpaceInformation())));
+            b.addPlanner(ob::PlannerPtr(new og::EST(ss.getSpaceInformation())));
 
-            if (solved)
-            {
-                // Get the goal representation from the problem definition (not the same as the goal state)
-                // and inquire about the found path
-                og::PathGeometric *path = pdef->getSolutionPath()->as<og::PathGeometric>();
-                auto& states = path->getStates();
+            // b.addPlannerAllocator(std::bind(&myConfiguredPlanner, std::placeholders::_1));
 
-                // Convert the OMPL path to a sequence of geometry_msgs::PoseStamped messages
-                std::vector<geometry_msgs::msg::Pose> poses;
-                std::cout << "Solution found" << std::endl;
-                for (const auto &state : states)
-                {   
-                    const auto *pos = state->as<ob::RealVectorStateSpace::StateType>();
-                    // Extract the position values from the state
-                    double x = pos->values[0]; // x-coordinate
-                    double y = pos->values[1]; // y-coordinate
-                    double z = pos->values[2]; // z-coordinate
+            ot::Benchmark::Request req;
+            req.maxTime = 2.0;
+            req.maxMem = 100.0;
+            req.runCount = 20;
+            req.displayProgress = true;
+            b.benchmark(req);
 
-                    std::cout << "Point: (" << x <<  ", " << y << ", " << z << ");" << std::endl;
-
-                    // Convert the OMPL state to a geometry_msgs::PoseStamped message
-                    geometry_msgs::msg::Pose pose;
-
-
-                    // Populate the position fields with the extracted values
-                    pose.position.x = x;
-                    pose.position.y = y;
-                    pose.position.z = z;
-
-                    pose.orientation.w = 1.0; // Assuming unit quaternion for simplicity
-
-                    poses.push_back(pose);
-                }
-
-                // Publish the PoseArray message
-                geometry_msgs::msg::PoseArray poseArray;
-                poseArray.poses = poses;
-                path_pub_->publish(poseArray);
-            }
-            else
-            {
-                std::cout << "No solution found" << std::endl;
-            }
+            // This will generate a file of the form ompl_host_time.log
+            b.saveResultsToFile("./benchmark.log");
         };
 
          bool isStateValid(const ob::State *state, DynamicEDTOctomap &distmap)
@@ -178,15 +137,14 @@ class OctoPlanner : public rclcpp::Node
                 return distmap.getDistance(octomap::point3d((*pos)[0], (*pos)[1], (*pos)[2])) > 0.6;
             };
 
-         ob::PlannerPtr myConfiguredPlanner(const ompl::base::SpaceInformationPtr &si)
-            {
-                // create a planner for the defined space
-                og::RRTstar *planner = new og::RRTstar(si);
-                planner->setRange(10.0);
-                return ob::PlannerPtr(planner);
-            };
+        ob::PlannerPtr myConfiguredPlanner(const ompl::base::SpaceInformationPtr &si)
+        {
+            og::EST *est = new ompl::geometric::EST(si);
+            est->setRange(100.0);
+            return ompl::base::PlannerPtr(est);
+        };
  
-        rclcpp::Subscription<octomap_msgs::msg::Octomap>::SharedPtr octo_subs_;
+        rclcpp::Subscription<octomap_msgs::msg::Octomap>::SharedPtr octo_benchmark_;
         rclcpp::Publisher<geometry_msgs::msg::PoseArray>::SharedPtr path_pub_;
 };
 

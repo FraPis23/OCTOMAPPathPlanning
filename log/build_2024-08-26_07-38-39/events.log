@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000308] (tesi) JobQueued: {'identifier': 'tesi', 'dependencies': OrderedDict()}
+[0.000388] (tesi) JobStarted: {'identifier': 'tesi'}
+[0.099870] (-) TimerEvent: {}
+[0.173785] (tesi) JobProgress: {'identifier': 'tesi', 'progress': 'cmake'}
+[0.174344] (tesi) JobProgress: {'identifier': 'tesi', 'progress': 'build'}
+[0.174876] (tesi) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ws/build/tesi', '--', '-j12', '-l12'], 'cwd': '/home/ws/build/tesi', 'env': OrderedDict([('HOSTNAME', 'francesco'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-a85db0d2-373b-49b5-9442-e7d7a842dddd.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-900ab17f-3f05-424d-9fb1-45512431f27b.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-900ab17f-3f05-424d-9fb1-45512431f27b.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-81232fafb5.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-900ab17f-3f05-424d-9fb1-45512431f27b.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/tesi'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199957] (-) TimerEvent: {}
+[0.204981] (tesi) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octo_planner\x1b[0m\n'}
+[0.214060] (tesi) StdoutLine: {'line': b'[ 33%] Built target octo_publisher\n'}
+[0.215298] (tesi) StdoutLine: {'line': b'[ 66%] Built target octo_benchmark\n'}
+[0.300082] (-) TimerEvent: {}
+[0.323104] (tesi) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o\x1b[0m\n'}
+[0.400212] (-) TimerEvent: {}
+[0.500496] (-) TimerEvent: {}
+[0.600792] (-) TimerEvent: {}
+[0.701169] (-) TimerEvent: {}
+[0.801449] (-) TimerEvent: {}
+[0.942125] (-) TimerEvent: {}
+[1.042375] (-) TimerEvent: {}
+[1.142612] (-) TimerEvent: {}
+[1.242903] (-) TimerEvent: {}
+[1.343299] (-) TimerEvent: {}
+[1.443555] (-) TimerEvent: {}
+[1.543813] (-) TimerEvent: {}
+[1.644088] (-) TimerEvent: {}
+[1.744390] (-) TimerEvent: {}
+[1.844680] (-) TimerEvent: {}
+[1.944916] (-) TimerEvent: {}
+[2.045218] (-) TimerEvent: {}
+[2.145475] (-) TimerEvent: {}
+[2.245730] (-) TimerEvent: {}
+[2.346026] (-) TimerEvent: {}
+[2.471700] (-) TimerEvent: {}
+[2.571911] (-) TimerEvent: {}
+[2.672197] (-) TimerEvent: {}
+[2.772484] (-) TimerEvent: {}
+[2.872810] (-) TimerEvent: {}
+[2.973029] (-) TimerEvent: {}
+[3.073254] (-) TimerEvent: {}
+[3.173527] (-) TimerEvent: {}
+[3.273780] (-) TimerEvent: {}
+[3.374036] (-) TimerEvent: {}
+[3.474411] (-) TimerEvent: {}
+[3.574708] (-) TimerEvent: {}
+[3.675027] (-) TimerEvent: {}
+[3.775317] (-) TimerEvent: {}
+[3.875610] (-) TimerEvent: {}
+[3.975898] (-) TimerEvent: {}
+[4.024473] (tesi) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[4.024771] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[4.024873] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[4.024962] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:1\x1b[m\x1b[K:\n'}
+[4.025050] (tesi) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ompl::geometric::TSRRT; _Args = {std::shared_ptr<ompl::base::SpaceInformation>&}; _Tp = ompl::geometric::TSRRT]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.025145] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ompl::geometric::TSRRT; _Args = {std::shared_ptr<ompl::base::SpaceInformation>&}; _Tp = ompl::geometric::TSRRT; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<ompl::geometric::TSRRT>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.025240] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<ompl::base::SpaceInformation>&}; _Tp = ompl::geometric::TSRRT; _Alloc = std::allocator<ompl::geometric::TSRRT>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.025334] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ompl::geometric::TSRRT; _Alloc = std::allocator<ompl::geometric::TSRRT>; _Args = {std::shared_ptr<ompl::base::SpaceInformation>&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.025425] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ompl::geometric::TSRRT>; _Args = {std::shared_ptr<ompl::base::SpaceInformation>&}; _Tp = ompl::geometric::TSRRT; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.025543] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ompl::geometric::TSRRT>; _Args = {std::shared_ptr<ompl::base::SpaceInformation>&}; _Tp = ompl::geometric::TSRRT]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.025678] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ompl::geometric::TSRRT; _Alloc = std::allocator<ompl::geometric::TSRRT>; _Args = {std::shared_ptr<ompl::base::SpaceInformation>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.025806] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ompl::geometric::TSRRT; _Args = {std::shared_ptr<ompl::base::SpaceInformation>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.025898] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:110:53:\x1b[m\x1b[K   required from here\n'}
+[4.025988] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kompl::geometric::TSRRT::TSRRT(std::shared_ptr<ompl::base::SpaceInformation>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.026113] (tesi) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[4.026227] (tesi) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.026335] (tesi) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:20\x1b[m\x1b[K:\n'}
+[4.026431] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ompl-1.5/ompl/geometric/planners/rrt/TSRRT.h:91:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kompl::geometric::TSRRT::TSRRT(const SpaceInformationPtr&, const TaskSpaceConfigPtr&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.026538] (tesi) StderrLine: {'line': b'   91 |             \x1b[01;36m\x1b[KTSRRT\x1b[m\x1b[K(const base::SpaceInformationPtr &si, const TaskSpaceConfigPtr &task_space);\n'}
+[4.026626] (tesi) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.026738] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ompl-1.5/ompl/geometric/planners/rrt/TSRRT.h:91:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[4.076044] (-) TimerEvent: {}
+[4.176398] (-) TimerEvent: {}
+[4.276951] (-) TimerEvent: {}
+[4.377454] (-) TimerEvent: {}
+[4.477742] (-) TimerEvent: {}
+[4.578015] (-) TimerEvent: {}
+[4.678344] (-) TimerEvent: {}
+[4.778738] (-) TimerEvent: {}
+[4.879244] (-) TimerEvent: {}
+[4.979627] (-) TimerEvent: {}
+[5.079911] (-) TimerEvent: {}
+[5.180242] (-) TimerEvent: {}
+[5.280594] (-) TimerEvent: {}
+[5.375819] (tesi) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1\n'}
+[5.376089] (tesi) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/octo_planner.dir/all] Error 2\n'}
+[5.376210] (tesi) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.377957] (tesi) CommandEnded: {'returncode': 2}
+[5.380638] (-) TimerEvent: {}
+[5.412090] (tesi) JobEnded: {'identifier': 'tesi', 'rc': 2}
+[5.422722] (-) EventReactorShutdown: {}

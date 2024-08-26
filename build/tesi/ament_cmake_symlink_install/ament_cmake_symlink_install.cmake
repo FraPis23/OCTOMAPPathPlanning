@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "octo_publisher" "octo_planner" "DESTINATION" "lib/tesi")
+# install("TARGETS" "octo_publisher" "octo_planner" "octo_benchmark" "DESTINATION" "lib/tesi")
 include("/home/ws/build/tesi/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/ws/build/tesi/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/tesi" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

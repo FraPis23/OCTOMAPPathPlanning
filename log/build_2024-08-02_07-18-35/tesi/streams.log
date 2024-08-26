@@ -1,0 +1,16 @@
+[0.010s] Invoking command in '/home/ws/build/tesi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target octo_benchmark[0m
+[0.060s] [ 33%] Built target octo_publisher
+[0.060s] [ 66%] Built target octo_planner
+[0.070s] [ 83%] [32mBuilding CXX object CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o[0m
+[3.240s] [01m[K/home/ws/src/tesi/src/octo_benchmark.cpp:[m[K In member function ‘[01m[Kvoid OctoPlanner::octo_callback(const Octomap&)[m[K’:
+[3.240s] [01m[K/home/ws/src/tesi/src/octo_benchmark.cpp:100:29:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kompl::geometric::SimpleSetup ss[m[K’
+[3.240s]   100 |             og::SimpleSetup [01;31m[Kss[m[K(space);
+[3.240s]       |                             [01;31m[K^~[m[K
+[3.240s] [01m[K/home/ws/src/tesi/src/octo_benchmark.cpp:78:29:[m[K [01;36m[Knote: [m[K‘[01m[Kompl::geometric::SimpleSetup ss[m[K’ previously declared here
+[3.240s]    78 |             og::SimpleSetup [01;36m[Kss[m[K(space);
+[3.240s]       |                             [01;36m[K^~[m[K
+[5.402s] gmake[2]: *** [CMakeFiles/octo_benchmark.dir/build.make:76: CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o] Error 1
+[5.402s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/octo_benchmark.dir/all] Error 2
+[5.402s] gmake: *** [Makefile:146: all] Error 2
+[5.404s] Invoked command in '/home/ws/build/tesi' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12

@@ -1,0 +1,23 @@
+[0.009s] Invoking command in '/home/ws/build/tesi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[0.052s] [ 33%] Built target octo_publisher
+[0.053s] [ 66%] Built target octo_benchmark
+[0.069s] [ 83%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[3.404s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In member function ‘[01m[Kvoid OctoPlanner::octo_callback(const Octomap&)[m[K’:
+[3.404s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:110:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<template<class T> class ompl::geometric::MultiQuotient>(std::shared_ptr<ompl::base::SpaceInformation>&)[m[K’
+[3.404s]   110 |             auto planner([01;31m[Kstd::make_shared<og::MultiQuotient>(si)[m[K);
+[3.404s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.404s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.404s]                  from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:1[m[K:
+[3.404s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[3.404s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[3.404s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.405s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.405s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:110:61:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[3.405s]   110 |             auto planner([01;31m[Kstd::make_shared<og::MultiQuotient>(si)[m[K);
+[3.405s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.405s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:110:61:[m[K [01;36m[Knote: [m[K  expected a type, got ‘[01m[KMultiQuotient[m[K’
+[5.618s] gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1
+[5.619s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/octo_planner.dir/all] Error 2
+[5.619s] gmake: *** [Makefile:146: all] Error 2
+[5.621s] Invoked command in '/home/ws/build/tesi' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12

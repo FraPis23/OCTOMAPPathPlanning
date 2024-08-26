@@ -44,6 +44,9 @@ RUN apt-get update && apt-get install -y ros-humble-rviz2 ros-humble-octomap-rvi
 # Install debugger
 RUN apt-get update && apt-get install -y gdb
 
+# Clone the OMPL repository to get the scripts
+RUN git clone https://github.com/ompl/ompl.git /tmp/ompl
+
 # Copy the entrypoint script into the container
 COPY entrypoint.sh /entrypoint.sh
 
