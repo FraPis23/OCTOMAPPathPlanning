@@ -1,0 +1,8 @@
+[0.008s] Invoking command in '/home/ws/build/tesi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12
+[0.050s] [ 33%] Built target octo_publisher
+[0.051s] [ 66%] Built target octo_planner
+[0.051s] [ 83%] [32mBuilding CXX object CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o[0m
+[2.496s] gmake[2]: *** [CMakeFiles/octo_benchmark.dir/build.make:76: CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o] Interrupt
+[2.496s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/octo_benchmark.dir/all] Interrupt
+[2.496s] gmake: *** [Makefile:146: all] Interrupt
+[2.509s] Invoked command in '/home/ws/build/tesi' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12

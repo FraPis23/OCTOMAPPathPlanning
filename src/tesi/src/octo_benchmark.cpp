@@ -19,6 +19,16 @@
 
 #include <iostream>
 
+#include <ompl/geometric/planners/rrt/BiTRRT.h>
+#include <ompl/geometric/planners/rrt/InformedRRTstar.h>
+#include <ompl/geometric/planners/rrt/LazyLBTRRT.h>
+#include <ompl/geometric/planners/rrt/LazyRRT.h>
+#include <ompl/geometric/planners/rrt/LBTRRT.h>
+#include <ompl/geometric/planners/rrt/pRRT.h>
+#include <ompl/geometric/planners/rrt/RRTXstatic.h>
+#include <ompl/geometric/planners/rrt/RRTsharp.h>
+#include <ompl/geometric/planners/rrt/SORRTstar.h>
+#include <ompl/geometric/planners/rrt/TRRT.h>
 #include <ompl/geometric/planners/rrt/RRTstar.h>
 #include <ompl/geometric/planners/rrt/RRT.h>
 #include <ompl/geometric/planners/rrt/RRTConnect.h>
@@ -72,9 +82,9 @@ class OctoPlanner : public rclcpp::Node
             bounds.setLow(0, min.x());
             bounds.setHigh(0, max.x());
             bounds.setLow(1, min.y());
-            bounds.setHigh(1, max.y());
+            bounds.setHigh(1, 5);
             bounds.setLow(2, min.z());
-            bounds.setHigh(2, max.z());
+            bounds.setHigh(2, 2);
 
             space->setBounds(bounds);
         
@@ -114,19 +124,48 @@ class OctoPlanner : public rclcpp::Node
             b.addPlanner(rrtstar);
             b.addPlanner(ob::PlannerPtr(new og::RRT(ss.getSpaceInformation())));
             b.addPlanner(ob::PlannerPtr(new og::RRTConnect(ss.getSpaceInformation())));
-            b.addPlanner(ob::PlannerPtr(new og::EST(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::EST(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::BiTRRT(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::InformedRRTstar(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::LazyLBTRRT(ss.getSpaceInformation())));
+            b.addPlanner(ob::PlannerPtr(new og::LazyRRT(ss.getSpaceInformation())));
+            b.addPlanner(ob::PlannerPtr(new og::LBTRRT(ss.getSpaceInformation())));
+            b.addPlanner(ob::PlannerPtr(new og::pRRT(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::RRTXstatic(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::RRTsharp(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::SORRTstar(ss.getSpaceInformation())));
+            b.addPlanner(ob::PlannerPtr(new og::TRRT(ss.getSpaceInformation())));
+
+            b.setPostRunEvent([this, &distmap](const ob::PlannerPtr &planner, const ot::Benchmark::RunProperties &run) {
+              auto *path = planner->getProblemDefinition()->getSolutionPath()->as<og::PathGeometric>();
+              double minClearance = std::numeric_limits<double>::max();
+
+              for (const auto &state : path->getStates()) {
+                  double clearance = this->calculateClearance(state, distmap);
+                  if (clearance < minClearance)
+                      minClearance = clearance;
+              }
+
+              const_cast<ot::Benchmark::RunProperties&>(run).insert({"clearance REAL", std::to_string(minClearance)});
+              });
 
             // b.addPlannerAllocator(std::bind(&myConfiguredPlanner, std::placeholders::_1));
 
             ot::Benchmark::Request req;
-            req.maxTime = 2.0;
+            req.maxTime = 0.5;
             req.maxMem = 100.0;
-            req.runCount = 20;
+            req.runCount = 10;
             req.displayProgress = true;
             b.benchmark(req);
 
             // This will generate a file of the form ompl_host_time.log
             b.saveResultsToFile("./benchmark.log");
+        };
+
+        double calculateClearance(const ob::State *state, DynamicEDTOctomap &distmap)
+        {
+            const auto *pos = state->as<ob::RealVectorStateSpace::StateType>();
+            return distmap.getDistance(octomap::point3d((*pos)[0], (*pos)[1], (*pos)[2]));
         };
 
          bool isStateValid(const ob::State *state, DynamicEDTOctomap &distmap)

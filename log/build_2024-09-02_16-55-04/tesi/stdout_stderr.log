@@ -1,0 +1,25 @@
+[ 33%] Built target octo_publisher
+[ 66%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[ 83%] Built target octo_benchmark
+[100%] [32m[1mLinking CXX executable octo_planner[0m
+[100%] Built target octo_planner
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ws/install/tesi/lib/tesi/octo_publisher
+-- Up-to-date symlink: /home/ws/install/tesi/lib/tesi/octo_planner
+-- Up-to-date symlink: /home/ws/install/tesi/lib/tesi/octo_benchmark
+-- Up-to-date symlink: /home/ws/install/tesi/share/ament_index/resource_index/package_run_dependencies/tesi
+-- Up-to-date symlink: /home/ws/install/tesi/share/ament_index/resource_index/parent_prefix_path/tesi
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/environment/path.sh
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/environment/path.dsv
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/local_setup.bash
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/local_setup.sh
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/local_setup.zsh
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/local_setup.dsv
+-- Symlinking: /home/ws/install/tesi/share/tesi/package.dsv
+-- Up-to-date symlink: /home/ws/install/tesi/share/ament_index/resource_index/packages/tesi
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/cmake/tesiConfig.cmake
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/cmake/tesiConfig-version.cmake
+-- Up-to-date symlink: /home/ws/install/tesi/share/tesi/package.xml

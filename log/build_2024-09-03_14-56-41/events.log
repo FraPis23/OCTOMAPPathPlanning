@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000259] (tesi) JobQueued: {'identifier': 'tesi', 'dependencies': OrderedDict()}
+[0.000483] (tesi) JobStarted: {'identifier': 'tesi'}
+[0.006911] (tesi) JobProgress: {'identifier': 'tesi', 'progress': 'cmake'}
+[0.007167] (tesi) JobProgress: {'identifier': 'tesi', 'progress': 'build'}
+[0.007808] (tesi) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ws/build/tesi', '--', '-j12', '-l12'], 'cwd': '/home/ws/build/tesi', 'env': OrderedDict([('HOSTNAME', 'francesco'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-148d3801-1add-440e-9fbc-e14414da06f6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-d126c587-abc7-448b-b2a0-1d919dd77c6a.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-d126c587-abc7-448b-b2a0-1d919dd77c6a.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-81232fafb5.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-d126c587-abc7-448b-b2a0-1d919dd77c6a.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/tesi'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.041949] (tesi) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octo_benchmark\x1b[0m\n'}
+[0.048969] (tesi) StdoutLine: {'line': b'[ 33%] Built target octo_publisher\n'}
+[0.049507] (tesi) StdoutLine: {'line': b'[ 66%] Built target octo_planner\n'}
+[0.064827] (tesi) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o\x1b[0m\n'}
+[0.099633] (-) TimerEvent: {}
+[0.199850] (-) TimerEvent: {}
+[0.300111] (-) TimerEvent: {}
+[0.400343] (-) TimerEvent: {}
+[0.500622] (-) TimerEvent: {}
+[0.600967] (-) TimerEvent: {}
+[0.701315] (-) TimerEvent: {}
+[0.801589] (-) TimerEvent: {}
+[0.901838] (-) TimerEvent: {}
+[1.002089] (-) TimerEvent: {}
+[1.102344] (-) TimerEvent: {}
+[1.202654] (-) TimerEvent: {}
+[1.302913] (-) TimerEvent: {}
+[1.403174] (-) TimerEvent: {}
+[1.503469] (-) TimerEvent: {}
+[1.603724] (-) TimerEvent: {}
+[1.703973] (-) TimerEvent: {}
+[1.804230] (-) TimerEvent: {}
+[1.904512] (-) TimerEvent: {}
+[2.004865] (-) TimerEvent: {}
+[2.105121] (-) TimerEvent: {}
+[2.205420] (-) TimerEvent: {}
+[2.305712] (-) TimerEvent: {}
+[2.405996] (-) TimerEvent: {}
+[2.506442] (-) TimerEvent: {}
+[2.606682] (-) TimerEvent: {}
+[2.706975] (-) TimerEvent: {}
+[2.807224] (-) TimerEvent: {}
+[2.907500] (-) TimerEvent: {}
+[3.007783] (-) TimerEvent: {}
+[3.108032] (-) TimerEvent: {}
+[3.208283] (-) TimerEvent: {}
+[3.308578] (-) TimerEvent: {}
+[3.408831] (-) TimerEvent: {}
+[3.509084] (-) TimerEvent: {}
+[3.609398] (-) TimerEvent: {}
+[3.709702] (-) TimerEvent: {}
+[3.809941] (-) TimerEvent: {}
+[3.896096] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_benchmark.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid OctoPlanner::octo_callback(const Octomap&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.896236] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_benchmark.cpp:139:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[KOctoPlanner::octo_callback(const Octomap&)::<lambda(const PlannerPtr&, ompl::tools::Benchmark::RunProperties&)>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.896290] (tesi) StderrLine: {'line': b'  139 |             \x1b[01;31m\x1b[Kb.addExperimentParameter("clearance", "REAL", [&](const ob::PlannerPtr &planner, ot::Benchmark::RunProperties &run)\x1b[m\x1b[K\n'}
+[3.896336] (tesi) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.896391] (tesi) StderrLine: {'line': b'  140 | \x1b[01;31m\x1b[K            {\x1b[m\x1b[K\n'}
+[3.896435] (tesi) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~\x1b[m\x1b[K                        \n'}
+[3.896477] (tesi) StderrLine: {'line': b'  141 | \x1b[01;31m\x1b[K                auto *path = planner->getProblemDefinition()->getSolutionPath()->as<og::PathGeometric>();\x1b[m\x1b[K\n'}
+[3.896519] (tesi) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.896560] (tesi) StderrLine: {'line': b'  142 | \x1b[01;31m\x1b[K                double minClearance = std::numeric_limits<double>::max();\x1b[m\x1b[K\n'}
+[3.896601] (tesi) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.896642] (tesi) StderrLine: {'line': b'  143 | \n'}
+[3.896683] (tesi) StderrLine: {'line': b'      |                                      \n'}
+[3.896723] (tesi) StderrLine: {'line': b'  144 | \x1b[01;31m\x1b[K                for ( auto &state : path->getStates()) {\x1b[m\x1b[K\n'}
+[3.896764] (tesi) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.896804] (tesi) StderrLine: {'line': b'  145 | \x1b[01;31m\x1b[K                    double clearance = calculateClearance(state, distmap);\x1b[m\x1b[K\n'}
+[3.896850] (tesi) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.896890] (tesi) StderrLine: {'line': b'  146 | \x1b[01;31m\x1b[K                    if (clearance < minClearance)\x1b[m\x1b[K\n'}
+[3.896931] (tesi) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.896972] (tesi) StderrLine: {'line': b'  147 | \x1b[01;31m\x1b[K                        minClearance = clearance;\x1b[m\x1b[K\n'}
+[3.897013] (tesi) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.897054] (tesi) StderrLine: {'line': b'  148 | \x1b[01;31m\x1b[K                }\x1b[m\x1b[K\n'}
+[3.897095] (tesi) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~\x1b[m\x1b[K                    \n'}
+[3.897136] (tesi) StderrLine: {'line': b'  149 | \n'}
+[3.897176] (tesi) StderrLine: {'line': b'      |                                      \n'}
+[3.897217] (tesi) StderrLine: {'line': b'  150 | \x1b[01;31m\x1b[K                run["clearance REAL"] = std::to_string(minClearance); // Salva la clearance minima\x1b[m\x1b[K\n'}
+[3.897258] (tesi) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.897299] (tesi) StderrLine: {'line': b'  151 | \x1b[01;31m\x1b[K            })\x1b[m\x1b[K;\n'}
+[3.897340] (tesi) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~\x1b[m\x1b[K                       \n'}
+[3.897431] (tesi) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ws/src/tesi/src/octo_benchmark.cpp:18\x1b[m\x1b[K:\n'}
+[3.897494] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ompl-1.5/ompl/tools/benchmark/Benchmark.h:218:110:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 3 of \xe2\x80\x98\x1b[01m\x1b[Kvoid ompl::tools::Benchmark::addExperimentParameter(const string&, const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.897556] (tesi) StderrLine: {'line': b'  218 |             void addExperimentParameter(const std::string &name, const std::string &type, \x1b[01;36m\x1b[Kconst std::string &value\x1b[m\x1b[K)\n'}
+[3.897597] (tesi) StderrLine: {'line': b'      |                                                                                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.910076] (-) TimerEvent: {}
+[4.010460] (-) TimerEvent: {}
+[4.110700] (-) TimerEvent: {}
+[4.210916] (-) TimerEvent: {}
+[4.311133] (-) TimerEvent: {}
+[4.411448] (-) TimerEvent: {}
+[4.511670] (-) TimerEvent: {}
+[4.611916] (-) TimerEvent: {}
+[4.712162] (-) TimerEvent: {}
+[4.812493] (-) TimerEvent: {}
+[4.912743] (-) TimerEvent: {}
+[5.013005] (-) TimerEvent: {}
+[5.113262] (-) TimerEvent: {}
+[5.213564] (-) TimerEvent: {}
+[5.313784] (-) TimerEvent: {}
+[5.414056] (-) TimerEvent: {}
+[5.514296] (-) TimerEvent: {}
+[5.614596] (-) TimerEvent: {}
+[5.714855] (-) TimerEvent: {}
+[5.815131] (-) TimerEvent: {}
+[5.915409] (-) TimerEvent: {}
+[6.015670] (-) TimerEvent: {}
+[6.115923] (-) TimerEvent: {}
+[6.216294] (-) TimerEvent: {}
+[6.316603] (-) TimerEvent: {}
+[6.416851] (-) TimerEvent: {}
+[6.517103] (-) TimerEvent: {}
+[6.605766] (tesi) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/octo_benchmark.dir/build.make:76: CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o] Error 1\n'}
+[6.606001] (tesi) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/octo_benchmark.dir/all] Error 2\n'}
+[6.606134] (tesi) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.607523] (tesi) CommandEnded: {'returncode': 2}
+[6.617177] (-) TimerEvent: {}
+[6.637638] (tesi) JobEnded: {'identifier': 'tesi', 'rc': 2}
+[6.648212] (-) EventReactorShutdown: {}

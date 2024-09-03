@@ -1022,34 +1022,13 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
   /opt/ros/humble/include/octomap/OcTree.h \
   /opt/ros/humble/include/octomap/OcTreeStamped.h \
   /opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.hxx \
-  /usr/include/ompl-1.5/ompl/geometric/planners/stride/STRIDE.h \
-  /usr/include/ompl-1.5/ompl/datastructures/Grid.h \
-  /usr/include/ompl-1.5/ompl/geometric/planners/PlannerIncludes.h \
-  /usr/include/ompl-1.5/ompl/datastructures/PDF.h \
-  /usr/include/boost/scoped_ptr.hpp \
-  /usr/include/boost/smart_ptr/scoped_ptr.hpp \
-  /usr/include/boost/assert.hpp \
-  /usr/include/boost/checked_delete.hpp \
-  /usr/include/boost/core/checked_delete.hpp \
-  /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
-  /usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
-  /usr/include/boost/smart_ptr/detail/sp_noexcept.hpp \
-  /usr/include/boost/smart_ptr/detail/operator_bool.hpp
+  /usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTXstatic.h \
+  /usr/include/ompl-1.5/ompl/datastructures/BinaryHeap.h \
+  /usr/include/ompl-1.5/ompl/datastructures/NearestNeighbors.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/PlannerIncludes.h
 
-
-/usr/include/boost/smart_ptr/detail/operator_bool.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_noexcept.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
-
-/usr/include/ompl-1.5/ompl/datastructures/PDF.h:
 
 /usr/include/ompl-1.5/ompl/geometric/planners/PlannerIncludes.h:
-
-/usr/include/ompl-1.5/ompl/geometric/planners/stride/STRIDE.h:
 
 /usr/include/c++/11/queue:
 
@@ -1312,6 +1291,8 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 /usr/include/ompl-1.5/ompl/base/SpaceInformation.h:
 
 /usr/include/ompl-1.5/ompl/util/ClassForward.h:
+
+/usr/include/ompl-1.5/ompl/datastructures/NearestNeighbors.h:
 
 /usr/include/boost/concept/detail/concept_undef.hpp:
 
@@ -1623,8 +1604,6 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
 
-/usr/include/ompl-1.5/ompl/datastructures/Grid.h:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
 
 /usr/include/ompl-1.5/ompl/geometric/PathGeometric.h:
@@ -1696,8 +1675,6 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:
-
-/usr/include/boost/core/checked_delete.hpp:
 
 /usr/include/c++/11/bits/hashtable.h:
 
@@ -1875,8 +1852,6 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
-/usr/include/boost/scoped_ptr.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
 /usr/include/c++/11/bits/erase_if.h:
@@ -1898,6 +1873,8 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 /usr/include/linux/errno.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
+/usr/include/ompl-1.5/ompl/datastructures/BinaryHeap.h:
 
 /usr/include/ompl-1.5/ompl/base/Planner.h:
 
@@ -2002,8 +1979,6 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
-
-/usr/include/boost/assert.hpp:
 
 /usr/include/c++/11/backward/auto_ptr.h:
 
@@ -2415,8 +2390,6 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 
 /opt/ros/humble/include/rcl/rcl/types.h:
 
-/usr/include/boost/smart_ptr/scoped_ptr.hpp:
-
 /usr/include/c++/11/mutex:
 
 /usr/include/x86_64-linux-gnu/bits/signum-generic.h:
@@ -2621,6 +2594,8 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 
 /opt/ros/humble/include/rcutils/rcutils/types/string_array.h:
 
+/usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTXstatic.h:
+
 /opt/ros/humble/include/rcutils/rcutils/qsort.h:
 
 /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
@@ -2764,8 +2739,6 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 /usr/include/c++/11/clocale:
 
 /opt/ros/humble/include/rcl/rcl/event.h:
-
-/usr/include/boost/checked_delete.hpp:
 
 /opt/ros/humble/include/rcl/rcl/publisher.h:
 

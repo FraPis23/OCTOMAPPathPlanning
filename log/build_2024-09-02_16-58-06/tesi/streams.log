@@ -1,0 +1,26 @@
+[0.019s] Invoking command in '/home/ws/build/tesi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[0.133s] [ 33%] Built target octo_publisher
+[0.145s] [ 66%] Built target octo_benchmark
+[0.185s] [ 83%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[10.144s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In member function ‘[01m[Kvoid OctoPlanner::octo_callback(const Octomap&)[m[K’:
+[10.145s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:110:47:[m[K [01;31m[Kerror: [m[K‘[01m[KEst[m[K’ is not a member of ‘[01m[Kog[m[K’; did you mean ‘[01m[KEST[m[K’?
+[10.145s]   110 |             auto planner(std::make_shared<og::[01;31m[KEst[m[K>(si));
+[10.145s]       |                                               [01;31m[K^~~[m[K
+[10.145s]       |                                               [32m[KEST[m[K
+[10.145s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:110:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(std::shared_ptr<ompl::base::SpaceInformation>&)[m[K’
+[10.145s]   110 |             auto planner([01;31m[Kstd::make_shared<og::Est>(si)[m[K);
+[10.145s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.146s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[10.146s]                  from [01m[K/home/ws/src/tesi/src/octo_planner.cpp:1[m[K:
+[10.146s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[10.146s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[10.146s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[10.146s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.146s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:110:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.146s]   110 |             auto planner([01;31m[Kstd::make_shared<og::Est>(si)[m[K);
+[10.146s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[16.315s] gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1
+[16.317s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/octo_planner.dir/all] Error 2
+[16.317s] gmake: *** [Makefile:146: all] Error 2
+[16.321s] Invoked command in '/home/ws/build/tesi' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12

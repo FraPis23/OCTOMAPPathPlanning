@@ -17,7 +17,7 @@
 
 #include <iostream>
 
-#include <ompl/geometric/planners/rrt/RRTstar.h>
+#include <ompl/geometric/planners/rrt/RRTXstatic.h>
 
 namespace ob = ompl::base;
 namespace og = ompl::geometric;
@@ -72,9 +72,9 @@ class OctoPlanner : public rclcpp::Node
             bounds.setLow(0, min.x());
             bounds.setHigh(0, max.x());
             bounds.setLow(1, min.y());
-            bounds.setHigh(1, max.y());
+            bounds.setHigh(1, 4);
             bounds.setLow(2, min.z());
-            bounds.setHigh(2, max.z());
+            bounds.setHigh(2, 2);
 
             space->setBounds(bounds);
         
@@ -107,7 +107,7 @@ class OctoPlanner : public rclcpp::Node
             pdef->setStartAndGoalStates(start, goal);
 
             // create a planner for the defined space
-            auto planner(std::make_shared<og::RRTstar>(si));
+            auto planner(std::make_shared<og::RRTXstatic>(si));
         
             // set the problem we are trying to solve for the planner
             planner->setProblemDefinition(pdef);
@@ -122,7 +122,7 @@ class OctoPlanner : public rclcpp::Node
             pdef->print(std::cout);
 
             // attempt to solve the problem within one second of planning time
-            ob::PlannerStatus solved = planner->ob::Planner::solve(0.5);
+            ob::PlannerStatus solved = planner->ob::Planner::solve(0.05);
 
             if (solved)
             {

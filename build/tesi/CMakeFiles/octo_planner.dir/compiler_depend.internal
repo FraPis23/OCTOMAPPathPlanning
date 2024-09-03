@@ -1023,17 +1023,8 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o
  /opt/ros/humble/include/octomap/OcTree.h
  /opt/ros/humble/include/octomap/OcTreeStamped.h
  /opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.hxx
- /usr/include/ompl-1.5/ompl/geometric/planners/stride/STRIDE.h
- /usr/include/ompl-1.5/ompl/datastructures/Grid.h
+ /usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTXstatic.h
+ /usr/include/ompl-1.5/ompl/datastructures/BinaryHeap.h
+ /usr/include/ompl-1.5/ompl/datastructures/NearestNeighbors.h
  /usr/include/ompl-1.5/ompl/geometric/planners/PlannerIncludes.h
- /usr/include/ompl-1.5/ompl/datastructures/PDF.h
- /usr/include/boost/scoped_ptr.hpp
- /usr/include/boost/smart_ptr/scoped_ptr.hpp
- /usr/include/boost/assert.hpp
- /usr/include/boost/checked_delete.hpp
- /usr/include/boost/core/checked_delete.hpp
- /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp
- /usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp
- /usr/include/boost/smart_ptr/detail/sp_noexcept.hpp
- /usr/include/boost/smart_ptr/detail/operator_bool.hpp
 
