@@ -19,20 +19,56 @@
 
 #include <iostream>
 
+//RRT
 #include <ompl/geometric/planners/rrt/BiTRRT.h>
 #include <ompl/geometric/planners/rrt/InformedRRTstar.h>
 #include <ompl/geometric/planners/rrt/LazyLBTRRT.h>
 #include <ompl/geometric/planners/rrt/LazyRRT.h>
 #include <ompl/geometric/planners/rrt/LBTRRT.h>
 #include <ompl/geometric/planners/rrt/pRRT.h>
-#include <ompl/geometric/planners/rrt/RRTXstatic.h>
 #include <ompl/geometric/planners/rrt/RRTsharp.h>
 #include <ompl/geometric/planners/rrt/SORRTstar.h>
 #include <ompl/geometric/planners/rrt/TRRT.h>
 #include <ompl/geometric/planners/rrt/RRTstar.h>
 #include <ompl/geometric/planners/rrt/RRT.h>
 #include <ompl/geometric/planners/rrt/RRTConnect.h>
+
+//EST
 #include <ompl/geometric/planners/est/EST.h>
+#include <ompl/geometric/planners/est/BiEST.h>
+#include <ompl/geometric/planners/est/ProjEST.h>
+
+//FMT
+#include <ompl/geometric/planners/fmt/FMT.h>
+#include <ompl/geometric/planners/fmt/BFMT.h>
+
+//KPIECE1
+#include <ompl/geometric/planners/kpiece/KPIECE1.h>
+#include <ompl/geometric/planners/kpiece/BKPIECE1.h>
+#include <ompl/geometric/planners/kpiece/LBKPIECE1.h>
+
+//PRM
+#include <ompl/geometric/planners/prm/PRM.h>
+#include <ompl/geometric/planners/prm/LazyPRM.h>
+#include <ompl/geometric/planners/prm/SPARS.h>
+#include <ompl/geometric/planners/prm/SPARStwo.h>
+#include <ompl/geometric/planners/prm/PRMstar.h>
+#include <ompl/geometric/planners/prm/LazyPRMstar.h>
+
+//RLRT
+#include <ompl/geometric/planners/rlrt/RLRT.h>
+#include <ompl/geometric/planners/rlrt/BiRLRT.h>
+
+//SBL
+#include <ompl/geometric/planners/sbl/SBL.h>
+#include <ompl/geometric/planners/sbl/pSBL.h>
+
+//Other
+#include <ompl/geometric/planners/cforest/CForest.h>
+#include <ompl/geometric/planners/pdst/PDST.h>
+#include <ompl/geometric/planners/sst/SST.h>
+#include <ompl/geometric/planners/stride/STRIDE.h>
+
 
 namespace ob = ompl::base;
 namespace og = ompl::geometric;
@@ -42,7 +78,6 @@ using std::placeholders::_1;
 
 bool unknownAsOccupied = false; // treat unknown space as occupied
 float maxDist = 1; // the max distance at which distance computations are clamped
-
 
 class OctoPlanner : public rclcpp::Node
 {
@@ -117,33 +152,72 @@ class OctoPlanner : public rclcpp::Node
             ot::Benchmark b(ss, "Benchmark");
 
             // Add a planner to the benchmark
-            auto rrtstar = ob::PlannerPtr(new og::RRTstar(ss.getSpaceInformation()));
-            rrtstar->as<og::RRTstar>()->setGoalBias(0.2);
-            rrtstar->as<og::RRTstar>()->setFocusSearch(false);
-            rrtstar->as<og::RRTstar>()->setSampleRejection(false);
-            b.addPlanner(rrtstar);
-            b.addPlanner(ob::PlannerPtr(new og::RRT(ss.getSpaceInformation())));
-            b.addPlanner(ob::PlannerPtr(new og::RRTConnect(ss.getSpaceInformation())));
+
+            //auto rrtstar = ob::PlannerPtr(new og::RRTstar(ss.getSpaceInformation()));
+            //rrtstar->as<og::RRTstar>()->setGoalBias(0.2);
+            //rrtstar->as<og::RRTstar>()->setFocusSearch(false);
+            //rrtstar->as<og::RRTstar>()->setSampleRejection(false);
+            //b.addPlanner(rrtstar);
+            //b.addPlanner(ob::PlannerPtr(new og::RRT(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::LazyRRT(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::RRTstar(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::RRTConnect(ss.getSpaceInformation())));
             //b.addPlanner(ob::PlannerPtr(new og::EST(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::BiTRRT(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::InformedRRTstar(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::LBTRRT(ss.getSpaceInformation())));
             //b.addPlanner(ob::PlannerPtr(new og::LazyLBTRRT(ss.getSpaceInformation())));
-            b.addPlanner(ob::PlannerPtr(new og::LazyRRT(ss.getSpaceInformation())));
-            b.addPlanner(ob::PlannerPtr(new og::LBTRRT(ss.getSpaceInformation())));
-            b.addPlanner(ob::PlannerPtr(new og::pRRT(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::RRTXstatic(ss.getSpaceInformation())));
             //b.addPlanner(ob::PlannerPtr(new og::RRTsharp(ss.getSpaceInformation())));
             //b.addPlanner(ob::PlannerPtr(new og::SORRTstar(ss.getSpaceInformation())));
-            b.addPlanner(ob::PlannerPtr(new og::TRRT(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::InformedRRTstar(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::TRRT(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::BiTRRT(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::pRRT(ss.getSpaceInformation())));
+
+            //b.addPlanner(ob::PlannerPtr(new og::EST(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::BiEST(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::ProjEST(ss.getSpaceInformation())));
+
+            //b.addPlanner(ob::PlannerPtr(new og::FMT(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::BFMT(ss.getSpaceInformation())));
+
+            //b.addPlanner(ob::PlannerPtr(new og::KPIECE1(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::BKPIECE1(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::LBKPIECE1(ss.getSpaceInformation())));
+
+            //b.addPlanner(ob::PlannerPtr(new og::PRM(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::LazyPRM(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::SPARS(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::SPARStwo(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::PRMstar(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::LazyPRMstar(ss.getSpaceInformation())));
+
+            //b.addPlanner(ob::PlannerPtr(new og::RLRT(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::BiRLRT(ss.getSpaceInformation())));
+
+            //b.addPlanner(ob::PlannerPtr(new og::SBL(ss.getSpaceInformation())));
+            //b.addPlanner(ob::PlannerPtr(new og::pSBL(ss.getSpaceInformation())));
+
+            b.addPlanner(ob::PlannerPtr(new og::CForest(ss.getSpaceInformation())));
+            b.addPlanner(ob::PlannerPtr(new og::PDST(ss.getSpaceInformation())));
+            b.addPlanner(ob::PlannerPtr(new og::STRIDE(ss.getSpaceInformation())));
 
             b.setPostRunEvent([this, &distmap](const ob::PlannerPtr &planner, const ot::Benchmark::RunProperties &run) {
               auto *path = planner->getProblemDefinition()->getSolutionPath()->as<og::PathGeometric>();
               double minClearance = std::numeric_limits<double>::max();
+              double stepSize = 0.001;  // Passo per l'interpolazione lungo il segmento
 
-              for (const auto &state : path->getStates()) {
-                  double clearance = this->calculateClearance(state, distmap);
-                  if (clearance < minClearance)
-                      minClearance = clearance;
+              for (size_t i = 0; i < path->getStateCount() - 1; ++i) {
+                  const ob::State *state1 = path->getState(i);
+                  const ob::State *state2 = path->getState(i + 1);
+
+                  // Interpolazione e calcolo clearance sui segmenti
+                  for (double t = 0; t <= 1.0; t += stepSize) {
+                      ob::State *interpolatedState = path->getSpaceInformation()->allocState();
+                      path->getSpaceInformation()->getStateSpace()->interpolate(state1, state2, t, interpolatedState);
+                      double clearance = this->calculateClearance(interpolatedState, distmap);
+                      if (clearance < minClearance)
+                          minClearance = clearance;
+                      path->getSpaceInformation()->freeState(interpolatedState);
+                  }
               }
 
               const_cast<ot::Benchmark::RunProperties&>(run).insert({"clearance REAL", std::to_string(minClearance)});
@@ -153,8 +227,8 @@ class OctoPlanner : public rclcpp::Node
 
             ot::Benchmark::Request req;
             req.maxTime = 0.5;
-            req.maxMem = 100.0;
-            req.runCount = 10;
+            req.maxMem = 300.0;
+            req.runCount = 100;
             req.displayProgress = true;
             b.benchmark(req);
 
@@ -168,20 +242,14 @@ class OctoPlanner : public rclcpp::Node
             return distmap.getDistance(octomap::point3d((*pos)[0], (*pos)[1], (*pos)[2]));
         };
 
-         bool isStateValid(const ob::State *state, DynamicEDTOctomap &distmap)
+         
+        bool isStateValid(const ob::State *state, DynamicEDTOctomap &distmap)
             {
                 // cast the abstract state type to the type we expect
                 const auto *pos = state->as<ob::RealVectorStateSpace::StateType>();
 
                 return distmap.getDistance(octomap::point3d((*pos)[0], (*pos)[1], (*pos)[2])) > 0.6;
             };
-
-        ob::PlannerPtr myConfiguredPlanner(const ompl::base::SpaceInformationPtr &si)
-        {
-            og::EST *est = new ompl::geometric::EST(si);
-            est->setRange(100.0);
-            return ompl::base::PlannerPtr(est);
-        };
  
         rclcpp::Subscription<octomap_msgs::msg::Octomap>::SharedPtr octo_benchmark_;
         rclcpp::Publisher<geometry_msgs::msg::PoseArray>::SharedPtr path_pub_;

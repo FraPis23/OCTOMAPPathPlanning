@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000380] (tesi) JobQueued: {'identifier': 'tesi', 'dependencies': OrderedDict()}
+[0.000488] (tesi) JobStarted: {'identifier': 'tesi'}
+[0.006897] (tesi) JobProgress: {'identifier': 'tesi', 'progress': 'cmake'}
+[0.007502] (tesi) JobProgress: {'identifier': 'tesi', 'progress': 'build'}
+[0.008093] (tesi) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ws/build/tesi', '--', '-j12', '-l12'], 'cwd': '/home/ws/build/tesi', 'env': OrderedDict([('HOSTNAME', 'francesco'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-24199001-50f2-45b6-8962-6e73257877c8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-4d485f0f-5e23-4837-bcd4-4419444cb758.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-4d485f0f-5e23-4837-bcd4-4419444cb758.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-81232fafb5.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-4d485f0f-5e23-4837-bcd4-4419444cb758.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/tesi'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039967] (tesi) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octo_planner\x1b[0m\n'}
+[0.042407] (tesi) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octo_benchmark\x1b[0m\n'}
+[0.049098] (tesi) StdoutLine: {'line': b'[ 33%] Built target octo_publisher\n'}
+[0.054349] (tesi) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o\x1b[0m\n'}
+[0.063134] (tesi) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o\x1b[0m\n'}
+[0.099831] (-) TimerEvent: {}
+[0.200099] (-) TimerEvent: {}
+[0.300382] (-) TimerEvent: {}
+[0.400630] (-) TimerEvent: {}
+[0.501000] (-) TimerEvent: {}
+[0.601445] (-) TimerEvent: {}
+[0.701744] (-) TimerEvent: {}
+[0.802100] (-) TimerEvent: {}
+[0.902387] (-) TimerEvent: {}
+[1.002680] (-) TimerEvent: {}
+[1.102966] (-) TimerEvent: {}
+[1.203310] (-) TimerEvent: {}
+[1.303618] (-) TimerEvent: {}
+[1.403931] (-) TimerEvent: {}
+[1.504270] (-) TimerEvent: {}
+[1.604575] (-) TimerEvent: {}
+[1.704883] (-) TimerEvent: {}
+[1.805255] (-) TimerEvent: {}
+[1.905611] (-) TimerEvent: {}
+[2.005878] (-) TimerEvent: {}
+[2.106168] (-) TimerEvent: {}
+[2.206429] (-) TimerEvent: {}
+[2.306766] (-) TimerEvent: {}
+[2.407070] (-) TimerEvent: {}
+[2.507382] (-) TimerEvent: {}
+[2.607669] (-) TimerEvent: {}
+[2.707929] (-) TimerEvent: {}
+[2.808213] (-) TimerEvent: {}
+[2.908518] (-) TimerEvent: {}
+[3.008850] (-) TimerEvent: {}
+[3.109167] (-) TimerEvent: {}
+[3.209488] (-) TimerEvent: {}
+[3.309770] (-) TimerEvent: {}
+[3.410095] (-) TimerEvent: {}
+[3.510399] (-) TimerEvent: {}
+[3.610682] (-) TimerEvent: {}
+[3.710987] (-) TimerEvent: {}
+[3.811259] (-) TimerEvent: {}
+[3.911532] (-) TimerEvent: {}
+[4.011808] (-) TimerEvent: {}
+[4.112150] (-) TimerEvent: {}
+[4.212486] (-) TimerEvent: {}
+[4.312780] (-) TimerEvent: {}
+[4.413084] (-) TimerEvent: {}
+[4.513385] (-) TimerEvent: {}
+[4.613643] (-) TimerEvent: {}
+[4.714010] (-) TimerEvent: {}
+[4.814286] (-) TimerEvent: {}
+[4.914556] (-) TimerEvent: {}
+[5.014816] (-) TimerEvent: {}
+[5.052942] (tesi) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[5.053116] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[5.053186] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[5.053254] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ws/src/tesi/src/octo_benchmark.cpp:1\x1b[m\x1b[K:\n'}
+[5.053298] (tesi) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MyMotionValidator; _Args = {const std::shared_ptr<ompl::base::SpaceInformation>&, DynamicEDTOctomapBase<octomap::OcTree>&}; _Tp = MyMotionValidator]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.053343] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MyMotionValidator; _Args = {const std::shared_ptr<ompl::base::SpaceInformation>&, DynamicEDTOctomapBase<octomap::OcTree>&}; _Tp = MyMotionValidator; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<MyMotionValidator>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.053388] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const std::shared_ptr<ompl::base::SpaceInformation>&, DynamicEDTOctomapBase<octomap::OcTree>&}; _Tp = MyMotionValidator; _Alloc = std::allocator<MyMotionValidator>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.053437] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MyMotionValidator; _Alloc = std::allocator<MyMotionValidator>; _Args = {const std::shared_ptr<ompl::base::SpaceInformation>&, DynamicEDTOctomapBase<octomap::OcTree>&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.053481] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MyMotionValidator>; _Args = {const std::shared_ptr<ompl::base::SpaceInformation>&, DynamicEDTOctomapBase<octomap::OcTree>&}; _Tp = MyMotionValidator; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.053525] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MyMotionValidator>; _Args = {const std::shared_ptr<ompl::base::SpaceInformation>&, DynamicEDTOctomapBase<octomap::OcTree>&}; _Tp = MyMotionValidator]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.053570] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MyMotionValidator; _Alloc = std::allocator<MyMotionValidator>; _Args = {const std::shared_ptr<ompl::base::SpaceInformation>&, DynamicEDTOctomapBase<octomap::OcTree>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.053614] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MyMotionValidator; _Args = {const std::shared_ptr<ompl::base::SpaceInformation>&, DynamicEDTOctomapBase<octomap::OcTree>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.053661] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_benchmark.cpp:135:93:\x1b[m\x1b[K   required from here\n'}
+[5.053706] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid new-expression of abstract class type \xe2\x80\x98\x1b[01m\x1b[KMyMotionValidator\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.053750] (tesi) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[5.053795] (tesi) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.053837] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_benchmark.cpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  because the following virtual functions are pure within \xe2\x80\x98\x1b[01m\x1b[KMyMotionValidator\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.053881] (tesi) StderrLine: {'line': b'   71 | class \x1b[01;36m\x1b[KMyMotionValidator\x1b[m\x1b[K : public ob::MotionValidator\n'}
+[5.053922] (tesi) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.053968] (tesi) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:42\x1b[m\x1b[K,\n'}
+[5.054010] (tesi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ws/src/tesi/src/octo_benchmark.cpp:8\x1b[m\x1b[K:\n'}
+[5.054052] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ompl-1.5/ompl/base/MotionValidator.h:99:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ompl::base::MotionValidator::checkMotion(const ompl::base::State*, const ompl::base::State*, std::pair<ompl::base::State*, double>&) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.054098] (tesi) StderrLine: {'line': b'   99 |             virtual bool \x1b[01;36m\x1b[KcheckMotion\x1b[m\x1b[K(const State *s1, const State *s2, std::pair<State *, double> &lastValid) const = 0;\n'}
+[5.054140] (tesi) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.114946] (-) TimerEvent: {}
+[5.215254] (-) TimerEvent: {}
+[5.315576] (-) TimerEvent: {}
+[5.415909] (-) TimerEvent: {}
+[5.516201] (-) TimerEvent: {}
+[5.616518] (-) TimerEvent: {}
+[5.716836] (-) TimerEvent: {}
+[5.817154] (-) TimerEvent: {}
+[5.917477] (-) TimerEvent: {}
+[6.017792] (-) TimerEvent: {}
+[6.118093] (-) TimerEvent: {}
+[6.218412] (-) TimerEvent: {}
+[6.318705] (-) TimerEvent: {}
+[6.419041] (-) TimerEvent: {}
+[6.519353] (-) TimerEvent: {}
+[6.619583] (-) TimerEvent: {}
+[6.719800] (-) TimerEvent: {}
+[6.820043] (-) TimerEvent: {}
+[6.875929] (tesi) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/octo_benchmark.dir/build.make:76: CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o] Error 1\n'}
+[6.876133] (tesi) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/octo_benchmark.dir/all] Error 2\n'}
+[6.876300] (tesi) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[6.920159] (-) TimerEvent: {}
+[7.020430] (-) TimerEvent: {}
+[7.120642] (-) TimerEvent: {}
+[7.220890] (-) TimerEvent: {}
+[7.321159] (-) TimerEvent: {}
+[7.421485] (-) TimerEvent: {}
+[7.521774] (-) TimerEvent: {}
+[7.622083] (-) TimerEvent: {}
+[7.722391] (-) TimerEvent: {}
+[7.822602] (-) TimerEvent: {}
+[7.922816] (-) TimerEvent: {}
+[8.023064] (-) TimerEvent: {}
+[8.123303] (-) TimerEvent: {}
+[8.223554] (-) TimerEvent: {}
+[8.323801] (-) TimerEvent: {}
+[8.424017] (-) TimerEvent: {}
+[8.524285] (-) TimerEvent: {}
+[8.624764] (-) TimerEvent: {}
+[8.725457] (-) TimerEvent: {}
+[8.825715] (-) TimerEvent: {}
+[8.925978] (-) TimerEvent: {}
+[8.955009] (tesi) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable octo_planner\x1b[0m\n'}
+[9.026087] (-) TimerEvent: {}
+[9.126413] (-) TimerEvent: {}
+[9.226737] (-) TimerEvent: {}
+[9.327032] (-) TimerEvent: {}
+[9.427478] (-) TimerEvent: {}
+[9.450105] (tesi) StdoutLine: {'line': b'[ 83%] Built target octo_planner\n'}
+[9.452346] (tesi) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.454089] (tesi) CommandEnded: {'returncode': 2}
+[9.484149] (tesi) JobEnded: {'identifier': 'tesi', 'rc': 2}
+[9.494532] (-) EventReactorShutdown: {}

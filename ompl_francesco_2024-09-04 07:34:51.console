@@ -1,0 +1,134 @@
+Info:    Beginning benchmark
+Warning: kBITstar: This option no longer has any effect; Rewiring is never delayed.
+         at line 1261 in ./src/ompl/geometric/planners/informedtrees/src/BITstar.cpp
+Warning: kBITstar: This option no longer has any effect; The queue is always strictly ordered.
+         at line 1222 in ./src/ompl/geometric/planners/informedtrees/src/BITstar.cpp
+Info:    Preparing for run 0 of geometric_kBITstar
+Info:    kBITstar: Searching for a solution to the given planning problem.
+Info:    kBITstar (150 iters): Found a solution of cost 22.7481 (8 vertices) from 62 samples by processing 149 edges (76 collision checked) to create 27 vertices and perform 0 rewirings. The graph currently has 27 vertices.
+Info:    kBITstar: Pruning disconnected 0 vertices from the tree and completely removed 25 samples.
+Info:    kBITstar (202 iters): Found a solution of cost 22.7153 (10 vertices) from 162 samples by processing 199 edges (95 collision checked) to create 44 vertices and perform 1 rewirings. The graph currently has 44 vertices.
+Info:    kBITstar (294 iters): Found a solution of cost 19.5299 (8 vertices) from 162 samples by processing 291 edges (126 collision checked) to create 69 vertices and perform 2 rewirings. The graph currently has 69 vertices.
+Info:    kBITstar: Pruning disconnected 3 vertices from the tree and completely removed 66 samples.
+Info:    kBITstar (497 iters): Found a solution of cost 19.5204 (8 vertices) from 262 samples by processing 492 edges (185 collision checked) to create 118 vertices and perform 6 rewirings. The graph currently has 109 vertices.
+Info:    kBITstar (1239 iters): Found a solution of cost 19.4001 (8 vertices) from 362 samples by processing 1232 edges (340 collision checked) to create 229 vertices and perform 34 rewirings. The graph currently has 220 vertices.
+Info:    kBITstar (1809 iters): Found a solution of cost 19.3776 (13 vertices) from 462 samples by processing 1800 edges (434 collision checked) to create 298 vertices and perform 51 rewirings. The graph currently has 289 vertices.
+Info:    kBITstar (2764 iters): Found a solution of cost 19.2427 (13 vertices) from 562 samples by processing 2753 edges (566 collision checked) to create 392 vertices and perform 80 rewirings. The graph currently has 383 vertices.
+Info:    kBITstar: Pruning disconnected 35 vertices from the tree and completely removed 48 samples.
+Info:    kBITstar (6033 iters): Found a solution of cost 19.2425 (14 vertices) from 862 samples by processing 6016 edges (962 collision checked) to create 657 vertices and perform 192 rewirings. The graph currently has 604 vertices.
+Info:    kBITstar (10260 iters): Found a solution of cost 19.1478 (15 vertices) from 1162 samples by processing 10237 edges (1333 collision checked) to create 912 vertices and perform 293 rewirings. The graph currently has 859 vertices.
+Info:    kBITstar (12922 iters): Found a solution of cost 19.1373 (15 vertices) from 1362 samples by processing 12895 edges (1553 collision checked) to create 1050 vertices and perform 371 rewirings. The graph currently has 997 vertices.
+Info:    kBITstar (13900 iters): Found a solution of cost 19.1124 (17 vertices) from 1462 samples by processing 13871 edges (1624 collision checked) to create 1094 vertices and perform 393 rewirings. The graph currently has 1041 vertices.
+Info:    kBITstar (44403 iters): Found a solution of cost 19.1120 (18 vertices) from 2762 samples by processing 44348 edges (3203 collision checked) to create 2168 vertices and perform 840 rewirings. The graph currently has 2115 vertices.
+Info:    kBITstar (52601 iters): Found a solution of cost 19.1108 (19 vertices) from 2962 samples by processing 52542 edges (3524 collision checked) to create 2383 vertices and perform 938 rewirings. The graph currently has 2330 vertices.
+Info:    kBITstar: Finished with a solution of cost 19.1108 (19 vertices) found from 3162 samples by processing 58678 edges (3741 collision checked) to create 2540 vertices and perform 991 rewirings. The final graph has 2487 vertices.
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000314 seconds and changed from 19 to 8 states
+Info:    Executing post-run event for run 0 of planner geometric_kBITstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_kBITstar
+Info:    kBITstar: Searching for a solution to the given planning problem.
+Info:    kBITstar (97 iters): Found a solution of cost 20.3336 (6 vertices) from 79 samples by processing 96 edges (42 collision checked) to create 30 vertices and perform 0 rewirings. The graph currently has 30 vertices.
+Info:    kBITstar: Pruning disconnected 0 vertices from the tree and completely removed 44 samples.
+Info:    kBITstar (428 iters): Found a solution of cost 19.7683 (8 vertices) from 179 samples by processing 425 edges (135 collision checked) to create 111 vertices and perform 3 rewirings. The graph currently has 111 vertices.
+Info:    kBITstar (5488 iters): Found a solution of cost 19.7664 (9 vertices) from 679 samples by processing 5475 edges (837 collision checked) to create 562 vertices and perform 147 rewirings. The graph currently has 562 vertices.
+Info:    kBITstar (5899 iters): Found a solution of cost 19.4912 (17 vertices) from 779 samples by processing 5884 edges (897 collision checked) to create 597 vertices and perform 171 rewirings. The graph currently has 597 vertices.
+Info:    kBITstar: Pruning disconnected 40 vertices from the tree and completely removed 73 samples.
+Info:    kBITstar (8925 iters): Found a solution of cost 19.4898 (18 vertices) from 979 samples by processing 8906 edges (1213 collision checked) to create 784 vertices and perform 277 rewirings. The graph currently has 712 vertices.
+Info:    kBITstar (9741 iters): Found a solution of cost 19.3921 (18 vertices) from 1079 samples by processing 9720 edges (1282 collision checked) to create 831 vertices and perform 296 rewirings. The graph currently has 759 vertices.
+Info:    kBITstar (12595 iters): Found a solution of cost 19.3772 (19 vertices) from 1179 samples by processing 12572 edges (1506 collision checked) to create 974 vertices and perform 360 rewirings. The graph currently has 902 vertices.
+Info:    kBITstar (20928 iters): Found a solution of cost 19.3514 (20 vertices) from 1679 samples by processing 20895 edges (2059 collision checked) to create 1343 vertices and perform 524 rewirings. The graph currently has 1271 vertices.
+Info:    kBITstar (35574 iters): Found a solution of cost 19.2164 (20 vertices) from 2179 samples by processing 35531 edges (2876 collision checked) to create 1847 vertices and perform 797 rewirings. The graph currently has 1775 vertices.
+Info:    kBITstar: Pruning disconnected 113 vertices from the tree and completely removed 195 samples.
+Info:    kBITstar (46394 iters): Found a solution of cost 19.2026 (21 vertices) from 2579 samples by processing 46343 edges (3390 collision checked) to create 2195 vertices and perform 953 rewirings. The graph currently has 1930 vertices.
+Info:    kBITstar (46501 iters): Found a solution of cost 19.1901 (20 vertices) from 2579 samples by processing 46450 edges (3402 collision checked) to create 2202 vertices and perform 958 rewirings. The graph currently has 1937 vertices.
+Info:    kBITstar (49252 iters): Found a solution of cost 19.1211 (20 vertices) from 2679 samples by processing 49199 edges (3516 collision checked) to create 2280 vertices and perform 987 rewirings. The graph currently has 2015 vertices.
+Info:    kBITstar: Finished with a solution of cost 19.1211 (20 vertices) found from 2979 samples by processing 55575 edges (3815 collision checked) to create 2459 vertices and perform 1100 rewirings. The final graph has 2194 vertices.
+Info:    SimpleSetup: Path simplification took 0.000284 seconds and changed from 20 to 4 states
+Info:    Executing post-run event for run 1 of planner geometric_kBITstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_kBITstar
+Info:    kBITstar: Searching for a solution to the given planning problem.
+Info:    kBITstar (262 iters): Found a solution of cost 23.9647 (8 vertices) from 83 samples by processing 261 edges (100 collision checked) to create 38 vertices and perform 0 rewirings. The graph currently has 38 vertices.
+Info:    kBITstar: Pruning disconnected 0 vertices from the tree and completely removed 28 samples.
+Info:    kBITstar (351 iters): Found a solution of cost 22.1658 (10 vertices) from 183 samples by processing 348 edges (130 collision checked) to create 64 vertices and perform 1 rewirings. The graph currently has 64 vertices.
+Info:    kBITstar (516 iters): Found a solution of cost 19.6901 (7 vertices) from 183 samples by processing 513 edges (176 collision checked) to create 91 vertices and perform 5 rewirings. The graph currently has 91 vertices.
+Info:    kBITstar: Pruning disconnected 3 vertices from the tree and completely removed 64 samples.
+Info:    kBITstar (3754 iters): Found a solution of cost 19.5335 (9 vertices) from 583 samples by processing 3743 edges (683 collision checked) to create 437 vertices and perform 76 rewirings. The graph currently has 427 vertices.
+Info:    kBITstar (10433 iters): Found a solution of cost 19.1405 (13 vertices) from 1083 samples by processing 10412 edges (1378 collision checked) to create 866 vertices and perform 284 rewirings. The graph currently has 856 vertices.
+Info:    kBITstar: Pruning disconnected 71 vertices from the tree and completely removed 172 samples.
+Info:    kBITstar (11049 iters): Found a solution of cost 19.0929 (13 vertices) from 1183 samples by processing 11026 edges (1435 collision checked) to create 906 vertices and perform 300 rewirings. The graph currently has 716 vertices.
+Info:    kBITstar (45816 iters): Found a solution of cost 19.0767 (14 vertices) from 2783 samples by processing 45761 edges (3497 collision checked) to create 2232 vertices and perform 959 rewirings. The graph currently has 2042 vertices.
+Info:    kBITstar: Finished with a solution of cost 19.0767 (14 vertices) found from 3283 samples by processing 60998 edges (4130 collision checked) to create 2650 vertices and perform 1159 rewirings. The final graph has 2460 vertices.
+Info:    SimpleSetup: Path simplification took 0.000231 seconds and changed from 14 to 7 states
+Info:    Executing post-run event for run 2 of planner geometric_kBITstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_kBITstar
+Info:    kBITstar: Searching for a solution to the given planning problem.
+Info:    kBITstar (106 iters): Found a solution of cost 21.2078 (6 vertices) from 76 samples by processing 105 edges (48 collision checked) to create 25 vertices and perform 0 rewirings. The graph currently has 25 vertices.
+Info:    kBITstar: Pruning disconnected 0 vertices from the tree and completely removed 44 samples.
+Info:    kBITstar (210 iters): Found a solution of cost 21.1976 (9 vertices) from 176 samples by processing 207 edges (92 collision checked) to create 65 vertices and perform 1 rewirings. The graph currently has 65 vertices.
+Info:    kBITstar (478 iters): Found a solution of cost 20.2337 (8 vertices) from 176 samples by processing 475 edges (150 collision checked) to create 104 vertices and perform 2 rewirings. The graph currently has 104 vertices.
+Info:    kBITstar: Pruning disconnected 0 vertices from the tree and completely removed 22 samples.
+Info:    kBITstar (958 iters): Found a solution of cost 19.6168 (9 vertices) from 276 samples by processing 953 edges (259 collision checked) to create 176 vertices and perform 20 rewirings. The graph currently has 173 vertices.
+Info:    kBITstar: Pruning disconnected 4 vertices from the tree and completely removed 28 samples.
+Info:    kBITstar (1694 iters): Found a solution of cost 19.5996 (9 vertices) from 376 samples by processing 1687 edges (385 collision checked) to create 272 vertices and perform 40 rewirings. The graph currently has 259 vertices.
+Info:    kBITstar (1872 iters): Found a solution of cost 19.5477 (9 vertices) from 476 samples by processing 1863 edges (410 collision checked) to create 294 vertices and perform 42 rewirings. The graph currently has 281 vertices.
+Info:    kBITstar (2343 iters): Found a solution of cost 19.4034 (9 vertices) from 476 samples by processing 2334 edges (489 collision checked) to create 348 vertices and perform 56 rewirings. The graph currently has 335 vertices.
+Info:    kBITstar (9267 iters): Found a solution of cost 19.3765 (16 vertices) from 1076 samples by processing 9246 edges (1232 collision checked) to create 843 vertices and perform 241 rewirings. The graph currently has 830 vertices.
+Info:    kBITstar (23261 iters): Found a solution of cost 19.3674 (17 vertices) from 1776 samples by processing 23226 edges (2103 collision checked) to create 1449 vertices and perform 457 rewirings. The graph currently has 1436 vertices.
+Info:    kBITstar (33119 iters): Found a solution of cost 19.2617 (18 vertices) from 2076 samples by processing 33078 edges (2596 collision checked) to create 1775 vertices and perform 611 rewirings. The graph currently has 1762 vertices.
+Info:    kBITstar (33201 iters): Found a solution of cost 19.2422 (19 vertices) from 2176 samples by processing 33158 edges (2602 collision checked) to create 1779 vertices and perform 613 rewirings. The graph currently has 1766 vertices.
+Info:    kBITstar (36196 iters): Found a solution of cost 19.2183 (19 vertices) from 2276 samples by processing 36151 edges (2747 collision checked) to create 1874 vertices and perform 660 rewirings. The graph currently has 1861 vertices.
+Info:    kBITstar (45757 iters): Found a solution of cost 19.2130 (19 vertices) from 2576 samples by processing 45706 edges (3214 collision checked) to create 2170 vertices and perform 801 rewirings. The graph currently has 2157 vertices.
+Info:    kBITstar (53414 iters): Found a solution of cost 19.1342 (19 vertices) from 2776 samples by processing 53359 edges (3515 collision checked) to create 2375 vertices and perform 885 rewirings. The graph currently has 2362 vertices.
+Info:    kBITstar: Pruning disconnected 166 vertices from the tree and completely removed 281 samples.
+Info:    kBITstar: Finished with a solution of cost 19.1342 (19 vertices) found from 2876 samples by processing 53365 edges (3515 collision checked) to create 2375 vertices and perform 885 rewirings. The final graph has 2057 vertices.
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000266 seconds and changed from 19 to 7 states
+Info:    Executing post-run event for run 3 of planner geometric_kBITstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_kBITstar
+Info:    kBITstar: Searching for a solution to the given planning problem.
+Info:    kBITstar (105 iters): Found a solution of cost 20.8528 (7 vertices) from 73 samples by processing 104 edges (44 collision checked) to create 30 vertices and perform 0 rewirings. The graph currently has 30 vertices.
+Info:    kBITstar: Pruning disconnected 0 vertices from the tree and completely removed 37 samples.
+Info:    kBITstar (311 iters): Found a solution of cost 19.6293 (8 vertices) from 173 samples by processing 308 edges (116 collision checked) to create 89 vertices and perform 2 rewirings. The graph currently has 89 vertices.
+Info:    kBITstar: Pruning disconnected 1 vertices from the tree and completely removed 28 samples.
+Info:    kBITstar (876 iters): Found a solution of cost 19.6282 (10 vertices) from 273 samples by processing 871 edges (237 collision checked) to create 183 vertices and perform 18 rewirings. The graph currently has 178 vertices.
+Info:    kBITstar (1588 iters): Found a solution of cost 19.4992 (8 vertices) from 373 samples by processing 1581 edges (356 collision checked) to create 267 vertices and perform 41 rewirings. The graph currently has 262 vertices.
+Info:    kBITstar (3419 iters): Found a solution of cost 19.4351 (11 vertices) from 573 samples by processing 3408 edges (605 collision checked) to create 447 vertices and perform 97 rewirings. The graph currently has 442 vertices.
+Info:    kBITstar (5517 iters): Found a solution of cost 19.0294 (12 vertices) from 773 samples by processing 5502 edges (848 collision checked) to create 610 vertices and perform 163 rewirings. The graph currently has 605 vertices.
+Info:    kBITstar: Pruning disconnected 67 vertices from the tree and completely removed 145 samples.
+Info:    kBITstar (10501 iters): Found a solution of cost 19.0257 (12 vertices) from 1173 samples by processing 10478 edges (1311 collision checked) to create 947 vertices and perform 279 rewirings. The graph currently has 805 vertices.
+Info:    kBITstar (19732 iters): Found a solution of cost 19.0019 (13 vertices) from 1773 samples by processing 19697 edges (2000 collision checked) to create 1404 vertices and perform 485 rewirings. The graph currently has 1262 vertices.
+Info:    kBITstar (21247 iters): Found a solution of cost 18.9893 (13 vertices) from 1773 samples by processing 21212 edges (2090 collision checked) to create 1462 vertices and perform 513 rewirings. The graph currently has 1320 vertices.
+Info:    kBITstar (46176 iters): Found a solution of cost 18.9480 (14 vertices) from 2773 samples by processing 46121 edges (3277 collision checked) to create 2271 vertices and perform 858 rewirings. The graph currently has 2129 vertices.
+Info:    kBITstar: Finished with a solution of cost 18.9480 (14 vertices) found from 3273 samples by processing 58876 edges (3726 collision checked) to create 2601 vertices and perform 972 rewirings. The final graph has 2459 vertices.
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000307 seconds and changed from 14 to 7 states
+Info:    Executing post-run event for run 4 of planner geometric_kBITstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_kBITstar
+Info:    kBITstar: Searching for a solution to the given planning problem.
+Info:    kBITstar (151 iters): Found a solution of cost 23.1185 (7 vertices) from 61 samples by processing 150 edges (63 collision checked) to create 29 vertices and perform 0 rewirings. The graph currently has 29 vertices.
+Info:    kBITstar: Pruning disconnected 0 vertices from the tree and completely removed 24 samples.
+Info:    kBITstar (389 iters): Found a solution of cost 20.4427 (8 vertices) from 161 samples by processing 386 edges (132 collision checked) to create 82 vertices and perform 1 rewirings. The graph currently has 82 vertices.
+Info:    kBITstar: Pruning disconnected 2 vertices from the tree and completely removed 39 samples.
+Info:    kBITstar (978 iters): Found a solution of cost 19.8708 (13 vertices) from 261 samples by processing 973 edges (255 collision checked) to create 170 vertices and perform 19 rewirings. The graph currently has 161 vertices.
+Info:    kBITstar: Pruning disconnected 4 vertices from the tree and completely removed 26 samples.
+Info:    kBITstar (1069 iters): Found a solution of cost 19.8000 (13 vertices) from 361 samples by processing 1062 edges (287 collision checked) to create 193 vertices and perform 27 rewirings. The graph currently has 178 vertices.
+Info:    kBITstar (1196 iters): Found a solution of cost 19.7830 (13 vertices) from 361 samples by processing 1189 edges (307 collision checked) to create 206 vertices and perform 31 rewirings. The graph currently has 191 vertices.
+Info:    kBITstar (3887 iters): Found a solution of cost 19.7623 (13 vertices) from 561 samples by processing 3876 edges (669 collision checked) to create 443 vertices and perform 108 rewirings. The graph currently has 428 vertices.
+Info:    kBITstar (5036 iters): Found a solution of cost 19.6705 (12 vertices) from 661 samples by processing 5023 edges (792 collision checked) to create 530 vertices and perform 141 rewirings. The graph currently has 515 vertices.
+Info:    kBITstar (6418 iters): Found a solution of cost 19.6396 (13 vertices) from 861 samples by processing 6401 edges (920 collision checked) to create 621 vertices and perform 163 rewirings. The graph currently has 606 vertices.
+Info:    kBITstar (8918 iters): Found a solution of cost 19.2020 (15 vertices) from 961 samples by processing 8899 edges (1155 collision checked) to create 773 vertices and perform 228 rewirings. The graph currently has 758 vertices.
+Info:    kBITstar: Pruning disconnected 77 vertices from the tree and completely removed 160 samples.
+Info:    kBITstar (10411 iters): Found a solution of cost 19.1060 (18 vertices) from 1161 samples by processing 10388 edges (1320 collision checked) to create 887 vertices and perform 261 rewirings. The graph currently has 700 vertices.
+Info:    kBITstar (16291 iters): Found a solution of cost 19.0824 (19 vertices) from 1561 samples by processing 16260 edges (1766 collision checked) to create 1190 vertices and perform 379 rewirings. The graph currently has 1003 vertices.
+Info:    kBITstar (18721 iters): Found a solution of cost 19.0707 (18 vertices) from 1661 samples by processing 18688 edges (1953 collision checked) to create 1308 vertices and perform 444 rewirings. The graph currently has 1121 vertices.
+Info:    kBITstar (23776 iters): Found a solution of cost 19.0433 (18 vertices) from 1961 samples by processing 23737 edges (2278 collision checked) to create 1519 vertices and perform 540 rewirings. The graph currently has 1332 vertices.
+Info:    kBITstar (29830 iters): Found a solution of cost 19.0141 (19 vertices) from 2261 samples by processing 29785 edges (2646 collision checked) to create 1752 vertices and perform 658 rewirings. The graph currently has 1565 vertices.
+Info:    kBITstar (33318 iters): Found a solution of cost 19.0064 (20 vertices) from 2361 samples by processing 33271 edges (2828 collision checked) to create 1866 vertices and perform 721 rewirings. The graph currently has 1679 vertices.
+Info:    kBITstar (38117 iters): Found a solution of cost 19.0016 (21 vertices) from 2561 samples by processing 38066 edges (3046 collision checked) to create 2017 vertices and perform 784 rewirings. The graph currently has 1830 vertices.
+Info:    kBITstar (40571 iters): Found a solution of cost 18.9829 (21 vertices) from 2661 samples by processing 40518 edges (3170 collision checked) to create 2099 vertices and perform 825 rewirings. The graph currently has 1912 vertices.
+Info:    kBITstar (47904 iters): Found a solution of cost 18.9580 (21 vertices) from 2961 samples by processing 47845 edges (3498 collision checked) to create 2316 vertices and perform 929 rewirings. The graph currently has 2129 vertices.

@@ -1896,16 +1896,88 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
   /usr/include/ompl-1.5/ompl/datastructures/DynamicSSSP.h \
   /usr/include/ompl-1.5/ompl/geometric/planners/rrt/pRRT.h \
   /usr/include/ompl-1.5/ompl/base/StateSamplerArray.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTsharp.h \
   /usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTXstatic.h \
   /usr/include/ompl-1.5/ompl/datastructures/BinaryHeap.h \
-  /usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTsharp.h \
   /usr/include/ompl-1.5/ompl/geometric/planners/rrt/SORRTstar.h \
   /usr/include/ompl-1.5/ompl/geometric/planners/rrt/TRRT.h \
   /usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRT.h \
   /usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTConnect.h \
   /usr/include/ompl-1.5/ompl/geometric/planners/est/EST.h \
-  /usr/include/ompl-1.5/ompl/datastructures/PDF.h
+  /usr/include/ompl-1.5/ompl/datastructures/PDF.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/est/BiEST.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/est/ProjEST.h \
+  /usr/include/ompl-1.5/ompl/datastructures/Grid.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/fmt/FMT.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/fmt/BFMT.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/kpiece/KPIECE1.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/kpiece/Discretization.h \
+  /usr/include/ompl-1.5/ompl/datastructures/GridB.h \
+  /usr/include/ompl-1.5/ompl/datastructures/GridN.h \
+  /usr/include/ompl-1.5/ompl/util/DisableCompilerWarning.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/kpiece/BKPIECE1.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/kpiece/LBKPIECE1.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/prm/PRM.h \
+  /usr/include/boost/pending/disjoint_sets.hpp \
+  /usr/include/boost/pending/detail/disjoint_sets.hpp \
+  /usr/include/ompl-1.5/ompl/geometric/planners/prm/LazyPRM.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/prm/SPARS.h \
+  /usr/include/boost/range/adaptor/map.hpp \
+  /usr/include/boost/range/adaptor/transformed.hpp \
+  /usr/include/boost/range/adaptor/argument_fwd.hpp \
+  /usr/include/boost/range/detail/default_constructible_unary_fn.hpp \
+  /usr/include/boost/iterator/transform_iterator.hpp \
+  /usr/include/boost/range/reference.hpp \
+  /usr/include/ompl-1.5/ompl/geometric/planners/prm/SPARStwo.h \
+  /usr/include/ompl-1.5/ompl/util/Hash.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/prm/PRMstar.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/prm/LazyPRMstar.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/rlrt/RLRT.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/rlrt/BiRLRT.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/sbl/SBL.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/sbl/pSBL.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/cforest/CForest.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/cforest/CForestStateSpaceWrapper.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/cforest/CForestStateSampler.h \
+  /usr/include/ompl-1.5/ompl/tools/config/SelfConfig.h \
+  /usr/include/ompl-1.5/ompl/datastructures/NearestNeighborsSqrtApprox.h \
+  /usr/include/ompl-1.5/ompl/datastructures/NearestNeighborsLinear.h \
+  /usr/include/ompl-1.5/ompl/datastructures/NearestNeighborsGNAT.h \
+  /usr/include/ompl-1.5/ompl/datastructures/GreedyKCenters.h \
+  /usr/include/ompl-1.5/ompl/datastructures/NearestNeighborsGNATNoThreadSafety.h \
+  /usr/include/ompl-1.5/ompl/datastructures/Permutation.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/pdst/PDST.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/sst/SST.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/stride/STRIDE.h
 
+
+/usr/include/ompl-1.5/ompl/datastructures/Permutation.h:
+
+/usr/include/ompl-1.5/ompl/datastructures/GreedyKCenters.h:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/prm/PRMstar.h:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/prm/SPARStwo.h:
+
+/usr/include/boost/range/reference.hpp:
+
+/usr/include/boost/range/adaptor/argument_fwd.hpp:
+
+/usr/include/boost/range/adaptor/map.hpp:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/prm/SPARS.h:
+
+/usr/include/boost/pending/disjoint_sets.hpp:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/kpiece/LBKPIECE1.h:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/kpiece/KPIECE1.h:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/fmt/FMT.h:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/est/ProjEST.h:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/est/BiEST.h:
 
 /usr/include/ompl-1.5/ompl/datastructures/PDF.h:
 
@@ -1913,9 +1985,9 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 
 /usr/include/ompl-1.5/ompl/geometric/planners/rrt/SORRTstar.h:
 
-/usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTsharp.h:
-
 /usr/include/ompl-1.5/ompl/datastructures/BinaryHeap.h:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTsharp.h:
 
 /usr/include/ompl-1.5/ompl/datastructures/DynamicSSSP.h:
 
@@ -2044,6 +2116,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 /usr/include/boost/mpl/iterator_range.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp:
+
+/usr/include/ompl-1.5/ompl/datastructures/NearestNeighborsGNAT.h:
 
 /usr/include/boost/mpl/aux_/reverse_fold_impl.hpp:
 
@@ -2215,6 +2289,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 
 /usr/include/boost/foreach_fwd.hpp:
 
+/usr/include/ompl-1.5/ompl/geometric/planners/kpiece/Discretization.h:
+
 /usr/include/boost/call_traits.hpp:
 
 /usr/include/boost/scoped_ptr.hpp:
@@ -2273,11 +2349,15 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 
 /usr/include/boost/predef/library/std/libcomo.h:
 
+/usr/include/ompl-1.5/ompl/datastructures/GridB.h:
+
 /usr/include/boost/predef/library/std/dinkumware.h:
 
 /usr/include/boost/predef/library/std/_prefix.h:
 
 /usr/include/boost/predef/library/std.h:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/kpiece/BKPIECE1.h:
 
 /usr/include/boost/predef/platform/mingw32.h:
 
@@ -2320,6 +2400,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 /usr/include/boost/predef/detail/comp_detected.h:
 
 /usr/include/boost/predef/compiler/edg.h:
+
+/usr/include/ompl-1.5/ompl/tools/config/SelfConfig.h:
 
 /usr/include/boost/predef/compiler/digitalmars.h:
 
@@ -2425,6 +2507,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 
 /usr/include/boost/unordered_set.hpp:
 
+/usr/include/ompl-1.5/ompl/geometric/planners/fmt/BFMT.h:
+
 /usr/include/boost/property_map/function_property_map.hpp:
 
 /usr/include/boost/mpl/comparison.hpp:
@@ -2450,6 +2534,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:
 
 /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/stride/STRIDE.h:
 
 /usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
 
@@ -2480,6 +2566,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 /usr/include/boost/concept_archetype.hpp:
 
 /usr/include/boost/iterator/advance.hpp:
+
+/usr/include/ompl-1.5/ompl/datastructures/Grid.h:
 
 /usr/include/boost/detail/call_traits.hpp:
 
@@ -2556,6 +2644,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 /usr/include/boost/range/range_fwd.hpp:
 
 /usr/include/boost/range/config.hpp:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/cforest/CForestStateSpaceWrapper.h:
 
 /usr/include/boost/predef/platform/windows_uwp.h:
 
@@ -2661,6 +2751,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 
 /usr/include/boost/type_traits/has_less_equal.hpp:
 
+/usr/include/ompl-1.5/ompl/datastructures/NearestNeighborsLinear.h:
+
 /usr/include/boost/type_traits/has_greater_equal.hpp:
 
 /usr/include/boost/type_traits/has_equal_to.hpp:
@@ -2676,6 +2768,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 /usr/include/boost/type_traits/has_bit_xor.hpp:
 
 /usr/include/boost/type_traits/has_bit_or.hpp:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/prm/LazyPRM.h:
 
 /usr/include/boost/type_traits/make_void.hpp:
 
@@ -2720,6 +2814,10 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 /usr/include/boost/type_traits/alignment_of.hpp:
 
 /usr/include/boost/type_traits.hpp:
+
+/usr/include/ompl-1.5/ompl/datastructures/NearestNeighborsSqrtApprox.h:
+
+/usr/include/ompl-1.5/ompl/datastructures/GridN.h:
 
 /usr/include/boost/utility/enable_if.hpp:
 
@@ -3765,6 +3863,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 
 /usr/include/c++/11/bits/string_view.tcc:
 
+/usr/include/ompl-1.5/ompl/geometric/planners/rlrt/BiRLRT.h:
+
 /usr/include/boost/multi_index/detail/safe_mode.hpp:
 
 /usr/include/features.h:
@@ -4009,6 +4109,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 
 /opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
 
+/usr/include/ompl-1.5/ompl/geometric/planners/cforest/CForest.h:
+
 /usr/include/c++/11/typeindex:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
@@ -4034,6 +4136,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 /usr/include/x86_64-linux-gnu/bits/sigstack.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
+
+/usr/include/boost/pending/detail/disjoint_sets.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
 
@@ -4241,6 +4345,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
+/usr/include/ompl-1.5/ompl/geometric/planners/sbl/SBL.h:
+
 /usr/include/boost/mpl/vector/aux_/iterator.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
@@ -4337,6 +4443,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 
 /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
 
+/usr/include/ompl-1.5/ompl/util/DisableCompilerWarning.h:
+
 /usr/include/boost/type_traits/is_lvalue_reference.hpp:
 
 /usr/include/boost/predef/language/cuda.h:
@@ -4364,6 +4472,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 /usr/include/boost/smart_ptr/detail/operator_bool.hpp:
 
 /usr/include/c++/11/cerrno:
+
+/usr/include/boost/range/detail/default_constructible_unary_fn.hpp:
 
 /usr/include/c++/11/string:
 
@@ -4507,6 +4617,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 
 /usr/include/boost/container_hash/detail/limits.hpp:
 
+/usr/include/boost/range/adaptor/transformed.hpp:
+
 /usr/include/c++/11/ratio:
 
 /opt/ros/humble/include/rcutils/rcutils/logging_macros.h:
@@ -4561,6 +4673,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 
 /usr/include/c++/11/bits/stl_heap.h:
 
+/usr/include/ompl-1.5/ompl/geometric/planners/sst/SST.h:
+
 /opt/ros/humble/include/octomap/AbstractOcTree.h:
 
 /usr/include/boost/move/detail/to_raw_pointer.hpp:
@@ -4596,6 +4710,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/pdst/PDST.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
 
@@ -4749,6 +4865,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp:
 
+/usr/include/ompl-1.5/ompl/geometric/planners/sbl/pSBL.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:
 
 /usr/include/boost/predef/architecture/ia64.h:
@@ -4790,6 +4908,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 /usr/include/eigen3/Eigen/src/Core/MapBase.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
+
+/usr/include/boost/iterator/transform_iterator.hpp:
 
 /usr/include/boost/mpl/set/aux_/set0.hpp:
 
@@ -4926,6 +5046,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 /usr/include/boost/predef/compiler/ekopath.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp:
+
+/usr/include/ompl-1.5/ompl/util/Hash.h:
 
 /usr/include/boost/config/compiler/gcc.hpp:
 
@@ -5109,6 +5231,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 
 /usr/include/boost/preprocessor/variadic/elem.hpp:
 
+/usr/include/ompl-1.5/ompl/geometric/planners/rlrt/RLRT.h:
+
 /usr/include/boost/preprocessor/comma_if.hpp:
 
 /usr/include/boost/integer/static_log2.hpp:
@@ -5156,6 +5280,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 /usr/include/c++/11/tr1/bessel_function.tcc:
 
 /usr/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
+
+/usr/include/ompl-1.5/ompl/datastructures/NearestNeighborsGNATNoThreadSafety.h:
 
 /usr/include/c++/11/valarray:
 
@@ -5242,6 +5368,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 /usr/include/boost/predef/os/haiku.h:
 
 /usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/cforest/CForestStateSampler.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
 
@@ -5481,6 +5609,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 
 /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
 
+/usr/include/ompl-1.5/ompl/geometric/planners/prm/PRM.h:
+
 /usr/include/eigen3/Eigen/src/Core/Reverse.h:
 
 /usr/include/boost/predef/library/c/zos.h:
@@ -5526,6 +5656,8 @@ CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o: /home/ws/src/tesi/s
 /opt/ros/humble/include/octomap/octomap.h:
 
 /usr/include/inttypes.h:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/prm/LazyPRMstar.h:
 
 /usr/include/boost/mpl/lambda_fwd.hpp:
 

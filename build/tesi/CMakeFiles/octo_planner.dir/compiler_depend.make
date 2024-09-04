@@ -1022,11 +1022,13 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
   /opt/ros/humble/include/octomap/OcTree.h \
   /opt/ros/humble/include/octomap/OcTreeStamped.h \
   /opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.hxx \
-  /usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTXstatic.h \
-  /usr/include/ompl-1.5/ompl/datastructures/BinaryHeap.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRT.h \
   /usr/include/ompl-1.5/ompl/datastructures/NearestNeighbors.h \
-  /usr/include/ompl-1.5/ompl/geometric/planners/PlannerIncludes.h
+  /usr/include/ompl-1.5/ompl/geometric/planners/PlannerIncludes.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/AnytimePathShortening.h
 
+
+/usr/include/ompl-1.5/ompl/geometric/planners/AnytimePathShortening.h:
 
 /usr/include/ompl-1.5/ompl/geometric/planners/PlannerIncludes.h:
 
@@ -1874,8 +1876,6 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
-/usr/include/ompl-1.5/ompl/datastructures/BinaryHeap.h:
-
 /usr/include/ompl-1.5/ompl/base/Planner.h:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
@@ -2594,8 +2594,6 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 
 /opt/ros/humble/include/rcutils/rcutils/types/string_array.h:
 
-/usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTXstatic.h:
-
 /opt/ros/humble/include/rcutils/rcutils/qsort.h:
 
 /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
@@ -2875,6 +2873,8 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 /usr/include/ompl-1.5/ompl/util/RandomNumbers.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
+
+/usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRT.h:
 
 /usr/include/c++/11/bits/locale_facets_nonio.tcc:
 

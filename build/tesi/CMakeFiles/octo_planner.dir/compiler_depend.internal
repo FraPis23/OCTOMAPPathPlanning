@@ -1023,8 +1023,8 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o
  /opt/ros/humble/include/octomap/OcTree.h
  /opt/ros/humble/include/octomap/OcTreeStamped.h
  /opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.hxx
- /usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTXstatic.h
- /usr/include/ompl-1.5/ompl/datastructures/BinaryHeap.h
+ /usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRT.h
  /usr/include/ompl-1.5/ompl/datastructures/NearestNeighbors.h
  /usr/include/ompl-1.5/ompl/geometric/planners/PlannerIncludes.h
+ /usr/include/ompl-1.5/ompl/geometric/planners/AnytimePathShortening.h
 

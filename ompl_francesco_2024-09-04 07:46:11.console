@@ -1,0 +1,2659 @@
+Info:    Beginning benchmark
+Info:    Preparing for run 0 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 90 states
+Info:    SimpleSetup: Path simplification took 0.000367 seconds and changed from 8 to 4 states
+Info:    Executing post-run event for run 0 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 105 states
+Info:    SimpleSetup: Path simplification took 0.000461 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 1 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 45 states
+Info:    SimpleSetup: Path simplification took 0.000302 seconds and changed from 5 to 8 states
+Info:    Executing post-run event for run 2 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 114 states
+Info:    SimpleSetup: Path simplification took 0.000267 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 3 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 125 states
+Info:    SimpleSetup: Path simplification took 0.000238 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 4 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 60 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000276 seconds and changed from 7 to 9 states
+Info:    Executing post-run event for run 5 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 6 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 50 states
+Info:    SimpleSetup: Path simplification took 0.000294 seconds and changed from 6 to 7 states
+Info:    Executing post-run event for run 6 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 7 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 140 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000299 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 7 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 8 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 80 states
+Info:    SimpleSetup: Path simplification took 0.000243 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 8 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 9 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 77 states
+Info:    SimpleSetup: Path simplification took 0.000123 seconds and changed from 5 to 4 states
+Info:    Executing post-run event for run 9 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 10 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 69 states
+Info:    SimpleSetup: Path simplification took 0.000248 seconds and changed from 6 to 5 states
+Info:    Executing post-run event for run 10 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 11 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 78 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000171 seconds and changed from 6 to 8 states
+Info:    Executing post-run event for run 11 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 12 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 80 states
+Info:    SimpleSetup: Path simplification took 0.000190 seconds and changed from 5 to 8 states
+Info:    Executing post-run event for run 12 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 13 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 87 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000202 seconds and changed from 5 to 6 states
+Info:    Executing post-run event for run 13 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 14 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 80 states
+Info:    SimpleSetup: Path simplification took 0.000270 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 14 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 15 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 67 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000194 seconds and changed from 5 to 6 states
+Info:    Executing post-run event for run 15 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 16 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 68 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000263 seconds and changed from 6 to 7 states
+Info:    Executing post-run event for run 16 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 17 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 131 states
+Info:    SimpleSetup: Path simplification took 0.000325 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 17 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 18 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 61 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000306 seconds and changed from 8 to 4 states
+Info:    Executing post-run event for run 18 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 19 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 58 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000318 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 19 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 20 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 81 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000234 seconds and changed from 6 to 8 states
+Info:    Executing post-run event for run 20 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 21 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 195 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000282 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 21 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 22 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 80 states
+Info:    SimpleSetup: Path simplification took 0.000224 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 22 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 23 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 71 states
+Info:    SimpleSetup: Path simplification took 0.000309 seconds and changed from 6 to 7 states
+Info:    Executing post-run event for run 23 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 24 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 65 states
+Info:    SimpleSetup: Path simplification took 0.000231 seconds and changed from 5 to 5 states
+Info:    Executing post-run event for run 24 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 25 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 115 states
+Info:    SimpleSetup: Path simplification took 0.000327 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 25 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 26 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 118 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000198 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 26 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 27 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 67 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000256 seconds and changed from 5 to 4 states
+Info:    Executing post-run event for run 27 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 28 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 136 states
+Info:    SimpleSetup: Path simplification took 0.000296 seconds and changed from 6 to 6 states
+Info:    Executing post-run event for run 28 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 29 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 139 states
+Info:    SimpleSetup: Path simplification took 0.000339 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 29 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 30 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 156 states
+Info:    SimpleSetup: Path simplification took 0.000370 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 30 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 31 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 135 states
+Info:    SimpleSetup: Path simplification took 0.000299 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 31 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 32 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 67 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000212 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 32 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 33 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 69 states
+Info:    SimpleSetup: Path simplification took 0.000312 seconds and changed from 6 to 6 states
+Info:    Executing post-run event for run 33 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 34 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 159 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000290 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 34 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 35 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 58 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000300 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 35 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 36 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 87 states
+Info:    SimpleSetup: Path simplification took 0.000231 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 36 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 37 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 68 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000245 seconds and changed from 6 to 5 states
+Info:    Executing post-run event for run 37 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 38 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 73 states
+Info:    SimpleSetup: Path simplification took 0.000230 seconds and changed from 6 to 5 states
+Info:    Executing post-run event for run 38 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 39 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 67 states
+Info:    SimpleSetup: Path simplification took 0.000420 seconds and changed from 5 to 6 states
+Info:    Executing post-run event for run 39 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 40 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 44 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000519 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 40 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 41 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 52 states
+Info:    SimpleSetup: Path simplification took 0.000363 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 41 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 42 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 49 states
+Info:    SimpleSetup: Path simplification took 0.000361 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 42 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 43 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 82 states
+Info:    SimpleSetup: Path simplification took 0.000150 seconds and changed from 6 to 5 states
+Info:    Executing post-run event for run 43 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 44 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 71 states
+Info:    SimpleSetup: Path simplification took 0.000258 seconds and changed from 9 to 4 states
+Info:    Executing post-run event for run 44 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 45 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 190 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000231 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 45 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 46 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 65 states
+Info:    SimpleSetup: Path simplification took 0.000279 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 46 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 47 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 119 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000318 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 47 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 48 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 68 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000293 seconds and changed from 4 to 5 states
+Info:    Executing post-run event for run 48 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 49 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 119 states
+Info:    SimpleSetup: Path simplification took 0.000277 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 49 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 50 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 54 states
+Info:    SimpleSetup: Path simplification took 0.000194 seconds and changed from 5 to 6 states
+Info:    Executing post-run event for run 50 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 51 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 52 states
+Info:    SimpleSetup: Path simplification took 0.000306 seconds and changed from 6 to 5 states
+Info:    Executing post-run event for run 51 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 52 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 51 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000435 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 52 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 53 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 98 states
+Info:    SimpleSetup: Path simplification took 0.000259 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 53 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 54 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 77 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000275 seconds and changed from 6 to 9 states
+Info:    Executing post-run event for run 54 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 55 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 133 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000245 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 55 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 56 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 72 states
+Info:    SimpleSetup: Path simplification took 0.000158 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 56 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 57 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 78 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000412 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 57 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 58 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 73 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000239 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 58 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 59 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 63 states
+Info:    SimpleSetup: Path simplification took 0.000317 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 59 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 60 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 135 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000338 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 60 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 61 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 56 states
+Info:    SimpleSetup: Path simplification took 0.000183 seconds and changed from 5 to 6 states
+Info:    Executing post-run event for run 61 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 62 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 67 states
+Info:    SimpleSetup: Path simplification took 0.000287 seconds and changed from 6 to 4 states
+Info:    Executing post-run event for run 62 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 63 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 76 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000289 seconds and changed from 6 to 5 states
+Info:    Executing post-run event for run 63 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 64 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 53 states
+Info:    SimpleSetup: Path simplification took 0.000139 seconds and changed from 5 to 5 states
+Info:    Executing post-run event for run 64 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 65 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 116 states
+Info:    SimpleSetup: Path simplification took 0.000275 seconds and changed from 8 to 9 states
+Info:    Executing post-run event for run 65 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 66 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 96 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000281 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 66 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 67 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 53 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000273 seconds and changed from 4 to 6 states
+Info:    Executing post-run event for run 67 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 68 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 50 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000367 seconds and changed from 5 to 6 states
+Info:    Executing post-run event for run 68 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 69 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 111 states
+Info:    SimpleSetup: Path simplification took 0.000315 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 69 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 70 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 141 states
+Info:    SimpleSetup: Path simplification took 0.000120 seconds and changed from 5 to 5 states
+Info:    Executing post-run event for run 70 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 71 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 132 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000326 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 71 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 72 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 207 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000289 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 72 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 73 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 56 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000233 seconds and changed from 5 to 6 states
+Info:    Executing post-run event for run 73 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 74 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 63 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000149 seconds and changed from 5 to 5 states
+Info:    Executing post-run event for run 74 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 75 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 123 states
+Info:    SimpleSetup: Path simplification took 0.000234 seconds and changed from 8 to 4 states
+Info:    Executing post-run event for run 75 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 76 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 77 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000298 seconds and changed from 6 to 7 states
+Info:    Executing post-run event for run 76 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 77 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 153 states
+Info:    SimpleSetup: Path simplification took 0.000237 seconds and changed from 6 to 8 states
+Info:    Executing post-run event for run 77 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 78 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 66 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000272 seconds and changed from 5 to 6 states
+Info:    Executing post-run event for run 78 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 79 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 202 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000399 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 79 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 80 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 115 states
+Info:    SimpleSetup: Path simplification took 0.000230 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 80 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 81 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 64 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000292 seconds and changed from 5 to 6 states
+Info:    Executing post-run event for run 81 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 82 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 75 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000238 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 82 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 83 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 80 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000324 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 83 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 84 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 142 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000237 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 84 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 85 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 116 states
+Info:    SimpleSetup: Path simplification took 0.000253 seconds and changed from 10 to 9 states
+Info:    Executing post-run event for run 85 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 86 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 44 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000208 seconds and changed from 5 to 6 states
+Info:    Executing post-run event for run 86 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 87 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 40 states
+Info:    SimpleSetup: Path simplification took 0.000254 seconds and changed from 6 to 5 states
+Info:    Executing post-run event for run 87 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 88 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 59 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000385 seconds and changed from 5 to 7 states
+Info:    Executing post-run event for run 88 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 89 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 101 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000298 seconds and changed from 5 to 8 states
+Info:    Executing post-run event for run 89 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 90 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 102 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000279 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 90 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 91 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 68 states
+Info:    SimpleSetup: Path simplification took 0.000355 seconds and changed from 5 to 8 states
+Info:    Executing post-run event for run 91 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 92 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 51 states
+Info:    SimpleSetup: Path simplification took 0.000243 seconds and changed from 5 to 8 states
+Info:    Executing post-run event for run 92 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 93 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 117 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000308 seconds and changed from 6 to 7 states
+Info:    Executing post-run event for run 93 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 94 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 130 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000330 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 94 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 95 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 189 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000255 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 95 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 96 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 65 states
+Info:    SimpleSetup: Path simplification took 0.000126 seconds and changed from 4 to 4 states
+Info:    Executing post-run event for run 96 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 97 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 75 states
+Info:    SimpleSetup: Path simplification took 0.000193 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 97 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 98 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 63 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000274 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 98 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 99 of geometric_PRM
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 169 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000279 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 99 of planner geometric_PRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 0 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 361 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000304 seconds and changed from 13 to 6 states
+Info:    Executing post-run event for run 0 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 196 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000322 seconds and changed from 13 to 5 states
+Info:    Executing post-run event for run 1 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 669 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000348 seconds and changed from 13 to 8 states
+Info:    Executing post-run event for run 2 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 238 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000323 seconds and changed from 13 to 6 states
+Info:    Executing post-run event for run 3 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 485 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000382 seconds and changed from 16 to 10 states
+Info:    Executing post-run event for run 4 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 198 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000270 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 5 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 6 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 225 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000548 seconds and changed from 12 to 6 states
+Info:    Executing post-run event for run 6 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 7 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 144 states
+Info:    SimpleSetup: Path simplification took 0.000307 seconds and changed from 12 to 5 states
+Info:    Executing post-run event for run 7 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 8 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 271 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000467 seconds and changed from 14 to 7 states
+Info:    Executing post-run event for run 8 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 9 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 510 states
+Info:    SimpleSetup: Path simplification took 0.000380 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 9 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 10 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 159 states
+Info:    SimpleSetup: Path simplification took 0.000379 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 10 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 11 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 570 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000445 seconds and changed from 13 to 8 states
+Info:    Executing post-run event for run 11 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 12 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 539 states
+Info:    SimpleSetup: Path simplification took 0.000290 seconds and changed from 18 to 6 states
+Info:    Executing post-run event for run 12 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 13 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 69 states
+Info:    SimpleSetup: Path simplification took 0.000257 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 13 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 14 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 149 states
+Info:    SimpleSetup: Path simplification took 0.000339 seconds and changed from 10 to 8 states
+Info:    Executing post-run event for run 14 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 15 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 377 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000518 seconds and changed from 14 to 7 states
+Info:    Executing post-run event for run 15 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 16 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 73 states
+Info:    SimpleSetup: Path simplification took 0.000316 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 16 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 17 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 617 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000402 seconds and changed from 11 to 4 states
+Info:    Executing post-run event for run 17 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 18 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 154 states
+Info:    SimpleSetup: Path simplification took 0.000837 seconds and changed from 13 to 8 states
+Info:    Executing post-run event for run 18 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 19 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 214 states
+Info:    SimpleSetup: Path simplification took 0.000403 seconds and changed from 16 to 7 states
+Info:    Executing post-run event for run 19 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 20 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 172 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000417 seconds and changed from 12 to 7 states
+Info:    Executing post-run event for run 20 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 21 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 228 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000627 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 21 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 22 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 348 states
+Info:    SimpleSetup: Path simplification took 0.000393 seconds and changed from 14 to 7 states
+Info:    Executing post-run event for run 22 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 23 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 1148 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000359 seconds and changed from 15 to 4 states
+Info:    Executing post-run event for run 23 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 24 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 680 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000315 seconds and changed from 12 to 9 states
+Info:    Executing post-run event for run 24 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 25 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 454 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000266 seconds and changed from 15 to 6 states
+Info:    Executing post-run event for run 25 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 26 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 395 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000371 seconds and changed from 13 to 7 states
+Info:    Executing post-run event for run 26 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 27 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 341 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000365 seconds and changed from 12 to 8 states
+Info:    Executing post-run event for run 27 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 28 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 192 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000298 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 28 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 29 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 41 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000278 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 29 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 30 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 63 states
+Info:    SimpleSetup: Path simplification took 0.000230 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 30 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 31 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 69 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000317 seconds and changed from 12 to 7 states
+Info:    Executing post-run event for run 31 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 32 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 342 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000355 seconds and changed from 15 to 4 states
+Info:    Executing post-run event for run 32 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 33 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 136 states
+Info:    SimpleSetup: Path simplification took 0.000404 seconds and changed from 10 to 9 states
+Info:    Executing post-run event for run 33 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 34 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 359 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000474 seconds and changed from 9 to 9 states
+Info:    Executing post-run event for run 34 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 35 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 540 states
+Info:    SimpleSetup: Path simplification took 0.000249 seconds and changed from 13 to 8 states
+Info:    Executing post-run event for run 35 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 36 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 100 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000296 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 36 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 37 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 266 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000309 seconds and changed from 12 to 9 states
+Info:    Executing post-run event for run 37 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 38 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 161 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000334 seconds and changed from 13 to 7 states
+Info:    Executing post-run event for run 38 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 39 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 428 states
+Info:    SimpleSetup: Path simplification took 0.000275 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 39 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 40 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 106 states
+Info:    SimpleSetup: Path simplification took 0.000357 seconds and changed from 14 to 5 states
+Info:    Executing post-run event for run 40 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 41 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 58 states
+Info:    SimpleSetup: Path simplification took 0.000249 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 41 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 42 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 771 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000394 seconds and changed from 19 to 6 states
+Info:    Executing post-run event for run 42 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 43 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 91 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000368 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 43 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 44 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 102 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000291 seconds and changed from 9 to 4 states
+Info:    Executing post-run event for run 44 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 45 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 502 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000436 seconds and changed from 13 to 7 states
+Info:    Executing post-run event for run 45 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 46 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 145 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000407 seconds and changed from 13 to 6 states
+Info:    Executing post-run event for run 46 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 47 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 198 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000359 seconds and changed from 11 to 8 states
+Info:    Executing post-run event for run 47 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 48 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 558 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000414 seconds and changed from 14 to 7 states
+Info:    Executing post-run event for run 48 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 49 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 324 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000599 seconds and changed from 12 to 5 states
+Info:    Executing post-run event for run 49 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 50 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 209 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000377 seconds and changed from 13 to 6 states
+Info:    Executing post-run event for run 50 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 51 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 129 states
+Info:    SimpleSetup: Path simplification took 0.000340 seconds and changed from 12 to 8 states
+Info:    Executing post-run event for run 51 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 52 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 169 states
+Info:    SimpleSetup: Path simplification took 0.000247 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 52 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 53 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 313 states
+Info:    SimpleSetup: Path simplification took 0.000225 seconds and changed from 15 to 6 states
+Info:    Executing post-run event for run 53 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 54 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 209 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000354 seconds and changed from 14 to 5 states
+Info:    Executing post-run event for run 54 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 55 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 193 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000270 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 55 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 56 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 763 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000345 seconds and changed from 16 to 5 states
+Info:    Executing post-run event for run 56 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 57 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 161 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000388 seconds and changed from 15 to 11 states
+Info:    Executing post-run event for run 57 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 58 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 271 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000284 seconds and changed from 13 to 9 states
+Info:    Executing post-run event for run 58 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 59 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 330 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000378 seconds and changed from 16 to 10 states
+Info:    Executing post-run event for run 59 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 60 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 1960 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000365 seconds and changed from 15 to 7 states
+Info:    Executing post-run event for run 60 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 61 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 163 states
+Info:    SimpleSetup: Path simplification took 0.000294 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 61 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 62 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 152 states
+Info:    SimpleSetup: Path simplification took 0.000252 seconds and changed from 12 to 9 states
+Info:    Executing post-run event for run 62 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 63 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 165 states
+Info:    SimpleSetup: Path simplification took 0.000241 seconds and changed from 12 to 9 states
+Info:    Executing post-run event for run 63 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 64 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 412 states
+Info:    SimpleSetup: Path simplification took 0.000260 seconds and changed from 14 to 7 states
+Info:    Executing post-run event for run 64 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 65 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 861 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000315 seconds and changed from 15 to 6 states
+Info:    Executing post-run event for run 65 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 66 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 89 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000315 seconds and changed from 13 to 6 states
+Info:    Executing post-run event for run 66 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 67 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 165 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000384 seconds and changed from 11 to 8 states
+Info:    Executing post-run event for run 67 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 68 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 175 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000303 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 68 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 69 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 188 states
+Info:    SimpleSetup: Path simplification took 0.000276 seconds and changed from 15 to 6 states
+Info:    Executing post-run event for run 69 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 70 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 323 states
+Info:    SimpleSetup: Path simplification took 0.000287 seconds and changed from 12 to 6 states
+Info:    Executing post-run event for run 70 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 71 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 54 states
+Info:    SimpleSetup: Path simplification took 0.000275 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 71 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 72 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 440 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000344 seconds and changed from 16 to 8 states
+Info:    Executing post-run event for run 72 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 73 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 162 states
+Info:    SimpleSetup: Path simplification took 0.000364 seconds and changed from 12 to 11 states
+Info:    Executing post-run event for run 73 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 74 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 254 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000311 seconds and changed from 12 to 7 states
+Info:    Executing post-run event for run 74 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 75 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 335 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000289 seconds and changed from 12 to 10 states
+Info:    Executing post-run event for run 75 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 76 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 334 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000281 seconds and changed from 11 to 5 states
+Info:    Executing post-run event for run 76 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 77 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 847 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000272 seconds and changed from 16 to 6 states
+Info:    Executing post-run event for run 77 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 78 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 173 states
+Info:    SimpleSetup: Path simplification took 0.000251 seconds and changed from 12 to 6 states
+Info:    Executing post-run event for run 78 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 79 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 308 states
+Info:    SimpleSetup: Path simplification took 0.000256 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 79 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 80 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 393 states
+Info:    SimpleSetup: Path simplification took 0.000320 seconds and changed from 17 to 6 states
+Info:    Executing post-run event for run 80 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 81 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 342 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000293 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 81 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 82 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 151 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000289 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 82 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 83 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 214 states
+Info:    SimpleSetup: Path simplification took 0.000244 seconds and changed from 12 to 5 states
+Info:    Executing post-run event for run 83 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 84 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 75 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000253 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 84 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 85 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 699 states
+Info:    SimpleSetup: Path simplification took 0.000240 seconds and changed from 15 to 5 states
+Info:    Executing post-run event for run 85 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 86 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 95 states
+Info:    SimpleSetup: Path simplification took 0.000243 seconds and changed from 10 to 9 states
+Info:    Executing post-run event for run 86 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 87 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 338 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000349 seconds and changed from 13 to 5 states
+Info:    Executing post-run event for run 87 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 88 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 1150 states
+Info:    SimpleSetup: Path simplification took 0.000258 seconds and changed from 14 to 8 states
+Info:    Executing post-run event for run 88 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 89 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 38 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000296 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 89 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 90 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 466 states
+Info:    SimpleSetup: Path simplification took 0.000238 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 90 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 91 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 554 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000347 seconds and changed from 15 to 5 states
+Info:    Executing post-run event for run 91 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 92 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 136 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000288 seconds and changed from 12 to 5 states
+Info:    Executing post-run event for run 92 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 93 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 855 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000410 seconds and changed from 18 to 8 states
+Info:    Executing post-run event for run 93 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 94 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 997 states
+Info:    SimpleSetup: Path simplification took 0.000287 seconds and changed from 18 to 8 states
+Info:    Executing post-run event for run 94 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 95 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 404 states
+Info:    SimpleSetup: Path simplification took 0.000389 seconds and changed from 14 to 8 states
+Info:    Executing post-run event for run 95 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 96 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 937 states
+Info:    SimpleSetup: Path simplification took 0.000266 seconds and changed from 17 to 7 states
+Info:    Executing post-run event for run 96 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 97 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 130 states
+Info:    SimpleSetup: Path simplification took 0.000350 seconds and changed from 11 to 8 states
+Info:    Executing post-run event for run 97 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 98 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 237 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000459 seconds and changed from 20 to 10 states
+Info:    Executing post-run event for run 98 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 99 of geometric_LazyPRM
+Info:    LazyPRM: Starting planning with 2 states already in datastructure
+Info:    LazyPRM: Created 113 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000271 seconds and changed from 10 to 5 states
+Info:    Executing post-run event for run 99 of planner geometric_LazyPRM ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 0 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5683 dense states, 111 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000346 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 0 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5508 dense states, 110 sparse states
+Info:    SimpleSetup: Path simplification took 0.000227 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 1 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 4625 dense states, 124 sparse states
+Info:    SimpleSetup: Path simplification took 0.000233 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 2 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5761 dense states, 120 sparse states
+Info:    SimpleSetup: Path simplification took 0.000183 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 3 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5341 dense states, 119 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000341 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 4 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5719 dense states, 126 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000395 seconds and changed from 10 to 9 states
+Info:    Executing post-run event for run 5 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 6 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5427 dense states, 128 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000354 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 6 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 7 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5316 dense states, 122 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000377 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 7 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 8 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5167 dense states, 135 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000254 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 8 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 9 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5937 dense states, 128 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000347 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 9 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 10 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 4718 dense states, 140 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000290 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 10 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 11 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5966 dense states, 128 sparse states
+Info:    SimpleSetup: Path simplification took 0.000273 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 11 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 12 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5415 dense states, 132 sparse states
+Info:    SimpleSetup: Path simplification took 0.000400 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 12 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 13 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5839 dense states, 126 sparse states
+Info:    SimpleSetup: Path simplification took 0.000509 seconds and changed from 8 to 9 states
+Info:    Executing post-run event for run 13 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 14 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6159 dense states, 111 sparse states
+Info:    SimpleSetup: Path simplification took 0.000245 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 14 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 15 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5562 dense states, 112 sparse states
+Info:    SimpleSetup: Path simplification took 0.000263 seconds and changed from 7 to 4 states
+Info:    Executing post-run event for run 15 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 16 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 3952 dense states, 115 sparse states
+Info:    SimpleSetup: Path simplification took 0.000181 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 16 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 17 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 4602 dense states, 122 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000355 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 17 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 18 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5383 dense states, 118 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000296 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 18 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 19 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5001 dense states, 134 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000245 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 19 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 20 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5693 dense states, 124 sparse states
+Info:    SimpleSetup: Path simplification took 0.000191 seconds and changed from 6 to 6 states
+Info:    Executing post-run event for run 20 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 21 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5476 dense states, 134 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000270 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 21 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 22 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6314 dense states, 124 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000848 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 22 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 23 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5496 dense states, 115 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000399 seconds and changed from 11 to 5 states
+Info:    Executing post-run event for run 23 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 24 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6023 dense states, 103 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000321 seconds and changed from 8 to 4 states
+Info:    Executing post-run event for run 24 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 25 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 4952 dense states, 128 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000237 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 25 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 26 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5853 dense states, 127 sparse states
+Info:    SimpleSetup: Path simplification took 0.000255 seconds and changed from 8 to 9 states
+Info:    Executing post-run event for run 26 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 27 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6422 dense states, 126 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000307 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 27 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 28 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5927 dense states, 132 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000256 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 28 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 29 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5852 dense states, 116 sparse states
+Info:    SimpleSetup: Path simplification took 0.000267 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 29 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 30 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5445 dense states, 129 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000406 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 30 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 31 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5613 dense states, 122 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000363 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 31 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 32 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5326 dense states, 125 sparse states
+Info:    SimpleSetup: Path simplification took 0.000227 seconds and changed from 9 to 8 states
+Info:    Executing post-run event for run 32 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 33 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5338 dense states, 125 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000326 seconds and changed from 10 to 9 states
+Info:    Executing post-run event for run 33 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 34 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6077 dense states, 116 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000323 seconds and changed from 7 to 4 states
+Info:    Executing post-run event for run 34 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 35 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5460 dense states, 136 sparse states
+Info:    SimpleSetup: Path simplification took 0.000318 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 35 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 36 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5919 dense states, 126 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000792 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 36 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 37 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5639 dense states, 126 sparse states
+Info:    SimpleSetup: Path simplification took 0.000237 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 37 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 38 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6927 dense states, 113 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000254 seconds and changed from 8 to 4 states
+Info:    Executing post-run event for run 38 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 39 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5681 dense states, 121 sparse states
+Info:    SimpleSetup: Path simplification took 0.000411 seconds and changed from 6 to 8 states
+Info:    Executing post-run event for run 39 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 40 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6023 dense states, 126 sparse states
+Info:    SimpleSetup: Path simplification took 0.000216 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 40 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 41 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5498 dense states, 128 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000295 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 41 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 42 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6247 dense states, 124 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000385 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 42 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 43 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5683 dense states, 126 sparse states
+Info:    SimpleSetup: Path simplification took 0.000270 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 43 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 44 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5280 dense states, 130 sparse states
+Info:    SimpleSetup: Path simplification took 0.000306 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 44 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 45 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6063 dense states, 121 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000350 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 45 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 46 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5453 dense states, 122 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000571 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 46 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 47 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5437 dense states, 127 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000219 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 47 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 48 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5146 dense states, 130 sparse states
+Info:    SimpleSetup: Path simplification took 0.000327 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 48 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 49 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 4277 dense states, 128 sparse states
+Info:    SimpleSetup: Path simplification took 0.000387 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 49 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 50 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 4514 dense states, 98 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000334 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 50 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 51 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5579 dense states, 104 sparse states
+Info:    SimpleSetup: Path simplification took 0.000352 seconds and changed from 6 to 8 states
+Info:    Executing post-run event for run 51 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 52 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 4197 dense states, 128 sparse states
+Info:    SimpleSetup: Path simplification took 0.000218 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 52 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 53 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 4556 dense states, 133 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000198 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 53 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 54 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 4739 dense states, 119 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000311 seconds and changed from 8 to 9 states
+Info:    Executing post-run event for run 54 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 55 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 3606 dense states, 110 sparse states
+Info:    SimpleSetup: Path simplification took 0.000232 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 55 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 56 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5237 dense states, 131 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000473 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 56 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 57 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5689 dense states, 123 sparse states
+Info:    SimpleSetup: Path simplification took 0.000321 seconds and changed from 10 to 8 states
+Info:    Executing post-run event for run 57 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 58 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5785 dense states, 126 sparse states
+Info:    SimpleSetup: Path simplification took 0.000274 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 58 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 59 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6450 dense states, 125 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000200 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 59 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 60 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5200 dense states, 132 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000266 seconds and changed from 6 to 6 states
+Info:    Executing post-run event for run 60 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 61 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5590 dense states, 122 sparse states
+Info:    SimpleSetup: Path simplification took 0.000229 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 61 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 62 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5985 dense states, 136 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000298 seconds and changed from 8 to 4 states
+Info:    Executing post-run event for run 62 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 63 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5571 dense states, 132 sparse states
+Info:    SimpleSetup: Path simplification took 0.000413 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 63 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 64 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6242 dense states, 119 sparse states
+Info:    SimpleSetup: Path simplification took 0.000340 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 64 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 65 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5575 dense states, 138 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000221 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 65 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 66 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5804 dense states, 131 sparse states
+Info:    SimpleSetup: Path simplification took 0.000370 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 66 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 67 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6350 dense states, 121 sparse states
+Info:    SimpleSetup: Path simplification took 0.000358 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 67 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 68 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5561 dense states, 120 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000457 seconds and changed from 9 to 8 states
+Info:    Executing post-run event for run 68 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 69 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5259 dense states, 132 sparse states
+Info:    SimpleSetup: Path simplification took 0.000176 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 69 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 70 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 4999 dense states, 130 sparse states
+Info:    SimpleSetup: Path simplification took 0.000441 seconds and changed from 10 to 5 states
+Info:    Executing post-run event for run 70 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 71 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6432 dense states, 113 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000185 seconds and changed from 6 to 8 states
+Info:    Executing post-run event for run 71 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 72 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6137 dense states, 127 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000244 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 72 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 73 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6288 dense states, 107 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000346 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 73 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 74 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5268 dense states, 127 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000268 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 74 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 75 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5508 dense states, 128 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000476 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 75 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 76 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5477 dense states, 143 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000270 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 76 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 77 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5089 dense states, 138 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000222 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 77 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 78 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5503 dense states, 127 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000373 seconds and changed from 6 to 6 states
+Info:    Executing post-run event for run 78 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 79 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5870 dense states, 115 sparse states
+Info:    SimpleSetup: Path simplification took 0.000186 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 79 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 80 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5255 dense states, 121 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000292 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 80 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 81 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5615 dense states, 128 sparse states
+Info:    SimpleSetup: Path simplification took 0.000342 seconds and changed from 6 to 5 states
+Info:    Executing post-run event for run 81 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 82 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5719 dense states, 132 sparse states
+Info:    SimpleSetup: Path simplification took 0.000515 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 82 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 83 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5832 dense states, 117 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000503 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 83 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 84 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5582 dense states, 130 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000192 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 84 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 85 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6267 dense states, 111 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000455 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 85 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 86 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6666 dense states, 119 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000467 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 86 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 87 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6334 dense states, 123 sparse states
+Info:    SimpleSetup: Path simplification took 0.000206 seconds and changed from 9 to 8 states
+Info:    Executing post-run event for run 87 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 88 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5494 dense states, 136 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000304 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 88 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 89 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5235 dense states, 136 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000246 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 89 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 90 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6085 dense states, 121 sparse states
+Info:    SimpleSetup: Path simplification took 0.000316 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 90 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 91 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5136 dense states, 128 sparse states
+Info:    SimpleSetup: Path simplification took 0.000288 seconds and changed from 9 to 9 states
+Info:    Executing post-run event for run 91 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 92 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5167 dense states, 151 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000436 seconds and changed from 9 to 8 states
+Info:    Executing post-run event for run 92 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 93 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5159 dense states, 131 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000224 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 93 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 94 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5752 dense states, 134 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000287 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 94 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 95 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 4970 dense states, 140 sparse states
+Info:    SimpleSetup: Path simplification took 0.000227 seconds and changed from 10 to 10 states
+Info:    Executing post-run event for run 95 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 96 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5480 dense states, 125 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000339 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 96 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 97 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 6301 dense states, 119 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000487 seconds and changed from 13 to 9 states
+Info:    Executing post-run event for run 97 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 98 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5976 dense states, 111 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000379 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 98 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 99 of geometric_SPARS
+Info:    SPARS: Starting planning with 2 dense states, 2 sparse states
+Info:    SPARS: Created 5576 dense states, 128 sparse states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000290 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 99 of planner geometric_SPARS ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 0 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8926 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000502 seconds and changed from 20 to 8 states
+Info:    Executing post-run event for run 0 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8513 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000295 seconds and changed from 18 to 7 states
+Info:    Executing post-run event for run 1 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 10682 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000240 seconds and changed from 12 to 6 states
+Info:    Executing post-run event for run 2 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9259 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000625 seconds and changed from 16 to 6 states
+Info:    Executing post-run event for run 3 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9396 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000482 seconds and changed from 24 to 7 states
+Info:    Executing post-run event for run 4 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9106 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000420 seconds and changed from 18 to 8 states
+Info:    Executing post-run event for run 5 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 6 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 10554 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000577 seconds and changed from 19 to 9 states
+Info:    Executing post-run event for run 6 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 7 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9265 states
+Info:    SimpleSetup: Path simplification took 0.000235 seconds and changed from 17 to 6 states
+Info:    Executing post-run event for run 7 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 8 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9142 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000394 seconds and changed from 22 to 10 states
+Info:    Executing post-run event for run 8 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 9 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9519 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000563 seconds and changed from 22 to 10 states
+Info:    Executing post-run event for run 9 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 10 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9277 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000313 seconds and changed from 15 to 7 states
+Info:    Executing post-run event for run 10 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 11 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9686 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000497 seconds and changed from 21 to 8 states
+Info:    Executing post-run event for run 11 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 12 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9623 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000390 seconds and changed from 18 to 5 states
+Info:    Executing post-run event for run 12 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 13 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9467 states
+Info:    SimpleSetup: Path simplification took 0.000236 seconds and changed from 21 to 7 states
+Info:    Executing post-run event for run 13 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 14 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9575 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000356 seconds and changed from 19 to 8 states
+Info:    Executing post-run event for run 14 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 15 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9192 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000291 seconds and changed from 23 to 6 states
+Info:    Executing post-run event for run 15 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 16 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9021 states
+Info:    SimpleSetup: Path simplification took 0.000186 seconds and changed from 16 to 8 states
+Info:    Executing post-run event for run 16 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 17 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9826 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000409 seconds and changed from 12 to 7 states
+Info:    Executing post-run event for run 17 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 18 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9656 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000386 seconds and changed from 13 to 8 states
+Info:    Executing post-run event for run 18 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 19 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8872 states
+Info:    SimpleSetup: Path simplification took 0.000200 seconds and changed from 16 to 7 states
+Info:    Executing post-run event for run 19 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 20 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9051 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000401 seconds and changed from 21 to 6 states
+Info:    Executing post-run event for run 20 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 21 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9100 states
+Info:    SimpleSetup: Path simplification took 0.000263 seconds and changed from 13 to 8 states
+Info:    Executing post-run event for run 21 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 22 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8801 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000275 seconds and changed from 21 to 10 states
+Info:    Executing post-run event for run 22 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 23 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9750 states
+Info:    SimpleSetup: Path simplification took 0.000241 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 23 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 24 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9354 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000457 seconds and changed from 14 to 9 states
+Info:    Executing post-run event for run 24 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 25 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8876 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000189 seconds and changed from 14 to 6 states
+Info:    Executing post-run event for run 25 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 26 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9415 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000322 seconds and changed from 14 to 6 states
+Info:    Executing post-run event for run 26 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 27 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9310 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000302 seconds and changed from 16 to 9 states
+Info:    Executing post-run event for run 27 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 28 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8895 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000347 seconds and changed from 24 to 9 states
+Info:    Executing post-run event for run 28 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 29 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9238 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000625 seconds and changed from 13 to 9 states
+Info:    Executing post-run event for run 29 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 30 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9111 states
+Info:    SimpleSetup: Path simplification took 0.000206 seconds and changed from 17 to 6 states
+Info:    Executing post-run event for run 30 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 31 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9187 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000266 seconds and changed from 20 to 7 states
+Info:    Executing post-run event for run 31 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 32 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9395 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000263 seconds and changed from 14 to 8 states
+Info:    Executing post-run event for run 32 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 33 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9382 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000447 seconds and changed from 15 to 9 states
+Info:    Executing post-run event for run 33 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 34 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9337 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000494 seconds and changed from 19 to 7 states
+Info:    Executing post-run event for run 34 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 35 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9456 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000197 seconds and changed from 17 to 5 states
+Info:    Executing post-run event for run 35 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 36 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9501 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000394 seconds and changed from 18 to 7 states
+Info:    Executing post-run event for run 36 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 37 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9096 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000272 seconds and changed from 21 to 6 states
+Info:    Executing post-run event for run 37 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 38 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9446 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000296 seconds and changed from 17 to 10 states
+Info:    Executing post-run event for run 38 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 39 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9372 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000557 seconds and changed from 16 to 9 states
+Info:    Executing post-run event for run 39 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 40 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8625 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000463 seconds and changed from 21 to 8 states
+Info:    Executing post-run event for run 40 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 41 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9162 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000491 seconds and changed from 11 to 9 states
+Info:    Executing post-run event for run 41 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 42 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9298 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000376 seconds and changed from 20 to 9 states
+Info:    Executing post-run event for run 42 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 43 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9187 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000323 seconds and changed from 20 to 5 states
+Info:    Executing post-run event for run 43 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 44 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9193 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000470 seconds and changed from 19 to 9 states
+Info:    Executing post-run event for run 44 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 45 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9099 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000333 seconds and changed from 15 to 7 states
+Info:    Executing post-run event for run 45 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 46 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8831 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.001000 seconds and changed from 13 to 7 states
+Info:    Executing post-run event for run 46 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 47 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8717 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000296 seconds and changed from 17 to 7 states
+Info:    Executing post-run event for run 47 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 48 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9362 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000257 seconds and changed from 16 to 6 states
+Info:    Executing post-run event for run 48 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 49 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9013 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000288 seconds and changed from 13 to 5 states
+Info:    Executing post-run event for run 49 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 50 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9109 states
+Info:    SimpleSetup: Path simplification took 0.000210 seconds and changed from 19 to 8 states
+Info:    Executing post-run event for run 50 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 51 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 10131 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000284 seconds and changed from 16 to 7 states
+Info:    Executing post-run event for run 51 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 52 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9273 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000293 seconds and changed from 24 to 8 states
+Info:    Executing post-run event for run 52 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 53 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8972 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000384 seconds and changed from 15 to 6 states
+Info:    Executing post-run event for run 53 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 54 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 7767 states
+Info:    SimpleSetup: Path simplification took 0.000271 seconds and changed from 17 to 7 states
+Info:    Executing post-run event for run 54 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 55 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9010 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000351 seconds and changed from 18 to 8 states
+Info:    Executing post-run event for run 55 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 56 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9789 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000317 seconds and changed from 15 to 6 states
+Info:    Executing post-run event for run 56 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 57 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9668 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000324 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 57 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 58 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9359 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000252 seconds and changed from 14 to 9 states
+Info:    Executing post-run event for run 58 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 59 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9587 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000332 seconds and changed from 19 to 6 states
+Info:    Executing post-run event for run 59 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 60 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9497 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000385 seconds and changed from 24 to 6 states
+Info:    Executing post-run event for run 60 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 61 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8444 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000321 seconds and changed from 19 to 9 states
+Info:    Executing post-run event for run 61 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 62 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9376 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000372 seconds and changed from 19 to 8 states
+Info:    Executing post-run event for run 62 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 63 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9605 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000268 seconds and changed from 14 to 8 states
+Info:    Executing post-run event for run 63 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 64 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9268 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000263 seconds and changed from 16 to 8 states
+Info:    Executing post-run event for run 64 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 65 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9494 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000312 seconds and changed from 18 to 8 states
+Info:    Executing post-run event for run 65 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 66 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8878 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000265 seconds and changed from 17 to 7 states
+Info:    Executing post-run event for run 66 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 67 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9487 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000252 seconds and changed from 19 to 8 states
+Info:    Executing post-run event for run 67 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 68 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9118 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000644 seconds and changed from 13 to 9 states
+Info:    Executing post-run event for run 68 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 69 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8577 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000364 seconds and changed from 21 to 8 states
+Info:    Executing post-run event for run 69 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 70 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9173 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000354 seconds and changed from 20 to 7 states
+Info:    Executing post-run event for run 70 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 71 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8585 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000271 seconds and changed from 22 to 7 states
+Info:    Executing post-run event for run 71 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 72 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9006 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000297 seconds and changed from 19 to 8 states
+Info:    Executing post-run event for run 72 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 73 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 6628 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000387 seconds and changed from 20 to 6 states
+Info:    Executing post-run event for run 73 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 74 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8004 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000464 seconds and changed from 16 to 8 states
+Info:    Executing post-run event for run 74 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 75 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9881 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000330 seconds and changed from 12 to 8 states
+Info:    Executing post-run event for run 75 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 76 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9184 states
+Info:    SimpleSetup: Path simplification took 0.000362 seconds and changed from 18 to 8 states
+Info:    Executing post-run event for run 76 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 77 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9483 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000412 seconds and changed from 14 to 9 states
+Info:    Executing post-run event for run 77 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 78 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9567 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000361 seconds and changed from 22 to 8 states
+Info:    Executing post-run event for run 78 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 79 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9570 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000387 seconds and changed from 20 to 9 states
+Info:    Executing post-run event for run 79 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 80 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8868 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000269 seconds and changed from 19 to 8 states
+Info:    Executing post-run event for run 80 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 81 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8916 states
+Info:    SimpleSetup: Path simplification took 0.000247 seconds and changed from 23 to 5 states
+Info:    Executing post-run event for run 81 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 82 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9880 states
+Info:    SimpleSetup: Path simplification took 0.000260 seconds and changed from 17 to 8 states
+Info:    Executing post-run event for run 82 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 83 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9184 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000270 seconds and changed from 16 to 6 states
+Info:    Executing post-run event for run 83 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 84 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8828 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000452 seconds and changed from 23 to 8 states
+Info:    Executing post-run event for run 84 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 85 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9141 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000235 seconds and changed from 11 to 8 states
+Info:    Executing post-run event for run 85 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 86 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8833 states
+Info:    SimpleSetup: Path simplification took 0.000145 seconds and changed from 9 to 9 states
+Info:    Executing post-run event for run 86 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 87 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9305 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000452 seconds and changed from 14 to 9 states
+Info:    Executing post-run event for run 87 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 88 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9710 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000398 seconds and changed from 19 to 6 states
+Info:    Executing post-run event for run 88 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 89 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9109 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000225 seconds and changed from 21 to 7 states
+Info:    Executing post-run event for run 89 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 90 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8896 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000466 seconds and changed from 19 to 6 states
+Info:    Executing post-run event for run 90 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 91 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8706 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000315 seconds and changed from 18 to 9 states
+Info:    Executing post-run event for run 91 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 92 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9325 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000242 seconds and changed from 14 to 5 states
+Info:    Executing post-run event for run 92 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 93 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8221 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000447 seconds and changed from 16 to 6 states
+Info:    Executing post-run event for run 93 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 94 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9218 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000482 seconds and changed from 12 to 9 states
+Info:    Executing post-run event for run 94 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 95 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9577 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000357 seconds and changed from 19 to 8 states
+Info:    Executing post-run event for run 95 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 96 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 10112 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000233 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 96 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 97 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9983 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000423 seconds and changed from 17 to 10 states
+Info:    Executing post-run event for run 97 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 98 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 8575 states
+Info:    SimpleSetup: Path simplification took 0.000222 seconds and changed from 12 to 7 states
+Info:    Executing post-run event for run 98 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 99 of geometric_PRMstar
+Info:    PRMstar: Starting planning with 2 states already in datastructure
+Info:    PRMstar: Created 9029 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000238 seconds and changed from 15 to 7 states
+Info:    Executing post-run event for run 99 of planner geometric_PRMstar ...
+Info:    Completed execution of post-run event
+Info:    Benchmark complete

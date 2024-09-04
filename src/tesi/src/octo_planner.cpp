@@ -17,7 +17,9 @@
 
 #include <iostream>
 
-#include <ompl/geometric/planners/rrt/RRTXstatic.h>
+#include <ompl/geometric/planners/rrt/RRT.h>
+#include <ompl/geometric/planners/AnytimePathShortening.h>
+#include <ompl/geometric/PathSimplifier.h>
 
 namespace ob = ompl::base;
 namespace og = ompl::geometric;
@@ -96,7 +98,7 @@ class OctoPlanner : public rclcpp::Node
             // create a random goal state
             ob::ScopedState<> goal(space);
             // goal.random();
-            goal[0]=15.0;
+            goal[0]=14.95;
             goal[1]=1.0;
             goal[2]=2.0; 
         
@@ -107,7 +109,7 @@ class OctoPlanner : public rclcpp::Node
             pdef->setStartAndGoalStates(start, goal);
 
             // create a planner for the defined space
-            auto planner(std::make_shared<og::RRTXstatic>(si));
+            auto planner(std::make_shared<og::RRT>(si));
         
             // set the problem we are trying to solve for the planner
             planner->setProblemDefinition(pdef);
@@ -124,6 +126,7 @@ class OctoPlanner : public rclcpp::Node
             // attempt to solve the problem within one second of planning time
             ob::PlannerStatus solved = planner->ob::Planner::solve(0.05);
 
+            
             if (solved)
             {
                 // Get the goal representation from the problem definition (not the same as the goal state)
@@ -157,6 +160,7 @@ class OctoPlanner : public rclcpp::Node
 
                     poses.push_back(pose);
                 }
+                
 
                 // Publish the PoseArray message
                 geometry_msgs::msg::PoseArray poseArray;
@@ -167,16 +171,22 @@ class OctoPlanner : public rclcpp::Node
             {
                 std::cout << "No solution found" << std::endl;
             }
+            
         };
+
+       
 
          bool isStateValid(const ob::State *state, DynamicEDTOctomap &distmap)
             {
                 // cast the abstract state type to the type we expect
                 const auto *pos = state->as<ob::RealVectorStateSpace::StateType>();
-
+                if (distmap.getDistance(octomap::point3d((*pos)[0], (*pos)[1], (*pos)[2])) > 0.6) 
+                {std::cout << pos << std::endl;}
+                
                 return distmap.getDistance(octomap::point3d((*pos)[0], (*pos)[1], (*pos)[2])) > 0.6;
             };
- 
+        
+        
         rclcpp::Subscription<octomap_msgs::msg::Octomap>::SharedPtr octo_subs_;
         rclcpp::Publisher<geometry_msgs::msg::PoseArray>::SharedPtr path_pub_;
 };

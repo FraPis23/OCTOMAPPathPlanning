@@ -1,0 +1,37 @@
+[0.009s] Invoking command in '/home/ws/build/tesi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target octo_benchmark[0m
+[0.049s] [ 33%] Built target octo_publisher
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[0.063s] [ 66%] [32mBuilding CXX object CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o[0m
+[5.053s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[5.053s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[5.053s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[5.053s]                  from [01m[K/home/ws/src/tesi/src/octo_benchmark.cpp:1[m[K:
+[5.053s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MyMotionValidator; _Args = {const std::shared_ptr<ompl::base::SpaceInformation>&, DynamicEDTOctomapBase<octomap::OcTree>&}; _Tp = MyMotionValidator][m[K’:
+[5.053s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MyMotionValidator; _Args = {const std::shared_ptr<ompl::base::SpaceInformation>&, DynamicEDTOctomapBase<octomap::OcTree>&}; _Tp = MyMotionValidator; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<MyMotionValidator>][m[K’
+[5.053s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const std::shared_ptr<ompl::base::SpaceInformation>&, DynamicEDTOctomapBase<octomap::OcTree>&}; _Tp = MyMotionValidator; _Alloc = std::allocator<MyMotionValidator>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[5.053s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MyMotionValidator; _Alloc = std::allocator<MyMotionValidator>; _Args = {const std::shared_ptr<ompl::base::SpaceInformation>&, DynamicEDTOctomapBase<octomap::OcTree>&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[5.053s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MyMotionValidator>; _Args = {const std::shared_ptr<ompl::base::SpaceInformation>&, DynamicEDTOctomapBase<octomap::OcTree>&}; _Tp = MyMotionValidator; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[5.053s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MyMotionValidator>; _Args = {const std::shared_ptr<ompl::base::SpaceInformation>&, DynamicEDTOctomapBase<octomap::OcTree>&}; _Tp = MyMotionValidator][m[K’
+[5.053s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MyMotionValidator; _Alloc = std::allocator<MyMotionValidator>; _Args = {const std::shared_ptr<ompl::base::SpaceInformation>&, DynamicEDTOctomapBase<octomap::OcTree>&}][m[K’
+[5.053s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MyMotionValidator; _Args = {const std::shared_ptr<ompl::base::SpaceInformation>&, DynamicEDTOctomapBase<octomap::OcTree>&}][m[K’
+[5.053s] [01m[K/home/ws/src/tesi/src/octo_benchmark.cpp:135:93:[m[K   required from here
+[5.053s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KMyMotionValidator[m[K’
+[5.053s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[5.053s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.053s] [01m[K/home/ws/src/tesi/src/octo_benchmark.cpp:71:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KMyMotionValidator[m[K’:
+[5.053s]    71 | class [01;36m[KMyMotionValidator[m[K : public ob::MotionValidator
+[5.053s]       |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[5.054s] In file included from [01m[K/usr/include/ompl-1.5/ompl/base/SpaceInformation.h:42[m[K,
+[5.054s]                  from [01m[K/home/ws/src/tesi/src/octo_benchmark.cpp:8[m[K:
+[5.054s] [01m[K/usr/include/ompl-1.5/ompl/base/MotionValidator.h:99:26:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual bool ompl::base::MotionValidator::checkMotion(const ompl::base::State*, const ompl::base::State*, std::pair<ompl::base::State*, double>&) const[m[K’
+[5.054s]    99 |             virtual bool [01;36m[KcheckMotion[m[K(const State *s1, const State *s2, std::pair<State *, double> &lastValid) const = 0;
+[5.054s]       |                          [01;36m[K^~~~~~~~~~~[m[K
+[6.876s] gmake[2]: *** [CMakeFiles/octo_benchmark.dir/build.make:76: CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o] Error 1
+[6.876s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/octo_benchmark.dir/all] Error 2
+[6.876s] gmake[1]: *** Waiting for unfinished jobs....
+[8.955s] [ 83%] [32m[1mLinking CXX executable octo_planner[0m
+[9.450s] [ 83%] Built target octo_planner
+[9.452s] gmake: *** [Makefile:146: all] Error 2
+[9.454s] Invoked command in '/home/ws/build/tesi' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12

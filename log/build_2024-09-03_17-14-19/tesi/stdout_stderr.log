@@ -1,0 +1,13 @@
+[ 33%] Built target octo_publisher
+[ 50%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[ 83%] Built target octo_benchmark
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In member function ‘[01m[Kbool OctoPlanner::isStateValid(const ompl::base::State*, DynamicEDTOctomap&)[m[K’:
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:176:92:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  176 |                 if ([01;35m[Kdistmap.getDistance(octomap::point3d((*pos)[0], (*pos)[1], (*pos)[2])) > 0.6[m[K;)
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:176:98:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  176 |                 if (distmap.getDistance(octomap::point3d((*pos)[0], (*pos)[1], (*pos)[2])) > 0.6;[01;31m[K)[m[K
+      |                                                                                                  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/octo_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

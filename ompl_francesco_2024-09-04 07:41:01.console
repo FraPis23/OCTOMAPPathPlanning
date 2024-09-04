@@ -1,0 +1,1978 @@
+Info:    Beginning benchmark
+Info:    Preparing for run 0 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 287 states in 117 cells (33 internal + 84 external)
+Info:    SimpleSetup: Path simplification took 0.000413 seconds and changed from 19 to 7 states
+Info:    Executing post-run event for run 0 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 358 states in 121 cells (54 internal + 67 external)
+Info:    SimpleSetup: Path simplification took 0.000375 seconds and changed from 23 to 7 states
+Info:    Executing post-run event for run 1 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 168 states in 93 cells (20 internal + 73 external)
+Info:    SimpleSetup: Path simplification took 0.000476 seconds and changed from 29 to 6 states
+Info:    Executing post-run event for run 2 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 362 states in 124 cells (35 internal + 89 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000509 seconds and changed from 20 to 5 states
+Info:    Executing post-run event for run 3 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 336 states in 149 cells (58 internal + 91 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000265 seconds and changed from 26 to 7 states
+Info:    Executing post-run event for run 4 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 263 states in 104 cells (39 internal + 65 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000341 seconds and changed from 22 to 7 states
+Info:    Executing post-run event for run 5 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 6 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 93 states in 64 cells (3 internal + 61 external)
+Info:    SimpleSetup: Path simplification took 0.000239 seconds and changed from 10 to 5 states
+Info:    Executing post-run event for run 6 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 7 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 138 states in 77 cells (9 internal + 68 external)
+Info:    SimpleSetup: Path simplification took 0.000285 seconds and changed from 16 to 7 states
+Info:    Executing post-run event for run 7 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 8 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 271 states in 101 cells (31 internal + 70 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000301 seconds and changed from 27 to 5 states
+Info:    Executing post-run event for run 8 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 9 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 178 states in 97 cells (20 internal + 77 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000444 seconds and changed from 25 to 7 states
+Info:    Executing post-run event for run 9 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 10 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 137 states in 81 cells (17 internal + 64 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000331 seconds and changed from 16 to 5 states
+Info:    Executing post-run event for run 10 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 11 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 44 states in 34 cells (0 internal + 34 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000443 seconds and changed from 12 to 7 states
+Info:    Executing post-run event for run 11 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 12 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 8 states in 8 cells (0 internal + 8 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000261 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 12 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 13 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 516 states in 153 cells (77 internal + 76 external)
+Info:    SimpleSetup: Path simplification took 0.000270 seconds and changed from 12 to 7 states
+Info:    Executing post-run event for run 13 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 14 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 150 states in 83 cells (20 internal + 63 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000312 seconds and changed from 18 to 6 states
+Info:    Executing post-run event for run 14 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 15 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 377 states in 132 cells (58 internal + 74 external)
+Info:    SimpleSetup: Path simplification took 0.000292 seconds and changed from 20 to 7 states
+Info:    Executing post-run event for run 15 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 16 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 177 states in 85 cells (30 internal + 55 external)
+Info:    SimpleSetup: Path simplification took 0.000373 seconds and changed from 18 to 8 states
+Info:    Executing post-run event for run 16 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 17 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 357 states in 139 cells (46 internal + 93 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000387 seconds and changed from 22 to 8 states
+Info:    Executing post-run event for run 17 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 18 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 227 states in 128 cells (38 internal + 90 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000429 seconds and changed from 14 to 7 states
+Info:    Executing post-run event for run 18 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 19 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 45 states in 32 cells (0 internal + 32 external)
+Info:    SimpleSetup: Path simplification took 0.000222 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 19 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 20 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 243 states in 104 cells (25 internal + 79 external)
+Info:    SimpleSetup: Path simplification took 0.000316 seconds and changed from 24 to 7 states
+Info:    Executing post-run event for run 20 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 21 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 201 states in 109 cells (26 internal + 83 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000395 seconds and changed from 17 to 7 states
+Info:    Executing post-run event for run 21 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 22 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 132 states in 77 cells (21 internal + 56 external)
+Info:    SimpleSetup: Path simplification took 0.000260 seconds and changed from 9 to 8 states
+Info:    Executing post-run event for run 22 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 23 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 65 states in 49 cells (2 internal + 47 external)
+Info:    SimpleSetup: Path simplification took 0.000357 seconds and changed from 12 to 6 states
+Info:    Executing post-run event for run 23 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 24 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 289 states in 106 cells (44 internal + 62 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000520 seconds and changed from 13 to 7 states
+Info:    Executing post-run event for run 24 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 25 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 64 states in 48 cells (1 internal + 47 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000497 seconds and changed from 11 to 5 states
+Info:    Executing post-run event for run 25 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 26 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 51 states in 40 cells (3 internal + 37 external)
+Info:    SimpleSetup: Path simplification took 0.000460 seconds and changed from 22 to 8 states
+Info:    Executing post-run event for run 26 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 27 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 157 states in 85 cells (12 internal + 73 external)
+Info:    SimpleSetup: Path simplification took 0.000470 seconds and changed from 22 to 5 states
+Info:    Executing post-run event for run 27 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 28 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 73 states in 55 cells (1 internal + 54 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000474 seconds and changed from 23 to 7 states
+Info:    Executing post-run event for run 28 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 29 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 877 states in 169 cells (82 internal + 87 external)
+Info:    SimpleSetup: Path simplification took 0.000482 seconds and changed from 26 to 7 states
+Info:    Executing post-run event for run 29 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 30 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 70 states in 50 cells (1 internal + 49 external)
+Info:    SimpleSetup: Path simplification took 0.000547 seconds and changed from 14 to 6 states
+Info:    Executing post-run event for run 30 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 31 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 121 states in 76 cells (14 internal + 62 external)
+Info:    SimpleSetup: Path simplification took 0.000470 seconds and changed from 20 to 7 states
+Info:    Executing post-run event for run 31 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 32 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 203 states in 101 cells (18 internal + 83 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000586 seconds and changed from 24 to 6 states
+Info:    Executing post-run event for run 32 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 33 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 211 states in 99 cells (22 internal + 77 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000484 seconds and changed from 13 to 5 states
+Info:    Executing post-run event for run 33 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 34 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 127 states in 76 cells (10 internal + 66 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000556 seconds and changed from 13 to 7 states
+Info:    Executing post-run event for run 34 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 35 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 54 states in 45 cells (0 internal + 45 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000494 seconds and changed from 17 to 6 states
+Info:    Executing post-run event for run 35 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 36 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 169 states in 87 cells (10 internal + 77 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000536 seconds and changed from 25 to 6 states
+Info:    Executing post-run event for run 36 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 37 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 87 states in 59 cells (2 internal + 57 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000443 seconds and changed from 20 to 8 states
+Info:    Executing post-run event for run 37 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 38 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 278 states in 101 cells (48 internal + 53 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000623 seconds and changed from 24 to 7 states
+Info:    Executing post-run event for run 38 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 39 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 212 states in 103 cells (28 internal + 75 external)
+Info:    SimpleSetup: Path simplification took 0.000496 seconds and changed from 16 to 5 states
+Info:    Executing post-run event for run 39 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 40 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 417 states in 153 cells (44 internal + 109 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000440 seconds and changed from 16 to 7 states
+Info:    Executing post-run event for run 40 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 41 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 81 states in 59 cells (3 internal + 56 external)
+Info:    SimpleSetup: Path simplification took 0.000361 seconds and changed from 14 to 5 states
+Info:    Executing post-run event for run 41 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 42 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 172 states in 96 cells (27 internal + 69 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000467 seconds and changed from 20 to 6 states
+Info:    Executing post-run event for run 42 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 43 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 88 states in 52 cells (1 internal + 51 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000468 seconds and changed from 12 to 7 states
+Info:    Executing post-run event for run 43 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 44 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 312 states in 125 cells (44 internal + 81 external)
+Info:    SimpleSetup: Path simplification took 0.000420 seconds and changed from 17 to 7 states
+Info:    Executing post-run event for run 44 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 45 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 401 states in 144 cells (59 internal + 85 external)
+Info:    SimpleSetup: Path simplification took 0.000330 seconds and changed from 17 to 5 states
+Info:    Executing post-run event for run 45 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 46 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 211 states in 95 cells (24 internal + 71 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000463 seconds and changed from 24 to 6 states
+Info:    Executing post-run event for run 46 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 47 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 58 states in 42 cells (1 internal + 41 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000409 seconds and changed from 22 to 5 states
+Info:    Executing post-run event for run 47 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 48 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 114 states in 62 cells (6 internal + 56 external)
+Info:    SimpleSetup: Path simplification took 0.000382 seconds and changed from 14 to 5 states
+Info:    Executing post-run event for run 48 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 49 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 89 states in 57 cells (5 internal + 52 external)
+Info:    SimpleSetup: Path simplification took 0.000387 seconds and changed from 16 to 6 states
+Info:    Executing post-run event for run 49 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 50 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 417 states in 151 cells (65 internal + 86 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000418 seconds and changed from 16 to 5 states
+Info:    Executing post-run event for run 50 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 51 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 281 states in 131 cells (40 internal + 91 external)
+Info:    SimpleSetup: Path simplification took 0.000376 seconds and changed from 26 to 7 states
+Info:    Executing post-run event for run 51 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 52 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 93 states in 61 cells (3 internal + 58 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000353 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 52 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 53 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 95 states in 65 cells (2 internal + 63 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000464 seconds and changed from 27 to 7 states
+Info:    Executing post-run event for run 53 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 54 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 90 states in 56 cells (2 internal + 54 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000376 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 54 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 55 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 236 states in 101 cells (36 internal + 65 external)
+Info:    SimpleSetup: Path simplification took 0.000346 seconds and changed from 15 to 5 states
+Info:    Executing post-run event for run 55 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 56 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 105 states in 64 cells (17 internal + 47 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000384 seconds and changed from 20 to 5 states
+Info:    Executing post-run event for run 56 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 57 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 86 states in 62 cells (0 internal + 62 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000470 seconds and changed from 17 to 6 states
+Info:    Executing post-run event for run 57 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 58 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 235 states in 109 cells (38 internal + 71 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000449 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 58 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 59 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 123 states in 77 cells (10 internal + 67 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000356 seconds and changed from 33 to 8 states
+Info:    Executing post-run event for run 59 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 60 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 106 states in 63 cells (5 internal + 58 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000397 seconds and changed from 21 to 5 states
+Info:    Executing post-run event for run 60 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 61 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 374 states in 122 cells (61 internal + 61 external)
+Info:    SimpleSetup: Path simplification took 0.000375 seconds and changed from 31 to 8 states
+Info:    Executing post-run event for run 61 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 62 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 261 states in 101 cells (44 internal + 57 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000412 seconds and changed from 23 to 6 states
+Info:    Executing post-run event for run 62 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 63 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 166 states in 81 cells (10 internal + 71 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000322 seconds and changed from 23 to 6 states
+Info:    Executing post-run event for run 63 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 64 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 153 states in 84 cells (12 internal + 72 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000483 seconds and changed from 24 to 6 states
+Info:    Executing post-run event for run 64 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 65 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 149 states in 82 cells (8 internal + 74 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000402 seconds and changed from 23 to 6 states
+Info:    Executing post-run event for run 65 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 66 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 240 states in 109 cells (36 internal + 73 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000462 seconds and changed from 18 to 9 states
+Info:    Executing post-run event for run 66 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 67 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 171 states in 93 cells (7 internal + 86 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000514 seconds and changed from 13 to 7 states
+Info:    Executing post-run event for run 67 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 68 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 615 states in 162 cells (87 internal + 75 external)
+Info:    SimpleSetup: Path simplification took 0.000350 seconds and changed from 32 to 6 states
+Info:    Executing post-run event for run 68 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 69 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 256 states in 116 cells (42 internal + 74 external)
+Info:    SimpleSetup: Path simplification took 0.000328 seconds and changed from 30 to 7 states
+Info:    Executing post-run event for run 69 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 70 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 142 states in 81 cells (17 internal + 64 external)
+Info:    SimpleSetup: Path simplification took 0.000314 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 70 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 71 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 179 states in 106 cells (24 internal + 82 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000354 seconds and changed from 35 to 5 states
+Info:    Executing post-run event for run 71 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 72 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 256 states in 95 cells (35 internal + 60 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000319 seconds and changed from 14 to 7 states
+Info:    Executing post-run event for run 72 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 73 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 457 states in 151 cells (80 internal + 71 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000332 seconds and changed from 20 to 9 states
+Info:    Executing post-run event for run 73 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 74 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 333 states in 132 cells (59 internal + 73 external)
+Info:    SimpleSetup: Path simplification took 0.000442 seconds and changed from 13 to 7 states
+Info:    Executing post-run event for run 74 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 75 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 54 states in 42 cells (2 internal + 40 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000318 seconds and changed from 14 to 5 states
+Info:    Executing post-run event for run 75 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 76 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 134 states in 79 cells (17 internal + 62 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000287 seconds and changed from 18 to 5 states
+Info:    Executing post-run event for run 76 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 77 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 193 states in 93 cells (26 internal + 67 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000346 seconds and changed from 20 to 9 states
+Info:    Executing post-run event for run 77 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 78 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 155 states in 96 cells (14 internal + 82 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000355 seconds and changed from 25 to 5 states
+Info:    Executing post-run event for run 78 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 79 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 178 states in 96 cells (19 internal + 77 external)
+Info:    SimpleSetup: Path simplification took 0.000278 seconds and changed from 20 to 6 states
+Info:    Executing post-run event for run 79 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 80 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 685 states in 172 cells (87 internal + 85 external)
+Info:    SimpleSetup: Path simplification took 0.000276 seconds and changed from 14 to 5 states
+Info:    Executing post-run event for run 80 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 81 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 72 states in 50 cells (1 internal + 49 external)
+Info:    SimpleSetup: Path simplification took 0.000273 seconds and changed from 18 to 7 states
+Info:    Executing post-run event for run 81 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 82 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 433 states in 137 cells (57 internal + 80 external)
+Info:    SimpleSetup: Path simplification took 0.000337 seconds and changed from 28 to 7 states
+Info:    Executing post-run event for run 82 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 83 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 133 states in 82 cells (11 internal + 71 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000356 seconds and changed from 22 to 6 states
+Info:    Executing post-run event for run 83 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 84 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 300 states in 106 cells (39 internal + 67 external)
+Info:    SimpleSetup: Path simplification took 0.000270 seconds and changed from 15 to 6 states
+Info:    Executing post-run event for run 84 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 85 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 160 states in 91 cells (12 internal + 79 external)
+Info:    SimpleSetup: Path simplification took 0.000301 seconds and changed from 18 to 7 states
+Info:    Executing post-run event for run 85 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 86 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 76 states in 56 cells (2 internal + 54 external)
+Info:    SimpleSetup: Path simplification took 0.000380 seconds and changed from 18 to 7 states
+Info:    Executing post-run event for run 86 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 87 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 121 states in 73 cells (9 internal + 64 external)
+Info:    SimpleSetup: Path simplification took 0.000369 seconds and changed from 17 to 7 states
+Info:    Executing post-run event for run 87 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 88 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 447 states in 155 cells (68 internal + 87 external)
+Info:    SimpleSetup: Path simplification took 0.000260 seconds and changed from 19 to 6 states
+Info:    Executing post-run event for run 88 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 89 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 90 states in 64 cells (1 internal + 63 external)
+Info:    SimpleSetup: Path simplification took 0.000354 seconds and changed from 19 to 7 states
+Info:    Executing post-run event for run 89 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 90 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 358 states in 119 cells (53 internal + 66 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000345 seconds and changed from 21 to 7 states
+Info:    Executing post-run event for run 90 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 91 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 81 states in 58 cells (6 internal + 52 external)
+Info:    SimpleSetup: Path simplification took 0.000322 seconds and changed from 24 to 6 states
+Info:    Executing post-run event for run 91 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 92 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 80 states in 58 cells (4 internal + 54 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000349 seconds and changed from 16 to 5 states
+Info:    Executing post-run event for run 92 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 93 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 258 states in 108 cells (27 internal + 81 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000420 seconds and changed from 29 to 7 states
+Info:    Executing post-run event for run 93 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 94 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 38 states in 28 cells (0 internal + 28 external)
+Info:    SimpleSetup: Path simplification took 0.000222 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 94 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 95 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 154 states in 85 cells (15 internal + 70 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000383 seconds and changed from 18 to 7 states
+Info:    Executing post-run event for run 95 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 96 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 36 states in 28 cells (0 internal + 28 external)
+Info:    SimpleSetup: Path simplification took 0.000332 seconds and changed from 15 to 5 states
+Info:    Executing post-run event for run 96 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 97 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 298 states in 127 cells (39 internal + 88 external)
+Info:    SimpleSetup: Path simplification took 0.000372 seconds and changed from 30 to 8 states
+Info:    Executing post-run event for run 97 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 98 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 146 states in 82 cells (21 internal + 61 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000411 seconds and changed from 22 to 6 states
+Info:    Executing post-run event for run 98 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 99 of geometric_KPIECE1
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 782 states in 175 cells (94 internal + 81 external)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000317 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 99 of planner geometric_KPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 0 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 63 (44 start + 19 goal) states in 46 cells (33 start (33 on boundary) + 13 goal (13 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000282 seconds and changed from 24 to 6 states
+Info:    Executing post-run event for run 0 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 134 (90 start + 44 goal) states in 85 cells (60 start (55 on boundary) + 25 goal (20 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000383 seconds and changed from 35 to 9 states
+Info:    Executing post-run event for run 1 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 202 (126 start + 76 goal) states in 118 cells (80 start (65 on boundary) + 38 goal (32 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000554 seconds and changed from 25 to 6 states
+Info:    Executing post-run event for run 2 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 388 (240 start + 148 goal) states in 153 cells (96 start (52 on boundary) + 57 goal (38 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000425 seconds and changed from 19 to 6 states
+Info:    Executing post-run event for run 3 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 58 (36 start + 22 goal) states in 48 cells (28 start (27 on boundary) + 20 goal (19 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000511 seconds and changed from 17 to 8 states
+Info:    Executing post-run event for run 4 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 129 (91 start + 38 goal) states in 80 cells (54 start (38 on boundary) + 26 goal (23 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000431 seconds and changed from 32 to 6 states
+Info:    Executing post-run event for run 5 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 6 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 186 (115 start + 71 goal) states in 112 cells (71 start (57 on boundary) + 41 goal (38 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000318 seconds and changed from 14 to 8 states
+Info:    Executing post-run event for run 6 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 7 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 25 (15 start + 10 goal) states in 25 cells (15 start (15 on boundary) + 10 goal (10 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000300 seconds and changed from 12 to 6 states
+Info:    Executing post-run event for run 7 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 8 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 61 (34 start + 27 goal) states in 51 cells (27 start (27 on boundary) + 24 goal (24 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000415 seconds and changed from 23 to 6 states
+Info:    Executing post-run event for run 8 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 9 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 33 (19 start + 14 goal) states in 31 cells (18 start (18 on boundary) + 13 goal (13 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000412 seconds and changed from 20 to 5 states
+Info:    Executing post-run event for run 9 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 10 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 36 (24 start + 12 goal) states in 32 cells (23 start (23 on boundary) + 9 goal (9 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000349 seconds and changed from 14 to 7 states
+Info:    Executing post-run event for run 10 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 11 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 305 (202 start + 103 goal) states in 145 cells (93 start (72 on boundary) + 52 goal (45 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000295 seconds and changed from 29 to 7 states
+Info:    Executing post-run event for run 11 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 12 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 121 (85 start + 36 goal) states in 79 cells (50 start (46 on boundary) + 29 goal (27 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000325 seconds and changed from 23 to 6 states
+Info:    Executing post-run event for run 12 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 13 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 262 (147 start + 115 goal) states in 115 cells (72 start (46 on boundary) + 43 goal (31 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000360 seconds and changed from 21 to 6 states
+Info:    Executing post-run event for run 13 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 14 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 105 (74 start + 31 goal) states in 75 cells (51 start (46 on boundary) + 24 goal (24 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000344 seconds and changed from 17 to 6 states
+Info:    Executing post-run event for run 14 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 15 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 143 (85 start + 58 goal) states in 82 cells (53 start (46 on boundary) + 29 goal (28 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000424 seconds and changed from 23 to 5 states
+Info:    Executing post-run event for run 15 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 16 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 153 (90 start + 63 goal) states in 99 cells (54 start (51 on boundary) + 45 goal (43 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000326 seconds and changed from 19 to 7 states
+Info:    Executing post-run event for run 16 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 17 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 236 (137 start + 99 goal) states in 124 cells (67 start (48 on boundary) + 57 goal (51 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000438 seconds and changed from 20 to 6 states
+Info:    Executing post-run event for run 17 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 18 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 189 (118 start + 71 goal) states in 109 cells (70 start (60 on boundary) + 39 goal (33 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000334 seconds and changed from 31 to 6 states
+Info:    Executing post-run event for run 18 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 19 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 33 (19 start + 14 goal) states in 29 cells (19 start (19 on boundary) + 10 goal (10 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000303 seconds and changed from 12 to 6 states
+Info:    Executing post-run event for run 19 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 20 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 52 (38 start + 14 goal) states in 45 cells (32 start (31 on boundary) + 13 goal (13 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000474 seconds and changed from 24 to 6 states
+Info:    Executing post-run event for run 20 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 21 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 117 (66 start + 51 goal) states in 76 cells (42 start (39 on boundary) + 34 goal (31 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000423 seconds and changed from 30 to 8 states
+Info:    Executing post-run event for run 21 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 22 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 84 (57 start + 27 goal) states in 59 cells (41 start (38 on boundary) + 18 goal (18 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000398 seconds and changed from 15 to 8 states
+Info:    Executing post-run event for run 22 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 23 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 74 (50 start + 24 goal) states in 59 cells (40 start (40 on boundary) + 19 goal (19 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000328 seconds and changed from 25 to 7 states
+Info:    Executing post-run event for run 23 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 24 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 49 (33 start + 16 goal) states in 43 cells (27 start (25 on boundary) + 16 goal (16 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000322 seconds and changed from 14 to 5 states
+Info:    Executing post-run event for run 24 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 25 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 154 (97 start + 57 goal) states in 102 cells (65 start (58 on boundary) + 37 goal (35 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000365 seconds and changed from 23 to 9 states
+Info:    Executing post-run event for run 25 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 26 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 233 (141 start + 92 goal) states in 111 cells (66 start (46 on boundary) + 45 goal (43 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000341 seconds and changed from 25 to 9 states
+Info:    Executing post-run event for run 26 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 27 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 218 (133 start + 85 goal) states in 116 cells (70 start (51 on boundary) + 46 goal (36 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000390 seconds and changed from 32 to 7 states
+Info:    Executing post-run event for run 27 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 28 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 610 (353 start + 257 goal) states in 172 cells (102 start (58 on boundary) + 70 goal (43 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000393 seconds and changed from 23 to 6 states
+Info:    Executing post-run event for run 28 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 29 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 355 (199 start + 156 goal) states in 147 cells (95 start (62 on boundary) + 52 goal (36 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000563 seconds and changed from 25 to 7 states
+Info:    Executing post-run event for run 29 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 30 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 84 (63 start + 21 goal) states in 52 cells (39 start (31 on boundary) + 13 goal (13 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000413 seconds and changed from 20 to 8 states
+Info:    Executing post-run event for run 30 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 31 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 109 (71 start + 38 goal) states in 69 cells (48 start (39 on boundary) + 21 goal (20 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000376 seconds and changed from 23 to 5 states
+Info:    Executing post-run event for run 31 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 32 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 90 (53 start + 37 goal) states in 60 cells (37 start (35 on boundary) + 23 goal (21 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000300 seconds and changed from 23 to 4 states
+Info:    Executing post-run event for run 32 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 33 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 60 (46 start + 14 goal) states in 52 cells (39 start (36 on boundary) + 13 goal (13 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000354 seconds and changed from 27 to 6 states
+Info:    Executing post-run event for run 33 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 34 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 190 (134 start + 56 goal) states in 98 cells (59 start (46 on boundary) + 39 goal (37 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000367 seconds and changed from 30 to 6 states
+Info:    Executing post-run event for run 34 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 35 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 39 (25 start + 14 goal) states in 35 cells (21 start (20 on boundary) + 14 goal (14 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000391 seconds and changed from 16 to 7 states
+Info:    Executing post-run event for run 35 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 36 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 115 (88 start + 27 goal) states in 73 cells (52 start (42 on boundary) + 21 goal (21 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000480 seconds and changed from 30 to 7 states
+Info:    Executing post-run event for run 36 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 37 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 85 (56 start + 29 goal) states in 66 cells (40 start (38 on boundary) + 26 goal (26 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000429 seconds and changed from 25 to 9 states
+Info:    Executing post-run event for run 37 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 38 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 40 (24 start + 16 goal) states in 30 cells (18 start (18 on boundary) + 12 goal (12 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000388 seconds and changed from 20 to 6 states
+Info:    Executing post-run event for run 38 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 39 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 74 (53 start + 21 goal) states in 51 cells (35 start (34 on boundary) + 16 goal (16 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000303 seconds and changed from 12 to 7 states
+Info:    Executing post-run event for run 39 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 40 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 70 (53 start + 17 goal) states in 51 cells (37 start (33 on boundary) + 14 goal (14 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000399 seconds and changed from 18 to 6 states
+Info:    Executing post-run event for run 40 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 41 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 174 (106 start + 68 goal) states in 104 cells (62 start (51 on boundary) + 42 goal (37 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000469 seconds and changed from 32 to 5 states
+Info:    Executing post-run event for run 41 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 42 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 30 (20 start + 10 goal) states in 24 cells (15 start (15 on boundary) + 9 goal (9 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000380 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 42 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 43 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 105 (70 start + 35 goal) states in 71 cells (49 start (46 on boundary) + 22 goal (19 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000378 seconds and changed from 18 to 6 states
+Info:    Executing post-run event for run 43 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 44 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 105 (70 start + 35 goal) states in 71 cells (45 start (37 on boundary) + 26 goal (24 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000311 seconds and changed from 21 to 6 states
+Info:    Executing post-run event for run 44 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 45 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 98 (66 start + 32 goal) states in 72 cells (46 start (41 on boundary) + 26 goal (26 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000341 seconds and changed from 22 to 6 states
+Info:    Executing post-run event for run 45 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 46 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 135 (95 start + 40 goal) states in 80 cells (57 start (41 on boundary) + 23 goal (20 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000459 seconds and changed from 26 to 7 states
+Info:    Executing post-run event for run 46 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 47 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 59 (37 start + 22 goal) states in 46 cells (30 start (30 on boundary) + 16 goal (16 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000353 seconds and changed from 21 to 5 states
+Info:    Executing post-run event for run 47 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 48 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 63 (35 start + 28 goal) states in 52 cells (28 start (28 on boundary) + 24 goal (24 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000423 seconds and changed from 28 to 4 states
+Info:    Executing post-run event for run 48 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 49 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 271 (150 start + 121 goal) states in 126 cells (70 start (60 on boundary) + 56 goal (43 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000319 seconds and changed from 22 to 7 states
+Info:    Executing post-run event for run 49 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 50 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 192 (109 start + 83 goal) states in 97 cells (62 start (53 on boundary) + 35 goal (28 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000391 seconds and changed from 21 to 8 states
+Info:    Executing post-run event for run 50 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 51 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 27 (16 start + 11 goal) states in 25 cells (14 start (14 on boundary) + 11 goal (11 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000248 seconds and changed from 14 to 5 states
+Info:    Executing post-run event for run 51 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 52 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 208 (148 start + 60 goal) states in 95 cells (65 start (46 on boundary) + 30 goal (23 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000347 seconds and changed from 31 to 7 states
+Info:    Executing post-run event for run 52 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 53 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 50 (29 start + 21 goal) states in 43 cells (24 start (24 on boundary) + 19 goal (19 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000338 seconds and changed from 18 to 7 states
+Info:    Executing post-run event for run 53 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 54 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 279 (158 start + 121 goal) states in 125 cells (72 start (55 on boundary) + 53 goal (39 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000206 seconds and changed from 21 to 6 states
+Info:    Executing post-run event for run 54 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 55 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 185 (129 start + 56 goal) states in 100 cells (68 start (53 on boundary) + 32 goal (32 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000521 seconds and changed from 31 to 10 states
+Info:    Executing post-run event for run 55 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 56 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 59 (39 start + 20 goal) states in 49 cells (32 start (32 on boundary) + 17 goal (17 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000430 seconds and changed from 13 to 9 states
+Info:    Executing post-run event for run 56 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 57 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 399 (242 start + 157 goal) states in 131 cells (84 start (45 on boundary) + 47 goal (33 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000404 seconds and changed from 37 to 6 states
+Info:    Executing post-run event for run 57 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 58 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 92 (55 start + 37 goal) states in 63 cells (39 start (35 on boundary) + 24 goal (21 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000352 seconds and changed from 18 to 6 states
+Info:    Executing post-run event for run 58 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 59 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 122 (69 start + 53 goal) states in 79 cells (48 start (46 on boundary) + 31 goal (30 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000315 seconds and changed from 36 to 7 states
+Info:    Executing post-run event for run 59 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 60 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 43 (27 start + 16 goal) states in 40 cells (25 start (25 on boundary) + 15 goal (15 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000546 seconds and changed from 18 to 7 states
+Info:    Executing post-run event for run 60 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 61 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 265 (157 start + 108 goal) states in 120 cells (80 start (60 on boundary) + 40 goal (30 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000370 seconds and changed from 36 to 4 states
+Info:    Executing post-run event for run 61 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 62 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 76 (50 start + 26 goal) states in 55 cells (40 start (37 on boundary) + 15 goal (15 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000283 seconds and changed from 26 to 10 states
+Info:    Executing post-run event for run 62 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 63 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 159 (80 start + 79 goal) states in 96 cells (60 start (57 on boundary) + 36 goal (29 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000276 seconds and changed from 31 to 7 states
+Info:    Executing post-run event for run 63 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 64 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 57 (35 start + 22 goal) states in 48 cells (29 start (29 on boundary) + 19 goal (19 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000385 seconds and changed from 16 to 6 states
+Info:    Executing post-run event for run 64 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 65 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 406 (254 start + 152 goal) states in 157 cells (88 start (48 on boundary) + 69 goal (53 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000372 seconds and changed from 27 to 7 states
+Info:    Executing post-run event for run 65 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 66 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 147 (102 start + 45 goal) states in 85 cells (56 start (42 on boundary) + 29 goal (25 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000320 seconds and changed from 22 to 8 states
+Info:    Executing post-run event for run 66 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 67 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 210 (152 start + 58 goal) states in 95 cells (71 start (50 on boundary) + 24 goal (20 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000534 seconds and changed from 24 to 6 states
+Info:    Executing post-run event for run 67 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 68 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 268 (162 start + 106 goal) states in 124 cells (73 start (53 on boundary) + 51 goal (41 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000386 seconds and changed from 28 to 6 states
+Info:    Executing post-run event for run 68 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 69 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 116 (61 start + 55 goal) states in 77 cells (45 start (45 on boundary) + 32 goal (30 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000318 seconds and changed from 30 to 5 states
+Info:    Executing post-run event for run 69 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 70 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 437 (310 start + 127 goal) states in 149 cells (94 start (38 on boundary) + 55 goal (35 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000382 seconds and changed from 36 to 7 states
+Info:    Executing post-run event for run 70 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 71 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 95 (64 start + 31 goal) states in 65 cells (40 start (33 on boundary) + 25 goal (23 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000417 seconds and changed from 19 to 7 states
+Info:    Executing post-run event for run 71 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 72 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 50 (32 start + 18 goal) states in 43 cells (26 start (26 on boundary) + 17 goal (17 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000359 seconds and changed from 16 to 5 states
+Info:    Executing post-run event for run 72 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 73 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 44 (30 start + 14 goal) states in 36 cells (25 start (24 on boundary) + 11 goal (11 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000345 seconds and changed from 14 to 5 states
+Info:    Executing post-run event for run 73 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 74 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 46 (31 start + 15 goal) states in 40 cells (29 start (29 on boundary) + 11 goal (11 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000311 seconds and changed from 20 to 5 states
+Info:    Executing post-run event for run 74 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 75 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 58 (34 start + 24 goal) states in 49 cells (29 start (29 on boundary) + 20 goal (20 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000325 seconds and changed from 28 to 5 states
+Info:    Executing post-run event for run 75 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 76 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 58 (40 start + 18 goal) states in 45 cells (27 start (26 on boundary) + 18 goal (18 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000384 seconds and changed from 14 to 8 states
+Info:    Executing post-run event for run 76 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 77 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 84 (49 start + 35 goal) states in 66 cells (38 start (37 on boundary) + 28 goal (28 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000326 seconds and changed from 16 to 6 states
+Info:    Executing post-run event for run 77 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 78 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 220 (127 start + 93 goal) states in 97 cells (65 start (49 on boundary) + 32 goal (22 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000503 seconds and changed from 29 to 4 states
+Info:    Executing post-run event for run 78 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 79 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 121 (80 start + 41 goal) states in 77 cells (50 start (47 on boundary) + 27 goal (24 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000347 seconds and changed from 22 to 9 states
+Info:    Executing post-run event for run 79 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 80 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 104 (70 start + 34 goal) states in 74 cells (48 start (43 on boundary) + 26 goal (26 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000412 seconds and changed from 17 to 5 states
+Info:    Executing post-run event for run 80 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 81 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 128 (83 start + 45 goal) states in 78 cells (52 start (39 on boundary) + 26 goal (24 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000411 seconds and changed from 31 to 5 states
+Info:    Executing post-run event for run 81 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 82 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 41 (29 start + 12 goal) states in 36 cells (24 start (24 on boundary) + 12 goal (12 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000303 seconds and changed from 21 to 7 states
+Info:    Executing post-run event for run 82 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 83 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 46 (29 start + 17 goal) states in 41 cells (25 start (25 on boundary) + 16 goal (16 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000337 seconds and changed from 16 to 7 states
+Info:    Executing post-run event for run 83 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 84 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 164 (98 start + 66 goal) states in 101 cells (59 start (53 on boundary) + 42 goal (36 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000389 seconds and changed from 21 to 6 states
+Info:    Executing post-run event for run 84 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 85 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 468 (273 start + 195 goal) states in 156 cells (92 start (59 on boundary) + 64 goal (39 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000343 seconds and changed from 35 to 9 states
+Info:    Executing post-run event for run 85 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 86 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 69 (50 start + 19 goal) states in 54 cells (38 start (38 on boundary) + 16 goal (16 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000373 seconds and changed from 23 to 6 states
+Info:    Executing post-run event for run 86 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 87 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 37 (22 start + 15 goal) states in 35 cells (20 start (20 on boundary) + 15 goal (15 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000379 seconds and changed from 19 to 7 states
+Info:    Executing post-run event for run 87 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 88 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 122 (79 start + 43 goal) states in 81 cells (52 start (44 on boundary) + 29 goal (28 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000422 seconds and changed from 21 to 8 states
+Info:    Executing post-run event for run 88 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 89 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 283 (171 start + 112 goal) states in 130 cells (76 start (57 on boundary) + 54 goal (45 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000238 seconds and changed from 24 to 9 states
+Info:    Executing post-run event for run 89 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 90 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 164 (110 start + 54 goal) states in 86 cells (52 start (38 on boundary) + 34 goal (31 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000419 seconds and changed from 21 to 5 states
+Info:    Executing post-run event for run 90 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 91 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 72 (48 start + 24 goal) states in 50 cells (34 start (34 on boundary) + 16 goal (16 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000330 seconds and changed from 23 to 6 states
+Info:    Executing post-run event for run 91 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 92 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 68 (41 start + 27 goal) states in 56 cells (33 start (33 on boundary) + 23 goal (22 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000317 seconds and changed from 15 to 8 states
+Info:    Executing post-run event for run 92 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 93 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 157 (101 start + 56 goal) states in 98 cells (61 start (44 on boundary) + 37 goal (35 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000368 seconds and changed from 25 to 8 states
+Info:    Executing post-run event for run 93 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 94 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 112 (68 start + 44 goal) states in 82 cells (52 start (49 on boundary) + 30 goal (29 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000280 seconds and changed from 20 to 5 states
+Info:    Executing post-run event for run 94 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 95 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 253 (148 start + 105 goal) states in 118 cells (72 start (37 on boundary) + 46 goal (41 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000281 seconds and changed from 27 to 6 states
+Info:    Executing post-run event for run 95 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 96 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 108 (73 start + 35 goal) states in 77 cells (51 start (42 on boundary) + 26 goal (25 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000345 seconds and changed from 19 to 6 states
+Info:    Executing post-run event for run 96 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 97 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 50 (38 start + 12 goal) states in 44 cells (33 start (33 on boundary) + 11 goal (11 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000511 seconds and changed from 15 to 5 states
+Info:    Executing post-run event for run 97 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 98 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 214 (134 start + 80 goal) states in 111 cells (61 start (49 on boundary) + 50 goal (48 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000289 seconds and changed from 27 to 7 states
+Info:    Executing post-run event for run 98 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 99 of geometric_BKPIECE1
+Info:    BKPIECE1: Starting planning with 1 states already in datastructure
+Info:    BKPIECE1: Created 39 (23 start + 16 goal) states in 29 cells (18 start (18 on boundary) + 11 goal (11 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000717 seconds and changed from 23 to 8 states
+Info:    Executing post-run event for run 99 of planner geometric_BKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 0 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 321 (85 start + 236 goal) states in 131 cells (52 start (50 on boundary) + 79 goal (52 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000295 seconds and changed from 26 to 5 states
+Info:    Executing post-run event for run 0 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 1165 (177 start + 988 goal) states in 156 cells (80 start (71 on boundary) + 76 goal (39 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000380 seconds and changed from 46 to 8 states
+Info:    Executing post-run event for run 1 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 2455 (164 start + 2291 goal) states in 161 cells (73 start (53 on boundary) + 88 goal (41 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000323 seconds and changed from 30 to 8 states
+Info:    Executing post-run event for run 2 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 79 (65 start + 14 goal) states in 57 cells (46 start (45 on boundary) + 11 goal (11 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000336 seconds and changed from 22 to 6 states
+Info:    Executing post-run event for run 3 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 823 (130 start + 693 goal) states in 146 cells (54 start (49 on boundary) + 92 goal (45 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000300 seconds and changed from 30 to 6 states
+Info:    Executing post-run event for run 4 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 6568 (414 start + 6154 goal) states in 221 cells (113 start (79 on boundary) + 108 goal (52 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000660 seconds and changed from 67 to 7 states
+Info:    Executing post-run event for run 5 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 6 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 3606 (418 start + 3188 goal) states in 234 cells (102 start (70 on boundary) + 132 goal (47 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000355 seconds and changed from 33 to 6 states
+Info:    Executing post-run event for run 6 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 7 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 472 (336 start + 136 goal) states in 186 cells (152 start (92 on boundary) + 34 goal (30 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000534 seconds and changed from 31 to 6 states
+Info:    Executing post-run event for run 7 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 8 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 1276 (160 start + 1116 goal) states in 179 cells (73 start (62 on boundary) + 106 goal (50 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000442 seconds and changed from 43 to 11 states
+Info:    Executing post-run event for run 8 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 9 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 2887 (303 start + 2584 goal) states in 177 cells (95 start (71 on boundary) + 82 goal (46 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000444 seconds and changed from 41 to 6 states
+Info:    Executing post-run event for run 9 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 10 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 96 (75 start + 21 goal) states in 67 cells (54 start (51 on boundary) + 13 goal (13 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000316 seconds and changed from 14 to 5 states
+Info:    Executing post-run event for run 10 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 11 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 135 (56 start + 79 goal) states in 76 cells (39 start (39 on boundary) + 37 goal (37 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000326 seconds and changed from 29 to 5 states
+Info:    Executing post-run event for run 11 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 12 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 92 (58 start + 34 goal) states in 57 cells (36 start (36 on boundary) + 21 goal (20 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000306 seconds and changed from 18 to 5 states
+Info:    Executing post-run event for run 12 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 13 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 323 (143 start + 180 goal) states in 116 cells (80 start (59 on boundary) + 36 goal (27 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000477 seconds and changed from 36 to 6 states
+Info:    Executing post-run event for run 13 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 14 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 3744 (309 start + 3435 goal) states in 233 cells (104 start (83 on boundary) + 129 goal (49 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000501 seconds and changed from 43 to 8 states
+Info:    Executing post-run event for run 14 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 15 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 167 (17 start + 150 goal) states in 97 cells (13 start (13 on boundary) + 84 goal (68 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000264 seconds and changed from 26 to 7 states
+Info:    Executing post-run event for run 15 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 16 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 615 (70 start + 545 goal) states in 122 cells (52 start (50 on boundary) + 70 goal (40 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000381 seconds and changed from 19 to 11 states
+Info:    Executing post-run event for run 16 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 17 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 17938 (13103 start + 4835 goal) states in 294 cells (233 start (76 on boundary) + 61 goal (33 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000334 seconds and changed from 57 to 6 states
+Info:    Executing post-run event for run 17 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 18 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 631 (224 start + 407 goal) states in 187 cells (107 start (77 on boundary) + 80 goal (46 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000330 seconds and changed from 23 to 8 states
+Info:    Executing post-run event for run 18 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 19 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 1549 (182 start + 1367 goal) states in 161 cells (76 start (67 on boundary) + 85 goal (46 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000346 seconds and changed from 61 to 8 states
+Info:    Executing post-run event for run 19 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 20 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 4867 (315 start + 4552 goal) states in 181 cells (109 start (75 on boundary) + 72 goal (34 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000302 seconds and changed from 45 to 7 states
+Info:    Executing post-run event for run 20 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 21 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 3887 (266 start + 3621 goal) states in 175 cells (87 start (49 on boundary) + 88 goal (45 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000474 seconds and changed from 59 to 9 states
+Info:    Executing post-run event for run 21 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 22 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 510 (480 start + 30 goal) states in 156 cells (139 start (66 on boundary) + 17 goal (16 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000254 seconds and changed from 16 to 9 states
+Info:    Executing post-run event for run 22 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 23 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 5392 (283 start + 5109 goal) states in 201 cells (91 start (48 on boundary) + 110 goal (42 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000298 seconds and changed from 21 to 8 states
+Info:    Executing post-run event for run 23 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 24 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 428 (356 start + 72 goal) states in 152 cells (122 start (56 on boundary) + 30 goal (29 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000229 seconds and changed from 17 to 6 states
+Info:    Executing post-run event for run 24 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 25 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 1209 (478 start + 731 goal) states in 211 cells (133 start (72 on boundary) + 78 goal (40 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000309 seconds and changed from 37 to 8 states
+Info:    Executing post-run event for run 25 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 26 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 210 (105 start + 105 goal) states in 107 cells (69 start (56 on boundary) + 38 goal (34 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000306 seconds and changed from 53 to 8 states
+Info:    Executing post-run event for run 26 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 27 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 122 (74 start + 48 goal) states in 62 cells (37 start (36 on boundary) + 25 goal (23 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000384 seconds and changed from 25 to 7 states
+Info:    Executing post-run event for run 27 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 28 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 205 (64 start + 141 goal) states in 103 cells (43 start (43 on boundary) + 60 goal (42 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000362 seconds and changed from 36 to 5 states
+Info:    Executing post-run event for run 28 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 29 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 3566 (327 start + 3239 goal) states in 205 cells (106 start (86 on boundary) + 99 goal (47 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000386 seconds and changed from 56 to 5 states
+Info:    Executing post-run event for run 29 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 30 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 98 (47 start + 51 goal) states in 60 cells (32 start (32 on boundary) + 28 goal (26 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000383 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 30 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 31 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 350 (281 start + 69 goal) states in 147 cells (116 start (66 on boundary) + 31 goal (27 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000472 seconds and changed from 23 to 7 states
+Info:    Executing post-run event for run 31 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 32 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 839 (782 start + 57 goal) states in 169 cells (141 start (54 on boundary) + 28 goal (28 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000415 seconds and changed from 22 to 7 states
+Info:    Executing post-run event for run 32 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 33 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 326 (166 start + 160 goal) states in 145 cells (96 start (76 on boundary) + 49 goal (40 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000281 seconds and changed from 27 to 6 states
+Info:    Executing post-run event for run 33 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 34 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 359 (148 start + 211 goal) states in 167 cells (84 start (73 on boundary) + 83 goal (52 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000320 seconds and changed from 32 to 5 states
+Info:    Executing post-run event for run 34 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 35 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 547 (290 start + 257 goal) states in 184 cells (121 start (65 on boundary) + 63 goal (42 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000417 seconds and changed from 41 to 6 states
+Info:    Executing post-run event for run 35 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 36 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 4128 (424 start + 3704 goal) states in 173 cells (113 start (64 on boundary) + 60 goal (30 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000435 seconds and changed from 47 to 8 states
+Info:    Executing post-run event for run 36 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 37 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 170 (144 start + 26 goal) states in 97 cells (73 start (52 on boundary) + 24 goal (24 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000255 seconds and changed from 16 to 6 states
+Info:    Executing post-run event for run 37 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 38 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 63 (34 start + 29 goal) states in 53 cells (27 start (27 on boundary) + 26 goal (26 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000349 seconds and changed from 20 to 8 states
+Info:    Executing post-run event for run 38 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 39 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 137 (105 start + 32 goal) states in 92 cells (71 start (62 on boundary) + 21 goal (21 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000292 seconds and changed from 16 to 6 states
+Info:    Executing post-run event for run 39 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 40 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 659 (478 start + 181 goal) states in 194 cells (148 start (75 on boundary) + 46 goal (32 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000425 seconds and changed from 41 to 6 states
+Info:    Executing post-run event for run 40 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 41 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 896 (191 start + 705 goal) states in 157 cells (68 start (48 on boundary) + 89 goal (51 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000322 seconds and changed from 23 to 5 states
+Info:    Executing post-run event for run 41 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 42 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 583 (99 start + 484 goal) states in 157 cells (58 start (50 on boundary) + 99 goal (54 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000317 seconds and changed from 19 to 8 states
+Info:    Executing post-run event for run 42 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 43 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 151 (50 start + 101 goal) states in 71 cells (28 start (28 on boundary) + 43 goal (39 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000412 seconds and changed from 20 to 9 states
+Info:    Executing post-run event for run 43 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 44 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 209 (143 start + 66 goal) states in 112 cells (79 start (68 on boundary) + 33 goal (32 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000376 seconds and changed from 30 to 6 states
+Info:    Executing post-run event for run 44 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 45 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 190 (135 start + 55 goal) states in 107 cells (84 start (67 on boundary) + 23 goal (22 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000307 seconds and changed from 20 to 5 states
+Info:    Executing post-run event for run 45 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 46 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 93 (54 start + 39 goal) states in 60 cells (39 start (39 on boundary) + 21 goal (20 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000290 seconds and changed from 15 to 6 states
+Info:    Executing post-run event for run 46 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 47 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 3676 (753 start + 2923 goal) states in 298 cells (182 start (90 on boundary) + 116 goal (52 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000448 seconds and changed from 51 to 8 states
+Info:    Executing post-run event for run 47 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 48 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 203 (127 start + 76 goal) states in 111 cells (75 start (58 on boundary) + 36 goal (33 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000274 seconds and changed from 23 to 6 states
+Info:    Executing post-run event for run 48 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 49 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 2804 (258 start + 2546 goal) states in 203 cells (83 start (56 on boundary) + 120 goal (60 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000300 seconds and changed from 31 to 6 states
+Info:    Executing post-run event for run 49 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 50 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 8586 (2523 start + 6063 goal) states in 264 cells (164 start (52 on boundary) + 100 goal (45 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.001014 seconds and changed from 51 to 17 states
+Info:    Executing post-run event for run 50 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 51 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 1473 (160 start + 1313 goal) states in 166 cells (69 start (62 on boundary) + 97 goal (52 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000439 seconds and changed from 17 to 5 states
+Info:    Executing post-run event for run 51 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 52 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 882 (224 start + 658 goal) states in 185 cells (97 start (66 on boundary) + 88 goal (47 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000711 seconds and changed from 34 to 12 states
+Info:    Executing post-run event for run 52 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 53 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 267 (111 start + 156 goal) states in 103 cells (56 start (51 on boundary) + 47 goal (37 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000405 seconds and changed from 31 to 10 states
+Info:    Executing post-run event for run 53 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 54 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 542 (132 start + 410 goal) states in 150 cells (74 start (60 on boundary) + 76 goal (34 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000520 seconds and changed from 36 to 8 states
+Info:    Executing post-run event for run 54 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 55 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 2300 (207 start + 2093 goal) states in 164 cells (93 start (80 on boundary) + 71 goal (41 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000474 seconds and changed from 26 to 6 states
+Info:    Executing post-run event for run 55 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 56 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 1476 (177 start + 1299 goal) states in 169 cells (76 start (61 on boundary) + 93 goal (46 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000383 seconds and changed from 27 to 5 states
+Info:    Executing post-run event for run 56 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 57 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 264 (62 start + 202 goal) states in 108 cells (39 start (37 on boundary) + 69 goal (56 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000261 seconds and changed from 42 to 8 states
+Info:    Executing post-run event for run 57 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 58 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 608 (91 start + 517 goal) states in 140 cells (57 start (57 on boundary) + 83 goal (53 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000345 seconds and changed from 40 to 7 states
+Info:    Executing post-run event for run 58 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 59 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 179 (82 start + 97 goal) states in 101 cells (56 start (56 on boundary) + 45 goal (44 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000330 seconds and changed from 22 to 6 states
+Info:    Executing post-run event for run 59 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 60 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 319 (169 start + 150 goal) states in 156 cells (112 start (93 on boundary) + 44 goal (30 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000285 seconds and changed from 24 to 5 states
+Info:    Executing post-run event for run 60 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 61 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 712 (391 start + 321 goal) states in 202 cells (136 start (62 on boundary) + 66 goal (42 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000514 seconds and changed from 42 to 6 states
+Info:    Executing post-run event for run 61 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 62 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 2015 (411 start + 1604 goal) states in 227 cells (107 start (59 on boundary) + 120 goal (73 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000677 seconds and changed from 47 to 16 states
+Info:    Executing post-run event for run 62 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 63 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 156 (78 start + 78 goal) states in 82 cells (51 start (43 on boundary) + 31 goal (27 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000352 seconds and changed from 24 to 7 states
+Info:    Executing post-run event for run 63 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 64 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 1412 (203 start + 1209 goal) states in 176 cells (83 start (53 on boundary) + 93 goal (50 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000344 seconds and changed from 36 to 5 states
+Info:    Executing post-run event for run 64 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 65 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 1337 (212 start + 1125 goal) states in 182 cells (89 start (74 on boundary) + 93 goal (37 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000308 seconds and changed from 54 to 7 states
+Info:    Executing post-run event for run 65 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 66 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 3052 (223 start + 2829 goal) states in 153 cells (75 start (61 on boundary) + 78 goal (35 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000342 seconds and changed from 41 to 6 states
+Info:    Executing post-run event for run 66 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 67 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 4082 (242 start + 3840 goal) states in 151 cells (80 start (63 on boundary) + 71 goal (29 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000382 seconds and changed from 26 to 5 states
+Info:    Executing post-run event for run 67 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 68 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 1307 (161 start + 1146 goal) states in 169 cells (81 start (74 on boundary) + 88 goal (39 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000384 seconds and changed from 46 to 6 states
+Info:    Executing post-run event for run 68 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 69 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 2644 (280 start + 2364 goal) states in 233 cells (104 start (78 on boundary) + 129 goal (58 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000240 seconds and changed from 39 to 6 states
+Info:    Executing post-run event for run 69 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 70 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 2049 (326 start + 1723 goal) states in 210 cells (100 start (64 on boundary) + 110 goal (46 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000534 seconds and changed from 65 to 12 states
+Info:    Executing post-run event for run 70 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 71 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 1331 (566 start + 765 goal) states in 259 cells (184 start (93 on boundary) + 75 goal (40 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000444 seconds and changed from 32 to 5 states
+Info:    Executing post-run event for run 71 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 72 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 1034 (193 start + 841 goal) states in 149 cells (71 start (64 on boundary) + 78 goal (44 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000311 seconds and changed from 23 to 8 states
+Info:    Executing post-run event for run 72 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 73 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 1724 (327 start + 1397 goal) states in 217 cells (120 start (73 on boundary) + 97 goal (41 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000551 seconds and changed from 35 to 7 states
+Info:    Executing post-run event for run 73 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 74 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 97 (33 start + 64 goal) states in 56 cells (26 start (26 on boundary) + 30 goal (30 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000361 seconds and changed from 31 to 7 states
+Info:    Executing post-run event for run 74 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 75 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 1201 (131 start + 1070 goal) states in 140 cells (63 start (56 on boundary) + 77 goal (39 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000380 seconds and changed from 40 to 6 states
+Info:    Executing post-run event for run 75 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 76 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 103 (67 start + 36 goal) states in 71 cells (45 start (42 on boundary) + 26 goal (26 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000352 seconds and changed from 25 to 7 states
+Info:    Executing post-run event for run 76 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 77 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 538 (321 start + 217 goal) states in 175 cells (118 start (74 on boundary) + 57 goal (41 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000447 seconds and changed from 30 to 6 states
+Info:    Executing post-run event for run 77 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 78 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 18575 (8983 start + 9592 goal) states in 295 cells (176 start (48 on boundary) + 119 goal (48 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000318 seconds and changed from 55 to 7 states
+Info:    Executing post-run event for run 78 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 79 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 2958 (275 start + 2683 goal) states in 211 cells (95 start (69 on boundary) + 116 goal (58 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000612 seconds and changed from 44 to 9 states
+Info:    Executing post-run event for run 79 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 80 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 2364 (461 start + 1903 goal) states in 244 cells (119 start (67 on boundary) + 125 goal (56 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000411 seconds and changed from 48 to 7 states
+Info:    Executing post-run event for run 80 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 81 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 5714 (596 start + 5118 goal) states in 269 cells (120 start (69 on boundary) + 149 goal (55 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000313 seconds and changed from 41 to 8 states
+Info:    Executing post-run event for run 81 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 82 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 694 (99 start + 595 goal) states in 146 cells (55 start (45 on boundary) + 91 goal (55 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000295 seconds and changed from 45 to 7 states
+Info:    Executing post-run event for run 82 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 83 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 6337 (672 start + 5665 goal) states in 246 cells (103 start (61 on boundary) + 143 goal (51 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000590 seconds and changed from 67 to 10 states
+Info:    Executing post-run event for run 83 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 84 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 130 (86 start + 44 goal) states in 90 cells (64 start (60 on boundary) + 26 goal (25 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000359 seconds and changed from 19 to 7 states
+Info:    Executing post-run event for run 84 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 85 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 270 (190 start + 80 goal) states in 134 cells (97 start (82 on boundary) + 37 goal (28 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000322 seconds and changed from 19 to 6 states
+Info:    Executing post-run event for run 85 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 86 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 6331 (328 start + 6003 goal) states in 207 cells (95 start (55 on boundary) + 112 goal (53 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000389 seconds and changed from 53 to 11 states
+Info:    Executing post-run event for run 86 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 87 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 931 (109 start + 822 goal) states in 156 cells (65 start (60 on boundary) + 91 goal (47 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000324 seconds and changed from 43 to 11 states
+Info:    Executing post-run event for run 87 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 88 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 5937 (501 start + 5436 goal) states in 262 cells (112 start (71 on boundary) + 150 goal (59 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000410 seconds and changed from 52 to 10 states
+Info:    Executing post-run event for run 88 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 89 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 2511 (191 start + 2320 goal) states in 182 cells (72 start (47 on boundary) + 110 goal (49 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000327 seconds and changed from 31 to 8 states
+Info:    Executing post-run event for run 89 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 90 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 356 (73 start + 283 goal) states in 114 cells (43 start (42 on boundary) + 71 goal (48 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000474 seconds and changed from 24 to 6 states
+Info:    Executing post-run event for run 90 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 91 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 1050 (478 start + 572 goal) states in 223 cells (151 start (71 on boundary) + 72 goal (41 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000314 seconds and changed from 26 to 8 states
+Info:    Executing post-run event for run 91 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 92 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 790 (651 start + 139 goal) states in 175 cells (145 start (57 on boundary) + 30 goal (24 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000287 seconds and changed from 27 to 7 states
+Info:    Executing post-run event for run 92 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 93 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 75 (33 start + 42 goal) states in 60 cells (27 start (27 on boundary) + 33 goal (33 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000296 seconds and changed from 22 to 7 states
+Info:    Executing post-run event for run 93 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 94 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 1588 (264 start + 1324 goal) states in 194 cells (79 start (64 on boundary) + 115 goal (57 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000398 seconds and changed from 35 to 5 states
+Info:    Executing post-run event for run 94 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 95 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 1705 (299 start + 1406 goal) states in 192 cells (105 start (61 on boundary) + 87 goal (47 on boundary))
+Info:    SimpleSetup: Path simplification took 0.000519 seconds and changed from 50 to 12 states
+Info:    Executing post-run event for run 95 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 96 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 395 (303 start + 92 goal) states in 161 cells (136 start (92 on boundary) + 25 goal (22 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000320 seconds and changed from 29 to 6 states
+Info:    Executing post-run event for run 96 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 97 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 2883 (160 start + 2723 goal) states in 188 cells (73 start (69 on boundary) + 115 goal (56 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000370 seconds and changed from 36 to 6 states
+Info:    Executing post-run event for run 97 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 98 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 6019 (428 start + 5591 goal) states in 209 cells (95 start (68 on boundary) + 114 goal (62 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000365 seconds and changed from 26 to 10 states
+Info:    Executing post-run event for run 98 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 99 of geometric_LBKPIECE1
+Info:    LBKPIECE1: Starting planning with 1 states already in datastructure
+Info:    LBKPIECE1: Created 4243 (293 start + 3950 goal) states in 211 cells (90 start (66 on boundary) + 121 goal (50 on boundary))
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000508 seconds and changed from 50 to 7 states
+Info:    Executing post-run event for run 99 of planner geometric_LBKPIECE1 ...
+Info:    Completed execution of post-run event
+Info:    Benchmark complete

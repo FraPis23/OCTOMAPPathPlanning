@@ -1,0 +1,5 @@
+[ 33%] Built target octo_publisher
+[ 50%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/octo_benchmark.dir/tesi/src/octo_benchmark.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable octo_planner[0m
+[ 83%] Built target octo_planner

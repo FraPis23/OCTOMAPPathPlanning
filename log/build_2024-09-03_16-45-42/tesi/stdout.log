@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target octo_benchmark[0m
+[ 33%] Built target octo_publisher
+[ 50%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[ 83%] Built target octo_benchmark
