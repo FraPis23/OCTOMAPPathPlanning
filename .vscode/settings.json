@@ -1,5 +1,5 @@
 {
-    "cmake.sourceDirectory": "/home/francesco/Tesi/src",
+    "cmake.sourceDirectory": "/home/ws/src",
     "python.autoComplete.extraPaths": [
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"

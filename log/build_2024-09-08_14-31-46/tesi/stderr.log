@@ -1,0 +1,31 @@
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:202:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  202 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:35:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   35 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In constructor ‘[01m[KOctoPlanner::OctoPlanner()[m[K’:
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:40:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kocto_subs_[m[K’ was not declared in this scope
+   40 |         [01;31m[Kocto_subs_[m[K = this->create_subscription<octomap_msgs::msg::Octomap>("octomap_topic", 100, std::bind(&OctoPlanner::octo_callback, this, _1));
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:41:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_pub_[m[K’ was not declared in this scope
+   41 |         [01;31m[Kpath_pub_[m[K = this->create_publisher<geometry_msgs::msg::PoseArray>("path_topic", 100);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In lambda function:
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:89:24:[m[K [01;31m[Kerror: [m[K‘[01m[KisStateValid[m[K’ was not declared in this scope
+   89 |                 return [01;31m[KisStateValid[m[K(state, distmap);
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In member function ‘[01m[Kvoid OctoPlanner::octo_callback(const Octomap&)[m[K’:
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:173:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_pub_[m[K’ was not declared in this scope
+  173 |     [01;31m[Kpath_pub_[m[K->publish(poseArray);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:183:13:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  183 |             [01;31m[K{[m[K
+      |             [01;31m[K^[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K At global scope:
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:202:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  202 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/octo_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

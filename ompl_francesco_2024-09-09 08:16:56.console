@@ -1,0 +1,1446 @@
+Info:    Beginning benchmark
+Info:    Preparing for run 0 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 24 states
+Info:    SimpleSetup: Path simplification took 0.000367 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 0 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 64 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000245 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 1 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 177 states
+Info:    SimpleSetup: Path simplification took 0.000214 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 2 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 132 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000202 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 3 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 69 states
+Info:    SimpleSetup: Path simplification took 0.000434 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 4 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 108 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000220 seconds and changed from 11 to 4 states
+Info:    Executing post-run event for run 5 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 6 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 39 states
+Info:    SimpleSetup: Path simplification took 0.000316 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 6 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 7 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 322 states
+Info:    SimpleSetup: Path simplification took 0.000366 seconds and changed from 11 to 5 states
+Info:    Executing post-run event for run 7 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 8 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 76 states
+Info:    SimpleSetup: Path simplification took 0.000213 seconds and changed from 8 to 4 states
+Info:    Executing post-run event for run 8 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 9 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 226 states
+Info:    SimpleSetup: Path simplification took 0.000256 seconds and changed from 18 to 6 states
+Info:    Executing post-run event for run 9 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 10 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 114 states
+Info:    SimpleSetup: Path simplification took 0.000324 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 10 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 11 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 190 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000332 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 11 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 12 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 71 states
+Info:    SimpleSetup: Path simplification took 0.000354 seconds and changed from 12 to 6 states
+Info:    Executing post-run event for run 12 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 13 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 9 states
+Info:    SimpleSetup: Path simplification took 0.000463 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 13 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 14 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 34 states
+Info:    SimpleSetup: Path simplification took 0.000277 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 14 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 15 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 109 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000337 seconds and changed from 15 to 6 states
+Info:    Executing post-run event for run 15 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 16 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 75 states
+Info:    SimpleSetup: Path simplification took 0.000297 seconds and changed from 11 to 8 states
+Info:    Executing post-run event for run 16 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 17 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 52 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000570 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 17 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 18 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 226 states
+Info:    SimpleSetup: Path simplification took 0.000261 seconds and changed from 14 to 7 states
+Info:    Executing post-run event for run 18 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 19 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 161 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000367 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 19 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 20 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 15 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000322 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 20 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 21 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 34 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000380 seconds and changed from 9 to 8 states
+Info:    Executing post-run event for run 21 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 22 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 33 states
+Info:    SimpleSetup: Path simplification took 0.000231 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 22 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 23 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 116 states
+Info:    SimpleSetup: Path simplification took 0.000241 seconds and changed from 14 to 6 states
+Info:    Executing post-run event for run 23 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 24 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 35 states
+Info:    SimpleSetup: Path simplification took 0.000327 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 24 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 25 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 149 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000314 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 25 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 26 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 153 states
+Info:    SimpleSetup: Path simplification took 0.000239 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 26 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 27 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 23 states
+Info:    SimpleSetup: Path simplification took 0.000399 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 27 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 28 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 140 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000390 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 28 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 29 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 37 states
+Info:    SimpleSetup: Path simplification took 0.000206 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 29 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 30 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 137 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000282 seconds and changed from 12 to 8 states
+Info:    Executing post-run event for run 30 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 31 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 63 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000323 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 31 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 32 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 17 states
+Info:    SimpleSetup: Path simplification took 0.000202 seconds and changed from 8 to 9 states
+Info:    Executing post-run event for run 32 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 33 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 49 states
+Info:    SimpleSetup: Path simplification took 0.000255 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 33 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 34 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 43 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000372 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 34 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 35 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 113 states
+Info:    SimpleSetup: Path simplification took 0.000213 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 35 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 36 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 131 states
+Info:    SimpleSetup: Path simplification took 0.000304 seconds and changed from 10 to 8 states
+Info:    Executing post-run event for run 36 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 37 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 220 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000305 seconds and changed from 12 to 5 states
+Info:    Executing post-run event for run 37 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 38 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 21 states
+Info:    SimpleSetup: Path simplification took 0.000279 seconds and changed from 9 to 8 states
+Info:    Executing post-run event for run 38 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 39 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 48 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000302 seconds and changed from 9 to 9 states
+Info:    Executing post-run event for run 39 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 40 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 49 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000327 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 40 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 41 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 85 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000273 seconds and changed from 8 to 4 states
+Info:    Executing post-run event for run 41 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 42 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 34 states
+Info:    SimpleSetup: Path simplification took 0.000430 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 42 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 43 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 246 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000330 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 43 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 44 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 30 states
+Info:    SimpleSetup: Path simplification took 0.000260 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 44 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 45 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 56 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000417 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 45 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 46 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 15 states
+Info:    SimpleSetup: Path simplification took 0.000336 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 46 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 47 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 65 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000481 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 47 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 48 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 74 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000267 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 48 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 49 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 142 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000277 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 49 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 50 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 111 states
+Info:    SimpleSetup: Path simplification took 0.000334 seconds and changed from 11 to 5 states
+Info:    Executing post-run event for run 50 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 51 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 23 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000312 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 51 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 52 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 268 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000409 seconds and changed from 16 to 10 states
+Info:    Executing post-run event for run 52 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 53 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 45 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000206 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 53 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 54 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 22 states
+Info:    SimpleSetup: Path simplification took 0.000314 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 54 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 55 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 50 states
+Info:    SimpleSetup: Path simplification took 0.000232 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 55 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 56 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 120 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000265 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 56 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 57 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 46 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000291 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 57 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 58 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 148 states
+Info:    SimpleSetup: Path simplification took 0.000445 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 58 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 59 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 193 states
+Info:    SimpleSetup: Path simplification took 0.000240 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 59 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 60 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 68 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000224 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 60 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 61 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 190 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000369 seconds and changed from 11 to 5 states
+Info:    Executing post-run event for run 61 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 62 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 108 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000265 seconds and changed from 11 to 5 states
+Info:    Executing post-run event for run 62 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 63 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 35 states
+Info:    SimpleSetup: Path simplification took 0.000359 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 63 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 64 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 63 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000254 seconds and changed from 8 to 4 states
+Info:    Executing post-run event for run 64 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 65 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 110 states
+Info:    SimpleSetup: Path simplification took 0.000429 seconds and changed from 12 to 9 states
+Info:    Executing post-run event for run 65 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 66 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 149 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000337 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 66 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 67 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 232 states
+Info:    SimpleSetup: Path simplification took 0.000210 seconds and changed from 14 to 5 states
+Info:    Executing post-run event for run 67 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 68 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 80 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000342 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 68 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 69 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 103 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000221 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 69 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 70 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 57 states
+Info:    SimpleSetup: Path simplification took 0.000261 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 70 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 71 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 61 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000226 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 71 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 72 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 100 states
+Info:    SimpleSetup: Path simplification took 0.000237 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 72 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 73 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 77 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000232 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 73 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 74 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 145 states
+Info:    SimpleSetup: Path simplification took 0.000231 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 74 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 75 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 32 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000222 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 75 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 76 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 105 states
+Info:    SimpleSetup: Path simplification took 0.000248 seconds and changed from 10 to 8 states
+Info:    Executing post-run event for run 76 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 77 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 63 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000229 seconds and changed from 11 to 5 states
+Info:    Executing post-run event for run 77 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 78 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 260 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000324 seconds and changed from 16 to 7 states
+Info:    Executing post-run event for run 78 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 79 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 99 states
+Info:    SimpleSetup: Path simplification took 0.000222 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 79 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 80 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 30 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000330 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 80 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 81 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 15 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000252 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 81 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 82 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 151 states
+Info:    SimpleSetup: Path simplification took 0.000258 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 82 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 83 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 71 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000264 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 83 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 84 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 14 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000220 seconds and changed from 7 to 4 states
+Info:    Executing post-run event for run 84 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 85 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 118 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000260 seconds and changed from 11 to 5 states
+Info:    Executing post-run event for run 85 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 86 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 364 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000379 seconds and changed from 17 to 6 states
+Info:    Executing post-run event for run 86 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 87 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 32 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000261 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 87 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 88 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 57 states
+Info:    SimpleSetup: Path simplification took 0.000315 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 88 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 89 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 50 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000299 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 89 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 90 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 122 states
+Info:    SimpleSetup: Path simplification took 0.000355 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 90 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 91 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 12 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000209 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 91 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 92 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 72 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000357 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 92 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 93 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 42 states
+Info:    SimpleSetup: Path simplification took 0.000251 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 93 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 94 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 44 states
+Info:    SimpleSetup: Path simplification took 0.000233 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 94 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 95 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 90 states
+Info:    SimpleSetup: Path simplification took 0.000277 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 95 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 96 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 138 states
+Info:    SimpleSetup: Path simplification took 0.000234 seconds and changed from 13 to 6 states
+Info:    Executing post-run event for run 96 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 97 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 79 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000259 seconds and changed from 10 to 5 states
+Info:    Executing post-run event for run 97 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 98 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 98 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000288 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 98 of planner geometric_RRT ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 99 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 119 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000283 seconds and changed from 13 to 6 states
+Info:    Executing post-run event for run 99 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 0 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 22 states (17 start + 5 goal)
+Info:    SimpleSetup: Path simplification took 0.000292 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 0 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 46 states (40 start + 6 goal)
+Info:    SimpleSetup: Path simplification took 0.000225 seconds and changed from 11 to 8 states
+Info:    Executing post-run event for run 1 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 89 states (65 start + 24 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000361 seconds and changed from 12 to 7 states
+Info:    Executing post-run event for run 2 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 20 states (18 start + 2 goal)
+Info:    SimpleSetup: Path simplification took 0.000228 seconds and changed from 7 to 4 states
+Info:    Executing post-run event for run 3 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 73 states (63 start + 10 goal)
+Info:    SimpleSetup: Path simplification took 0.000212 seconds and changed from 10 to 5 states
+Info:    Executing post-run event for run 4 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 40 states (35 start + 5 goal)
+Info:    SimpleSetup: Path simplification took 0.000267 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 5 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 6 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 61 states (47 start + 14 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000222 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 6 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 7 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 8 states (6 start + 2 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000235 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 7 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 8 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 77 states (69 start + 8 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000386 seconds and changed from 12 to 7 states
+Info:    Executing post-run event for run 8 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 9 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 47 states (41 start + 6 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000350 seconds and changed from 9 to 8 states
+Info:    Executing post-run event for run 9 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 10 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 40 states (32 start + 8 goal)
+Info:    SimpleSetup: Path simplification took 0.000288 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 10 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 11 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 31 states (25 start + 6 goal)
+Info:    SimpleSetup: Path simplification took 0.000302 seconds and changed from 8 to 9 states
+Info:    Executing post-run event for run 11 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 12 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 26 states (19 start + 7 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000302 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 12 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 13 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 29 states (19 start + 10 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000416 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 13 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 14 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 62 states (47 start + 15 goal)
+Info:    SimpleSetup: Path simplification took 0.000243 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 14 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 15 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 38 states (31 start + 7 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000324 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 15 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 16 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 166 states (118 start + 48 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000391 seconds and changed from 10 to 5 states
+Info:    Executing post-run event for run 16 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 17 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 85 states (76 start + 9 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000291 seconds and changed from 12 to 9 states
+Info:    Executing post-run event for run 17 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 18 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 19 states (16 start + 3 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000241 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 18 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 19 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 15 states (11 start + 4 goal)
+Info:    SimpleSetup: Path simplification took 0.000205 seconds and changed from 7 to 9 states
+Info:    Executing post-run event for run 19 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 20 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 36 states (26 start + 10 goal)
+Info:    SimpleSetup: Path simplification took 0.000277 seconds and changed from 8 to 10 states
+Info:    Executing post-run event for run 20 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 21 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 41 states (31 start + 10 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000258 seconds and changed from 12 to 7 states
+Info:    Executing post-run event for run 21 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 22 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 40 states (32 start + 8 goal)
+Info:    SimpleSetup: Path simplification took 0.000236 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 22 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 23 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 17 states (11 start + 6 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000313 seconds and changed from 10 to 8 states
+Info:    Executing post-run event for run 23 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 24 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 42 states (38 start + 4 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000371 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 24 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 25 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 38 states (27 start + 11 goal)
+Info:    SimpleSetup: Path simplification took 0.000209 seconds and changed from 9 to 8 states
+Info:    Executing post-run event for run 25 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 26 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 12 states (8 start + 4 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000279 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 26 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 27 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 44 states (35 start + 9 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000256 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 27 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 28 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 20 states (16 start + 4 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000270 seconds and changed from 8 to 4 states
+Info:    Executing post-run event for run 28 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 29 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 85 states (66 start + 19 goal)
+Info:    SimpleSetup: Path simplification took 0.000287 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 29 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 30 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 13 states (11 start + 2 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000276 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 30 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 31 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 43 states (35 start + 8 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000350 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 31 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 32 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 12 states (9 start + 3 goal)
+Info:    SimpleSetup: Path simplification took 0.000254 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 32 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 33 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 25 states (21 start + 4 goal)
+Info:    SimpleSetup: Path simplification took 0.000271 seconds and changed from 8 to 9 states
+Info:    Executing post-run event for run 33 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 34 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 40 states (34 start + 6 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000268 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 34 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 35 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 28 states (19 start + 9 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000243 seconds and changed from 12 to 7 states
+Info:    Executing post-run event for run 35 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 36 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 17 states (9 start + 8 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000259 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 36 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 37 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 48 states (38 start + 10 goal)
+Info:    SimpleSetup: Path simplification took 0.000231 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 37 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 38 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 14 states (10 start + 4 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000397 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 38 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 39 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 53 states (45 start + 8 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000259 seconds and changed from 11 to 9 states
+Info:    Executing post-run event for run 39 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 40 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 84 states (55 start + 29 goal)
+Info:    SimpleSetup: Path simplification took 0.000255 seconds and changed from 15 to 8 states
+Info:    Executing post-run event for run 40 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 41 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 42 states (37 start + 5 goal)
+Info:    SimpleSetup: Path simplification took 0.000236 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 41 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 42 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 52 states (43 start + 9 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000305 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 42 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 43 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 42 states (37 start + 5 goal)
+Info:    SimpleSetup: Path simplification took 0.000177 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 43 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 44 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 92 states (75 start + 17 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000301 seconds and changed from 16 to 4 states
+Info:    Executing post-run event for run 44 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 45 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 40 states (33 start + 7 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000241 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 45 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 46 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 28 states (25 start + 3 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000246 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 46 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 47 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 106 states (92 start + 14 goal)
+Info:    SimpleSetup: Path simplification took 0.000208 seconds and changed from 14 to 5 states
+Info:    Executing post-run event for run 47 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 48 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 29 states (26 start + 3 goal)
+Info:    SimpleSetup: Path simplification took 0.000206 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 48 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 49 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 54 states (42 start + 12 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000342 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 49 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 50 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 41 states (34 start + 7 goal)
+Info:    SimpleSetup: Path simplification took 0.000258 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 50 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 51 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 94 states (83 start + 11 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000271 seconds and changed from 13 to 6 states
+Info:    Executing post-run event for run 51 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 52 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 15 states (11 start + 4 goal)
+Info:    SimpleSetup: Path simplification took 0.000222 seconds and changed from 7 to 4 states
+Info:    Executing post-run event for run 52 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 53 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 34 states (27 start + 7 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000281 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 53 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 54 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 79 states (73 start + 6 goal)
+Info:    SimpleSetup: Path simplification took 0.000263 seconds and changed from 12 to 7 states
+Info:    Executing post-run event for run 54 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 55 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 20 states (15 start + 5 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000218 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 55 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 56 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 20 states (17 start + 3 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000315 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 56 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 57 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 49 states (43 start + 6 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000251 seconds and changed from 11 to 4 states
+Info:    Executing post-run event for run 57 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 58 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 44 states (32 start + 12 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000324 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 58 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 59 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 43 states (39 start + 4 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000232 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 59 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 60 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 22 states (18 start + 4 goal)
+Info:    SimpleSetup: Path simplification took 0.000255 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 60 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 61 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 44 states (41 start + 3 goal)
+Info:    SimpleSetup: Path simplification took 0.000215 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 61 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 62 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 46 states (40 start + 6 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000240 seconds and changed from 12 to 5 states
+Info:    Executing post-run event for run 62 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 63 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 26 states (24 start + 2 goal)
+Info:    SimpleSetup: Path simplification took 0.000158 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 63 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 64 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 97 states (81 start + 16 goal)
+Info:    SimpleSetup: Path simplification took 0.000229 seconds and changed from 12 to 8 states
+Info:    Executing post-run event for run 64 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 65 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 26 states (20 start + 6 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000249 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 65 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 66 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 38 states (34 start + 4 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000322 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 66 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 67 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 36 states (34 start + 2 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000232 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 67 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 68 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 23 states (16 start + 7 goal)
+Info:    SimpleSetup: Path simplification took 0.000202 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 68 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 69 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 33 states (30 start + 3 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000245 seconds and changed from 7 to 4 states
+Info:    Executing post-run event for run 69 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 70 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 58 states (49 start + 9 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000426 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 70 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 71 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 28 states (26 start + 2 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000245 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 71 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 72 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 26 states (22 start + 4 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000319 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 72 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 73 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 27 states (20 start + 7 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000333 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 73 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 74 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 51 states (45 start + 6 goal)
+Info:    SimpleSetup: Path simplification took 0.000296 seconds and changed from 13 to 7 states
+Info:    Executing post-run event for run 74 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 75 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 112 states (108 start + 4 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000210 seconds and changed from 14 to 9 states
+Info:    Executing post-run event for run 75 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 76 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 25 states (21 start + 4 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000261 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 76 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 77 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 23 states (18 start + 5 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000206 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 77 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 78 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 29 states (21 start + 8 goal)
+Info:    SimpleSetup: Path simplification took 0.000277 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 78 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 79 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 54 states (46 start + 8 goal)
+Info:    SimpleSetup: Path simplification took 0.000247 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 79 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 80 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 67 states (58 start + 9 goal)
+Info:    SimpleSetup: Path simplification took 0.000202 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 80 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 81 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 18 states (16 start + 2 goal)
+Info:    SimpleSetup: Path simplification took 0.000223 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 81 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 82 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 64 states (61 start + 3 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000255 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 82 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 83 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 36 states (30 start + 6 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000253 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 83 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 84 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 69 states (52 start + 17 goal)
+Info:    SimpleSetup: Path simplification took 0.000210 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 84 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 85 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 55 states (42 start + 13 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000309 seconds and changed from 12 to 7 states
+Info:    Executing post-run event for run 85 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 86 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 87 states (80 start + 7 goal)
+Info:    SimpleSetup: Path simplification took 0.000281 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 86 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 87 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 32 states (22 start + 10 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000256 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 87 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 88 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 46 states (39 start + 7 goal)
+Info:    SimpleSetup: Path simplification took 0.000212 seconds and changed from 12 to 6 states
+Info:    Executing post-run event for run 88 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 89 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 20 states (17 start + 3 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000215 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 89 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 90 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 65 states (50 start + 15 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000241 seconds and changed from 13 to 7 states
+Info:    Executing post-run event for run 90 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 91 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 35 states (29 start + 6 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000417 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 91 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 92 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 56 states (50 start + 6 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000245 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 92 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 93 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 18 states (15 start + 3 goal)
+Info:    SimpleSetup: Path simplification took 0.000306 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 93 of planner geometric_RRTConnect ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 94 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 39 states (35 start + 4 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000258 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 94 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 95 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 32 states (30 start + 2 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000346 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 95 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 96 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 39 states (33 start + 6 goal)
+Info:    SimpleSetup: Path simplification took 0.000299 seconds and changed from 10 to 8 states
+Info:    Executing post-run event for run 96 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 97 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 16 states (11 start + 5 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000286 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 97 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 98 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 50 states (46 start + 4 goal)
+Info:    SimpleSetup: Path simplification took 0.000235 seconds and changed from 9 to 5 states
+Info:    Executing post-run event for run 98 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Preparing for run 99 of geometric_RRTConnect
+Info:    RRTConnect: Starting planning with 1 states already in datastructure
+Info:    RRTConnect: Created 61 states (55 start + 6 goal)
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000310 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 99 of planner geometric_RRTConnect ...
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    Completed execution of post-run event
+Info:    Benchmark complete

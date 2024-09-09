@@ -18,7 +18,9 @@
 #include <iostream>
 
 #include <ompl/geometric/planners/rrt/RRT.h>
-#include <ompl/geometric/planners/AnytimePathShortening.h>
+#include <ompl/geometric/planners/rrt/RRTstar.h>
+
+#include <ompl/geometric/PathGeometric.h>
 #include <ompl/geometric/PathSimplifier.h>
 
 namespace ob = ompl::base;
@@ -29,6 +31,47 @@ using std::placeholders::_1;
 bool unknownAsOccupied = false; // treat unknown space as occupied
 float maxDist = 1; // the max distance at which distance computations are clamped
 
+class RRTWithSmoothing : public ompl::geometric::RRT
+{
+public:
+    RRTWithSmoothing(const ompl::base::SpaceInformationPtr &si) : ompl::geometric::RRT(si)
+    {
+    }
+
+    ompl::base::PlannerStatus solve(const ompl::base::PlannerTerminationCondition &ptc) override
+    {
+        // Esegui la normale pianificazione con RRT
+        ompl::base::PlannerStatus result = ompl::geometric::RRT::solve(ptc);
+
+        // Controlla se è stata trovata una soluzione valida
+        if (result == ompl::base::PlannerStatus::EXACT_SOLUTION)
+        {
+            // Ottieni il percorso generato
+            auto path = std::dynamic_pointer_cast<ompl::geometric::PathGeometric>(pdef_->getSolutionPath());
+
+            // Se il percorso è valido, applica il PathSimplifier
+            if (path)
+            {
+                // Creiamo un PathSimplifier
+                ompl::geometric::PathSimplifier simplifier(si_);
+
+                simplifier.shortcutPath(*path); // Shortcutting
+                // Applichiamo la semplificazione massima (shortcutting, etc.)
+                simplifier.simplifyMax(*path);
+
+                // Interpoliamo il percorso per renderlo più fluido
+                path->interpolate(100);
+
+                // Aggiorniamo il percorso semplificato nella problem definition
+                pdef_->clearSolutionPaths(); // Rimuove il percorso originale
+                pdef_->addSolutionPath(path); // Aggiunge il percorso semplificato
+            }
+        }
+
+        return result;
+    }
+    
+};
 
 class OctoPlanner : public rclcpp::Node
 {
@@ -74,9 +117,9 @@ class OctoPlanner : public rclcpp::Node
             bounds.setLow(0, min.x());
             bounds.setHigh(0, max.x());
             bounds.setLow(1, min.y());
-            bounds.setHigh(1, 4);
+            bounds.setHigh(1, 5);
             bounds.setLow(2, min.z());
-            bounds.setHigh(2, 2);
+            bounds.setHigh(2, 3);
 
             space->setBounds(bounds);
         
@@ -109,7 +152,7 @@ class OctoPlanner : public rclcpp::Node
             pdef->setStartAndGoalStates(start, goal);
 
             // create a planner for the defined space
-            auto planner(std::make_shared<og::RRT>(si));
+            auto planner(std::make_shared<og::RRTstar>(si));
         
             // set the problem we are trying to solve for the planner
             planner->setProblemDefinition(pdef);
@@ -124,64 +167,64 @@ class OctoPlanner : public rclcpp::Node
             pdef->print(std::cout);
 
             // attempt to solve the problem within one second of planning time
-            ob::PlannerStatus solved = planner->ob::Planner::solve(0.05);
+            ob::PlannerStatus solved = planner->ob::Planner::solve(1);
 
             
-            if (solved)
-            {
-                // Get the goal representation from the problem definition (not the same as the goal state)
-                // and inquire about the found path
-                og::PathGeometric *path = pdef->getSolutionPath()->as<og::PathGeometric>();
-                auto& states = path->getStates();
-
-                // Convert the OMPL path to a sequence of geometry_msgs::PoseStamped messages
-                std::vector<geometry_msgs::msg::Pose> poses;
-                std::cout << "Solution found" << std::endl;
-                for (const auto &state : states)
-                {   
-                    const auto *pos = state->as<ob::RealVectorStateSpace::StateType>();
-                    // Extract the position values from the state
-                    double x = pos->values[0]; // x-coordinate
-                    double y = pos->values[1]; // y-coordinate
-                    double z = pos->values[2]; // z-coordinate
-
-                    std::cout << "Point: (" << x <<  ", " << y << ", " << z << ");" << std::endl;
-
-                    // Convert the OMPL state to a geometry_msgs::PoseStamped message
-                    geometry_msgs::msg::Pose pose;
-
-
-                    // Populate the position fields with the extracted values
-                    pose.position.x = x;
-                    pose.position.y = y;
-                    pose.position.z = z;
-
-                    pose.orientation.w = 1.0; // Assuming unit quaternion for simplicity
-
-                    poses.push_back(pose);
-                }
+            if (solved) 
+                { 
+                    // Get the goal representation from the problem definition (not the same as the goal state) 
+                    // and inquire about the found path 
+                    og::PathGeometric *path = pdef->getSolutionPath()->as<og::PathGeometric>(); 
                 
-
-                // Publish the PoseArray message
-                geometry_msgs::msg::PoseArray poseArray;
-                poseArray.poses = poses;
-                path_pub_->publish(poseArray);
-            }
-            else
-            {
-                std::cout << "No solution found" << std::endl;
-            }
-            
+                    // Semplifica e interpola il percorso per renderlo più liscio 
+                    // og::PathSimplifier simplifier(si); 
+                    // simplifier.shortcutPath(*path);          // Semplifica il percorso
+                    // simplifier.simplifyMax(*path);          // Semplifica il percorso
+                    // path->interpolate(500);                 // Interpola il percorso con 100 punti 
+                    auto& states = path->getStates(); 
+                
+                    // Convert the OMPL path to a sequence of geometry_msgs::PoseStamped messages 
+                    std::vector<geometry_msgs::msg::Pose> poses; 
+                    std::cout << "Solution found" << std::endl; 
+                    for (const auto &state : states) 
+                    {    
+                        const auto *pos = state->as<ob::RealVectorStateSpace::StateType>(); 
+                        // Extract the position values from the state 
+                        double x = pos->values[0]; // x-coordinate 
+                        double y = pos->values[1]; // y-coordinate 
+                        double z = pos->values[2]; // z-coordinate 
+                
+                        std::cout << "Point: (" << x <<  ", " << y << ", " << z << ");" << std::endl; 
+                
+                        // Convert the OMPL state to a geometry_msgs::PoseStamped message 
+                        geometry_msgs::msg::Pose pose; 
+                
+                        // Populate the position fields with the extracted values 
+                        pose.position.x = x; 
+                        pose.position.y = y; 
+                        pose.position.z = z; 
+                
+                        pose.orientation.w = 1.0; // Assuming unit quaternion for simplicity 
+                
+                        poses.push_back(pose); 
+                    } 
+                
+                    // Publish the PoseArray message 
+                    geometry_msgs::msg::PoseArray poseArray; 
+                    poseArray.poses = poses; 
+                    path_pub_->publish(poseArray); 
+                } 
+                else 
+                { 
+                    std::cout << "No solution found" << std::endl; 
+                }
         };
-
        
 
          bool isStateValid(const ob::State *state, DynamicEDTOctomap &distmap)
             {
                 // cast the abstract state type to the type we expect
                 const auto *pos = state->as<ob::RealVectorStateSpace::StateType>();
-                if (distmap.getDistance(octomap::point3d((*pos)[0], (*pos)[1], (*pos)[2])) > 0.6) 
-                {std::cout << pos << std::endl;}
                 
                 return distmap.getDistance(octomap::point3d((*pos)[0], (*pos)[1], (*pos)[2])) > 0.6;
             };

@@ -944,4 +944,4 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: \
  /usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRT.h \
  /usr/include/ompl-1.5/ompl/datastructures/NearestNeighbors.h \
  /usr/include/ompl-1.5/ompl/geometric/planners/PlannerIncludes.h \
- /usr/include/ompl-1.5/ompl/geometric/planners/AnytimePathShortening.h
+ /usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTstar.h

@@ -69,6 +69,8 @@
 #include <ompl/geometric/planners/sst/SST.h>
 #include <ompl/geometric/planners/stride/STRIDE.h>
 
+#include <ompl/geometric/PathSimplifier.h>
+
 
 namespace ob = ompl::base;
 namespace og = ompl::geometric;
@@ -78,6 +80,90 @@ using std::placeholders::_1;
 
 bool unknownAsOccupied = false; // treat unknown space as occupied
 float maxDist = 1; // the max distance at which distance computations are clamped
+
+class RRTWithSmoothing : public ompl::geometric::RRT
+{
+public:
+    RRTWithSmoothing(const ompl::base::SpaceInformationPtr &si) : ompl::geometric::RRT(si)
+    {
+    }
+
+    ompl::base::PlannerStatus solve(const ompl::base::PlannerTerminationCondition &ptc) override
+    {
+        // Esegui la normale pianificazione con RRT
+        ompl::base::PlannerStatus result = ompl::geometric::RRT::solve(ptc);
+
+        // Controlla se è stata trovata una soluzione valida
+        if (result == ompl::base::PlannerStatus::EXACT_SOLUTION)
+        {
+            // Ottieni il percorso generato
+            auto path = std::dynamic_pointer_cast<ompl::geometric::PathGeometric>(pdef_->getSolutionPath());
+
+            // Se il percorso è valido, applica il PathSimplifier
+            if (path)
+            {
+                // Creiamo un PathSimplifier
+                ompl::geometric::PathSimplifier simplifier(si_);
+
+                simplifier.shortcutPath(*path); 
+                // Applichiamo la semplificazione massima (shortcutting, etc.)
+                simplifier.simplifyMax(*path);
+
+                // Interpoliamo il percorso per renderlo più fluido
+                path->interpolate(100);
+
+                // Aggiorniamo il percorso semplificato nella problem definition
+                pdef_->clearSolutionPaths(); // Rimuove il percorso originale
+                pdef_->addSolutionPath(path); // Aggiunge il percorso semplificato
+            }
+        }
+
+        return result;
+    }
+    
+};
+
+class RRTConnectWithSmoothing : public ompl::geometric::RRTConnect
+{
+public:
+    RRTConnectWithSmoothing(const ompl::base::SpaceInformationPtr &si) : ompl::geometric::RRTConnect(si)
+    {
+    }
+
+    ompl::base::PlannerStatus solve(const ompl::base::PlannerTerminationCondition &ptc) override
+    {
+        // Esegui la normale pianificazione con RRT
+        ompl::base::PlannerStatus result = ompl::geometric::RRTConnect::solve(ptc);
+
+        // Controlla se è stata trovata una soluzione valida
+        if (result == ompl::base::PlannerStatus::EXACT_SOLUTION)
+        {
+            // Ottieni il percorso generato
+            auto path = std::dynamic_pointer_cast<ompl::geometric::PathGeometric>(pdef_->getSolutionPath());
+
+            // Se il percorso è valido, applica il PathSimplifier
+            if (path)
+            {
+                // Creiamo un PathSimplifier
+                ompl::geometric::PathSimplifier simplifier(si_);
+
+                simplifier.shortcutPath(*path); 
+                // Applichiamo la semplificazione massima (shortcutting, etc.)
+                simplifier.simplifyMax(*path);
+
+                // Interpoliamo il percorso per renderlo più fluido
+                path->interpolate(100);
+
+                // Aggiorniamo il percorso semplificato nella problem definition
+                pdef_->clearSolutionPaths(); // Rimuove il percorso originale
+                pdef_->addSolutionPath(path); // Aggiunge il percorso semplificato
+            }
+        }
+
+        return result;
+    }
+    
+};
 
 class OctoPlanner : public rclcpp::Node
 {
@@ -146,9 +232,11 @@ class OctoPlanner : public rclcpp::Node
         
             // set the start and goal states
             ss.setStartAndGoalStates(start, goal);
-            ss.solve();
+            ob::PlannerStatus solved = ss.solve(0.1);  
 
-            // create a benchmark class:
+            if (solved == ob::PlannerStatus::EXACT_SOLUTION)
+            {
+                           // create a benchmark class:
             ot::Benchmark b(ss, "Benchmark");
 
             // Add a planner to the benchmark
@@ -159,49 +247,59 @@ class OctoPlanner : public rclcpp::Node
             //rrtstar->as<og::RRTstar>()->setSampleRejection(false);
             //b.addPlanner(rrtstar);
             //b.addPlanner(ob::PlannerPtr(new og::RRT(ss.getSpaceInformation())));
+            b.addPlanner(ob::PlannerPtr(new RRTWithSmoothing(ss.getSpaceInformation())));
             //b.addPlanner(ob::PlannerPtr(new og::LazyRRT(ss.getSpaceInformation())));
             //b.addPlanner(ob::PlannerPtr(new og::RRTstar(ss.getSpaceInformation())));
             //b.addPlanner(ob::PlannerPtr(new og::RRTConnect(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::EST(ss.getSpaceInformation())));
+            b.addPlanner(ob::PlannerPtr(new RRTConnectWithSmoothing(ss.getSpaceInformation())));
             //b.addPlanner(ob::PlannerPtr(new og::LBTRRT(ss.getSpaceInformation())));
             //b.addPlanner(ob::PlannerPtr(new og::LazyLBTRRT(ss.getSpaceInformation())));
             //b.addPlanner(ob::PlannerPtr(new og::RRTsharp(ss.getSpaceInformation())));
             //b.addPlanner(ob::PlannerPtr(new og::SORRTstar(ss.getSpaceInformation())));
             //b.addPlanner(ob::PlannerPtr(new og::InformedRRTstar(ss.getSpaceInformation())));
             //b.addPlanner(ob::PlannerPtr(new og::TRRT(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::BiTRRT(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::pRRT(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::BiTRRT(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::pRRT(ss.getSpaceInformation())));
 
-            //b.addPlanner(ob::PlannerPtr(new og::EST(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::BiEST(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::ProjEST(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::EST(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::BiEST(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::ProjEST(ss.getSpaceInformation())));
 
-            //b.addPlanner(ob::PlannerPtr(new og::FMT(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::BFMT(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::FMT(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::BFMT(ss.getSpaceInformation())));
 
-            //b.addPlanner(ob::PlannerPtr(new og::KPIECE1(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::BKPIECE1(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::LBKPIECE1(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::KPIECE1(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::BKPIECE1(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::LBKPIECE1(ss.getSpaceInformation())));
 
-            //b.addPlanner(ob::PlannerPtr(new og::PRM(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::LazyPRM(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::SPARS(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::SPARStwo(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::PRMstar(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::LazyPRMstar(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::PRM(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::LazyPRM(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::SPARS(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::SPARStwo(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::PRMstar(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::LazyPRMstar(ss.getSpaceInformation())));
 
-            //b.addPlanner(ob::PlannerPtr(new og::RLRT(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::BiRLRT(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::RLRT(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::BiRLRT(ss.getSpaceInformation())));
 
-            //b.addPlanner(ob::PlannerPtr(new og::SBL(ss.getSpaceInformation())));
-            //b.addPlanner(ob::PlannerPtr(new og::pSBL(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::SBL(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::pSBL(ss.getSpaceInformation())));
 
-            b.addPlanner(ob::PlannerPtr(new og::CForest(ss.getSpaceInformation())));
-            b.addPlanner(ob::PlannerPtr(new og::PDST(ss.getSpaceInformation())));
-            b.addPlanner(ob::PlannerPtr(new og::STRIDE(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::CForest(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::PDST(ss.getSpaceInformation())));
+            // b.addPlanner(ob::PlannerPtr(new og::STRIDE(ss.getSpaceInformation())));
+
 
             b.setPostRunEvent([this, &distmap](const ob::PlannerPtr &planner, const ot::Benchmark::RunProperties &run) {
               auto *path = planner->getProblemDefinition()->getSolutionPath()->as<og::PathGeometric>();
+
+            if (!planner->getProblemDefinition()->hasExactSolution())
+            {
+                               // Mark the benchmark as failed for this run
+                RCLCPP_WARN(this->get_logger(), "Planner did not find a valid solution.");
+                const_cast<ot::Benchmark::RunProperties&>(run).insert({"clearance REAL", "0"});
+                return;
+            }
               double minClearance = std::numeric_limits<double>::max();
               double stepSize = 0.001;  // Passo per l'interpolazione lungo il segmento
 
@@ -222,18 +320,22 @@ class OctoPlanner : public rclcpp::Node
 
               const_cast<ot::Benchmark::RunProperties&>(run).insert({"clearance REAL", std::to_string(minClearance)});
               });
-
-            // b.addPlannerAllocator(std::bind(&myConfiguredPlanner, std::placeholders::_1));
+                          // b.addPlannerAllocator(std::bind(&myConfiguredPlanner, std::placeholders::_1));
 
             ot::Benchmark::Request req;
-            req.maxTime = 0.5;
-            req.maxMem = 300.0;
+            req.maxTime = 0.01;
+            req.maxMem = 100.0;
             req.runCount = 100;
             req.displayProgress = true;
             b.benchmark(req);
 
             // This will generate a file of the form ompl_host_time.log
             b.saveResultsToFile("./benchmark.log");
+            }
+            else
+            {
+                 RCLCPP_WARN(this->get_logger(), "No valid solution found by the planner.");
+            }
         };
 
         double calculateClearance(const ob::State *state, DynamicEDTOctomap &distmap)

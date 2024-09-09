@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.000470] (tesi) JobQueued: {'identifier': 'tesi', 'dependencies': OrderedDict()}
+[0.000636] (tesi) JobStarted: {'identifier': 'tesi'}
+[0.010016] (tesi) JobProgress: {'identifier': 'tesi', 'progress': 'cmake'}
+[0.011189] (tesi) JobProgress: {'identifier': 'tesi', 'progress': 'build'}
+[0.011782] (tesi) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ws/build/tesi', '--', '-j12', '-l12'], 'cwd': '/home/ws/build/tesi', 'env': OrderedDict([('HOSTNAME', 'francesco'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.93.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-8e84f8af-71fd-4dba-b053-f3c8127b14c2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-4639f923-c2ff-43de-8b79-67593de53303.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-81232fafb5.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-4639f923-c2ff-43de-8b79-67593de53303.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/tesi'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.085658] (tesi) StdoutLine: {'line': b'[ 33%] Built target octo_publisher\n'}
+[0.087916] (tesi) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o\x1b[0m\n'}
+[0.099055] (tesi) StdoutLine: {'line': b'[ 83%] Built target octo_benchmark\n'}
+[0.099366] (-) TimerEvent: {}
+[0.199647] (-) TimerEvent: {}
+[0.299982] (-) TimerEvent: {}
+[0.400471] (-) TimerEvent: {}
+[0.501341] (-) TimerEvent: {}
+[0.601879] (-) TimerEvent: {}
+[0.702490] (-) TimerEvent: {}
+[0.803198] (-) TimerEvent: {}
+[0.904047] (-) TimerEvent: {}
+[1.004701] (-) TimerEvent: {}
+[1.105433] (-) TimerEvent: {}
+[1.205953] (-) TimerEvent: {}
+[1.306435] (-) TimerEvent: {}
+[1.406777] (-) TimerEvent: {}
+[1.507029] (-) TimerEvent: {}
+[1.607334] (-) TimerEvent: {}
+[1.707806] (-) TimerEvent: {}
+[1.808426] (-) TimerEvent: {}
+[1.908816] (-) TimerEvent: {}
+[2.009289] (-) TimerEvent: {}
+[2.109730] (-) TimerEvent: {}
+[2.210141] (-) TimerEvent: {}
+[2.310920] (-) TimerEvent: {}
+[2.411529] (-) TimerEvent: {}
+[2.511834] (-) TimerEvent: {}
+[2.612292] (-) TimerEvent: {}
+[2.713306] (-) TimerEvent: {}
+[2.813969] (-) TimerEvent: {}
+[2.914347] (-) TimerEvent: {}
+[3.015189] (-) TimerEvent: {}
+[3.115681] (-) TimerEvent: {}
+[3.216344] (-) TimerEvent: {}
+[3.317079] (-) TimerEvent: {}
+[3.417511] (-) TimerEvent: {}
+[3.518096] (-) TimerEvent: {}
+[3.619074] (-) TimerEvent: {}
+[3.719820] (-) TimerEvent: {}
+[3.820549] (-) TimerEvent: {}
+[3.921315] (-) TimerEvent: {}
+[4.021785] (-) TimerEvent: {}
+[4.122100] (-) TimerEvent: {}
+[4.222782] (-) TimerEvent: {}
+[4.323826] (-) TimerEvent: {}
+[4.424554] (-) TimerEvent: {}
+[4.524998] (-) TimerEvent: {}
+[4.625478] (-) TimerEvent: {}
+[4.726218] (-) TimerEvent: {}
+[4.826980] (-) TimerEvent: {}
+[4.927819] (-) TimerEvent: {}
+[5.028391] (-) TimerEvent: {}
+[5.128889] (-) TimerEvent: {}
+[5.229432] (-) TimerEvent: {}
+[5.330024] (-) TimerEvent: {}
+[5.430550] (-) TimerEvent: {}
+[5.531132] (-) TimerEvent: {}
+[5.631773] (-) TimerEvent: {}
+[5.732455] (-) TimerEvent: {}
+[5.833171] (-) TimerEvent: {}
+[5.933759] (-) TimerEvent: {}
+[6.034514] (-) TimerEvent: {}
+[6.134899] (-) TimerEvent: {}
+[6.235251] (-) TimerEvent: {}
+[6.335679] (-) TimerEvent: {}
+[6.356774] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:202:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[6.357275] (tesi) StderrLine: {'line': b'  202 | }\n'}
+[6.357414] (tesi) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.357501] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:35:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.357613] (tesi) StderrLine: {'line': b'   35 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[6.357757] (tesi) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.435793] (-) TimerEvent: {}
+[6.536451] (-) TimerEvent: {}
+[6.636887] (-) TimerEvent: {}
+[6.737273] (-) TimerEvent: {}
+[6.837685] (-) TimerEvent: {}
+[6.884922] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KOctoPlanner::OctoPlanner()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.885138] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:40:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kocto_subs_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.885204] (tesi) StderrLine: {'line': b'   40 |         \x1b[01;31m\x1b[Kocto_subs_\x1b[m\x1b[K = this->create_subscription<octomap_msgs::msg::Octomap>("octomap_topic", 100, std::bind(&OctoPlanner::octo_callback, this, _1));\n'}
+[6.885260] (tesi) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.937774] (-) TimerEvent: {}
+[6.975333] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:41:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpath_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.975646] (tesi) StderrLine: {'line': b'   41 |         \x1b[01;31m\x1b[Kpath_pub_\x1b[m\x1b[K = this->create_publisher<geometry_msgs::msg::PoseArray>("path_topic", 100);\n'}
+[6.975792] (tesi) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.000455] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[7.000750] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:89:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KisStateValid\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.000857] (tesi) StderrLine: {'line': b'   89 |                 return \x1b[01;31m\x1b[KisStateValid\x1b[m\x1b[K(state, distmap);\n'}
+[7.000944] (tesi) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.027897] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid OctoPlanner::octo_callback(const Octomap&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.028143] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:173:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpath_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.028265] (tesi) StderrLine: {'line': b'  173 |     \x1b[01;31m\x1b[Kpath_pub_\x1b[m\x1b[K->publish(poseArray);\n'}
+[7.028370] (tesi) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.028452] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:183:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[7.028529] (tesi) StderrLine: {'line': b'  183 |             \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[7.028607] (tesi) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.037873] (-) TimerEvent: {}
+[7.039284] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:\x1b[m\x1b[K At global scope:\n'}
+[7.039484] (tesi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ws/src/tesi/src/octo_planner.cpp:202:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[7.039578] (tesi) StderrLine: {'line': b'  202 | }\n'}
+[7.039656] (tesi) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.138016] (-) TimerEvent: {}
+[7.238632] (-) TimerEvent: {}
+[7.339175] (-) TimerEvent: {}
+[7.439533] (-) TimerEvent: {}
+[7.540114] (-) TimerEvent: {}
+[7.640849] (-) TimerEvent: {}
+[7.741473] (-) TimerEvent: {}
+[7.841927] (-) TimerEvent: {}
+[7.942685] (-) TimerEvent: {}
+[8.043198] (-) TimerEvent: {}
+[8.143684] (-) TimerEvent: {}
+[8.244140] (-) TimerEvent: {}
+[8.344817] (-) TimerEvent: {}
+[8.445501] (-) TimerEvent: {}
+[8.546016] (-) TimerEvent: {}
+[8.646545] (-) TimerEvent: {}
+[8.746943] (-) TimerEvent: {}
+[8.847285] (-) TimerEvent: {}
+[8.947817] (-) TimerEvent: {}
+[9.048368] (-) TimerEvent: {}
+[9.149349] (-) TimerEvent: {}
+[9.249683] (-) TimerEvent: {}
+[9.350011] (-) TimerEvent: {}
+[9.450364] (-) TimerEvent: {}
+[9.550942] (-) TimerEvent: {}
+[9.651279] (-) TimerEvent: {}
+[9.751890] (-) TimerEvent: {}
+[9.852939] (-) TimerEvent: {}
+[9.953773] (-) TimerEvent: {}
+[10.054074] (-) TimerEvent: {}
+[10.095878] (tesi) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1\n'}
+[10.096070] (tesi) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/octo_planner.dir/all] Error 2\n'}
+[10.096146] (tesi) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.098195] (tesi) CommandEnded: {'returncode': 2}
+[10.143384] (tesi) JobEnded: {'identifier': 'tesi', 'rc': 2}
+[10.154384] (-) EventReactorShutdown: {}

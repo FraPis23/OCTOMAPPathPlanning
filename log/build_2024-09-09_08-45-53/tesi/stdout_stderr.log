@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target octo_planner[0m
+[ 33%] Built target octo_publisher
+[ 50%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[ 83%] Built target octo_benchmark
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:34:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+   34 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:40:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kompl::base::PlannerStatus RRTWithSmoothing::solve(const ompl::base::PlannerTerminationCondition&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   40 |     ompl::base::PlannerStatus [01;31m[Ksolve[m[K(const ompl::base::PlannerTerminationCondition &ptc) override
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In constructor ‘[01m[KRRTWithSmoothing::RRTWithSmoothing(const SpaceInformationPtr&)[m[K’:
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:36:87:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+   36 |     RRTWithSmoothing(const ompl::base::SpaceInformationPtr &si) : ompl::geometric::RRT[01;31m[K([m[Ksi)
+      |                                                                                       [01;31m[K^[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:36:87:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K([m[K’ token
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:36:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   36 |     RRTWithSmoothing([01;35m[Kconst ompl::base::SpaceInformationPtr &si[m[K) : ompl::geometric::RRT(si)
+      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In member function ‘[01m[Kompl::base::PlannerStatus RRTWithSmoothing::solve(const ompl::base::PlannerTerminationCondition&)[m[K’:
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:43:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kompl::geometric::RRT[m[K’ has not been declared
+   43 |         ompl::base::PlannerStatus result = ompl::geometric::[01;31m[KRRT[m[K::solve(ptc);
+      |                                                             [01;31m[K^~~[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:49:83:[m[K [01;31m[Kerror: [m[K‘[01m[Kpdef_[m[K’ was not declared in this scope
+   49 |             auto path = std::dynamic_pointer_cast<ompl::geometric::PathGeometric>([01;31m[Kpdef_[m[K->getSolutionPath());
+      |                                                                                   [01;31m[K^~~~~[m[K
+[01m[K/home/ws/src/tesi/src/octo_planner.cpp:55:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksi_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksin[m[K’?
+   55 |                 ompl::geometric::PathSimplifier simplifier([01;31m[Ksi_[m[K);
+      |                                                            [01;31m[K^~~[m[K
+      |                                                            [32m[Ksin[m[K
+gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/octo_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

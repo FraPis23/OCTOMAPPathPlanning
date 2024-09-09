@@ -1,0 +1,1527 @@
+Info:    Beginning benchmark
+Info:    Preparing for run 0 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 86 states
+Info:    SimpleSetup: Path simplification took 0.000417 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 0 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 199 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000722 seconds and changed from 13 to 5 states
+Info:    Executing post-run event for run 1 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 230 states
+Info:    SimpleSetup: Path simplification took 0.001070 seconds and changed from 12 to 8 states
+Info:    Executing post-run event for run 2 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 11 states
+Info:    SimpleSetup: Path simplification took 0.000423 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 3 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 55 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000625 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 4 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 54 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000713 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 5 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 6 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 38 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000533 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 6 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 7 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 61 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000487 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 7 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 8 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 43 states
+Info:    SimpleSetup: Path simplification took 0.000510 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 8 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 9 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 95 states
+Info:    SimpleSetup: Path simplification took 0.000618 seconds and changed from 10 to 5 states
+Info:    Executing post-run event for run 9 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 10 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 40 states
+Info:    SimpleSetup: Path simplification took 0.000448 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 10 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 11 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 107 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000585 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 11 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 12 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 64 states
+Info:    SimpleSetup: Path simplification took 0.000608 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 12 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 13 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 171 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000428 seconds and changed from 11 to 8 states
+Info:    Executing post-run event for run 13 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 14 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 75 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000508 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 14 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 15 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 232 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000863 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 15 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 16 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 202 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000778 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 16 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 17 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 42 states
+Info:    SimpleSetup: Path simplification took 0.000599 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 17 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 18 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 345 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.001265 seconds and changed from 16 to 6 states
+Info:    Executing post-run event for run 18 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 19 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 149 states
+Info:    SimpleSetup: Path simplification took 0.000462 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 19 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 20 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 106 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000330 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 20 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 21 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 107 states
+Info:    SimpleSetup: Path simplification took 0.000296 seconds and changed from 10 to 8 states
+Info:    Executing post-run event for run 21 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 22 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 82 states
+Info:    SimpleSetup: Path simplification took 0.000358 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 22 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 23 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 307 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000571 seconds and changed from 17 to 7 states
+Info:    Executing post-run event for run 23 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 24 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 24 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000382 seconds and changed from 8 to 9 states
+Info:    Executing post-run event for run 24 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 25 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 125 states
+Info:    SimpleSetup: Path simplification took 0.000451 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 25 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 26 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 66 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000925 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 26 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 27 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 92 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000370 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 27 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 28 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 64 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000642 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 28 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 29 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 175 states
+Info:    SimpleSetup: Path simplification took 0.000373 seconds and changed from 13 to 5 states
+Info:    Executing post-run event for run 29 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 30 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 269 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000376 seconds and changed from 11 to 8 states
+Info:    Executing post-run event for run 30 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 31 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 108 states
+Info:    SimpleSetup: Path simplification took 0.000603 seconds and changed from 12 to 6 states
+Info:    Executing post-run event for run 31 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 32 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 268 states
+Info:    SimpleSetup: Path simplification took 0.001060 seconds and changed from 16 to 9 states
+Info:    Executing post-run event for run 32 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 33 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 42 states
+Info:    SimpleSetup: Path simplification took 0.000322 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 33 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 34 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 232 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000814 seconds and changed from 13 to 4 states
+Info:    Executing post-run event for run 34 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 35 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 73 states
+Info:    SimpleSetup: Path simplification took 0.000295 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 35 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 36 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 165 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.001405 seconds and changed from 14 to 7 states
+Info:    Executing post-run event for run 36 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 37 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 51 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.001004 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 37 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 38 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 73 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000448 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 38 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 39 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 104 states
+Info:    SimpleSetup: Path simplification took 0.000752 seconds and changed from 11 to 4 states
+Info:    Executing post-run event for run 39 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 40 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 90 states
+Info:    SimpleSetup: Path simplification took 0.000336 seconds and changed from 10 to 5 states
+Info:    Executing post-run event for run 40 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 41 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 21 states
+Info:    SimpleSetup: Path simplification took 0.000586 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 41 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 42 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 115 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.001391 seconds and changed from 12 to 6 states
+Info:    Executing post-run event for run 42 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 43 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 58 states
+Info:    SimpleSetup: Path simplification took 0.000418 seconds and changed from 10 to 5 states
+Info:    Executing post-run event for run 43 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 44 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 129 states
+Info:    SimpleSetup: Path simplification took 0.000648 seconds and changed from 10 to 5 states
+Info:    Executing post-run event for run 44 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 45 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 29 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000583 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 45 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 46 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 226 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000767 seconds and changed from 14 to 6 states
+Info:    Executing post-run event for run 46 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 47 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 10 states
+Info:    SimpleSetup: Path simplification took 0.000447 seconds and changed from 6 to 5 states
+Info:    Executing post-run event for run 47 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 48 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 183 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000635 seconds and changed from 14 to 7 states
+Info:    Executing post-run event for run 48 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 49 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 24 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000470 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 49 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 50 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 43 states
+Info:    SimpleSetup: Path simplification took 0.000588 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 50 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 51 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 90 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000735 seconds and changed from 10 to 8 states
+Info:    Executing post-run event for run 51 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 52 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 170 states
+Info:    SimpleSetup: Path simplification took 0.000882 seconds and changed from 11 to 8 states
+Info:    Executing post-run event for run 52 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 53 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 47 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000263 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 53 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 54 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 61 states
+Info:    SimpleSetup: Path simplification took 0.000282 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 54 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 55 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 52 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000609 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 55 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 56 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 34 states
+Info:    SimpleSetup: Path simplification took 0.000553 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 56 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 57 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 12 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000435 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 57 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 58 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 196 states
+Info:    SimpleSetup: Path simplification took 0.000679 seconds and changed from 11 to 5 states
+Info:    Executing post-run event for run 58 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 59 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 100 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000392 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 59 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 60 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 26 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000685 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 60 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 61 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 77 states
+Info:    SimpleSetup: Path simplification took 0.000576 seconds and changed from 11 to 4 states
+Info:    Executing post-run event for run 61 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 62 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 191 states
+Info:    SimpleSetup: Path simplification took 0.000379 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 62 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 63 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 39 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000646 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 63 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 64 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 122 states
+Info:    SimpleSetup: Path simplification took 0.000507 seconds and changed from 12 to 7 states
+Info:    Executing post-run event for run 64 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 65 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 145 states
+Info:    SimpleSetup: Path simplification took 0.000384 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 65 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 66 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 96 states
+Info:    SimpleSetup: Path simplification took 0.000415 seconds and changed from 11 to 8 states
+Info:    Executing post-run event for run 66 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 67 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 36 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000517 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 67 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 68 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 87 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000367 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 68 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 69 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 55 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000612 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 69 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 70 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 45 states
+Info:    SimpleSetup: Path simplification took 0.000327 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 70 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 71 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 78 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000461 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 71 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 72 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 70 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.001043 seconds and changed from 10 to 9 states
+Info:    Executing post-run event for run 72 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 73 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 41 states
+Info:    SimpleSetup: Path simplification took 0.000506 seconds and changed from 10 to 6 states
+Info:    Executing post-run event for run 73 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 74 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 87 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000533 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 74 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 75 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 51 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000567 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 75 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 76 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 136 states
+Info:    SimpleSetup: Path simplification took 0.000708 seconds and changed from 10 to 8 states
+Info:    Executing post-run event for run 76 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 77 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 74 states
+Info:    SimpleSetup: Path simplification took 0.000581 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 77 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 78 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 122 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000591 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 78 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 79 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 101 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000572 seconds and changed from 12 to 6 states
+Info:    Executing post-run event for run 79 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 80 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 139 states
+Info:    SimpleSetup: Path simplification took 0.000569 seconds and changed from 13 to 7 states
+Info:    Executing post-run event for run 80 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 81 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 300 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000382 seconds and changed from 18 to 9 states
+Info:    Executing post-run event for run 81 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 82 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 25 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000410 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 82 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 83 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 129 states
+Info:    SimpleSetup: Path simplification took 0.000620 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 83 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 84 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 69 states
+Info:    SimpleSetup: Path simplification took 0.000587 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 84 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 85 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 268 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000535 seconds and changed from 14 to 7 states
+Info:    Executing post-run event for run 85 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 86 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 137 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000741 seconds and changed from 15 to 7 states
+Info:    Executing post-run event for run 86 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 87 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 148 states
+Info:    SimpleSetup: Path simplification took 0.000345 seconds and changed from 12 to 6 states
+Info:    Executing post-run event for run 87 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 88 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 101 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000331 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 88 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 89 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 299 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000362 seconds and changed from 14 to 7 states
+Info:    Executing post-run event for run 89 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 90 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 131 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000747 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 90 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 91 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 128 states
+Info:    SimpleSetup: Path simplification took 0.000679 seconds and changed from 11 to 7 states
+Info:    Executing post-run event for run 91 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 92 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 12 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000602 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 92 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 93 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 22 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000615 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 93 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 94 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 89 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000470 seconds and changed from 10 to 7 states
+Info:    Executing post-run event for run 94 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 95 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 45 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000689 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 95 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 96 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 53 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000562 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 96 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 97 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 55 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000648 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 97 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 98 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 160 states
+Info:    SimpleSetup: Path simplification took 0.000365 seconds and changed from 11 to 6 states
+Info:    Executing post-run event for run 98 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 99 of geometric_RRT
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 116 states
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000408 seconds and changed from 11 to 5 states
+Info:    Executing post-run event for run 99 of planner geometric_RRT ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 0 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.47 in 1401 iterations (353 vertices in the graph)
+Info:    RRTstar: Created 1060 new states. Checked 356478 rewire options. 1 goal states in tree. Final solution cost 19.309
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000414 seconds and changed from 9 to 6 states
+Info:    Executing post-run event for run 0 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.35 in 405 iterations (73 vertices in the graph)
+Info:    RRTstar: Created 1007 new states. Checked 332981 rewire options. 1 goal states in tree. Final solution cost 19.308
+Info:    SimpleSetup: Path simplification took 0.000331 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 1 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.62 in 825 iterations (146 vertices in the graph)
+Info:    RRTstar: Created 975 new states. Checked 318880 rewire options. 1 goal states in tree. Final solution cost 18.868
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000371 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 2 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.88 in 657 iterations (118 vertices in the graph)
+Info:    RRTstar: Created 900 new states. Checked 286096 rewire options. 1 goal states in tree. Final solution cost 19.092
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000330 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 3 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.48 in 462 iterations (86 vertices in the graph)
+Info:    RRTstar: Created 1043 new states. Checked 348923 rewire options. 1 goal states in tree. Final solution cost 19.032
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000457 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 4 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.10 in 869 iterations (168 vertices in the graph)
+Info:    RRTstar: Created 995 new states. Checked 327686 rewire options. 1 goal states in tree. Final solution cost 18.814
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000479 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 5 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 6 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.47 in 160 iterations (39 vertices in the graph)
+Info:    RRTstar: Created 1101 new states. Checked 374770 rewire options. 1 goal states in tree. Final solution cost 19.120
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000233 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 6 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 7 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.66 in 1343 iterations (262 vertices in the graph)
+Info:    RRTstar: Created 1070 new states. Checked 360929 rewire options. 1 goal states in tree. Final solution cost 18.924
+Info:    SimpleSetup: Path simplification took 0.000145 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 7 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 8 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.03 in 177 iterations (43 vertices in the graph)
+Info:    RRTstar: Created 1049 new states. Checked 351587 rewire options. 1 goal states in tree. Final solution cost 19.139
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000507 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 8 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 9 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.55 in 1262 iterations (219 vertices in the graph)
+Info:    RRTstar: Created 1016 new states. Checked 336959 rewire options. 1 goal states in tree. Final solution cost 18.991
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000388 seconds and changed from 6 to 5 states
+Info:    Executing post-run event for run 9 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 10 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.25 in 564 iterations (110 vertices in the graph)
+Info:    RRTstar: Created 1046 new states. Checked 350255 rewire options. 1 goal states in tree. Final solution cost 18.832
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000255 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 10 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 11 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.95 in 200 iterations (39 vertices in the graph)
+Info:    RRTstar: Created 1094 new states. Checked 371641 rewire options. 1 goal states in tree. Final solution cost 19.284
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000340 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 11 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 12 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.86 in 580 iterations (108 vertices in the graph)
+Info:    RRTstar: Created 1084 new states. Checked 367173 rewire options. 1 goal states in tree. Final solution cost 18.685
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000523 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 12 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 13 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.65 in 288 iterations (54 vertices in the graph)
+Info:    RRTstar: Created 1066 new states. Checked 359148 rewire options. 1 goal states in tree. Final solution cost 19.274
+Info:    SimpleSetup: Path simplification took 0.000805 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 13 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 14 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.75 in 119 iterations (21 vertices in the graph)
+Info:    RRTstar: Created 1072 new states. Checked 361821 rewire options. 1 goal states in tree. Final solution cost 19.052
+Info:    SimpleSetup: Path simplification took 0.000312 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 14 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 15 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.85 in 1010 iterations (184 vertices in the graph)
+Info:    RRTstar: Created 1067 new states. Checked 359593 rewire options. 1 goal states in tree. Final solution cost 18.680
+Info:    SimpleSetup: Path simplification took 0.000234 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 15 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 16 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.76 in 788 iterations (199 vertices in the graph)
+Info:    RRTstar: Created 1118 new states. Checked 382384 rewire options. 1 goal states in tree. Final solution cost 19.072
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000675 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 16 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 17 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.96 in 582 iterations (95 vertices in the graph)
+Info:    RRTstar: Created 1087 new states. Checked 368512 rewire options. 1 goal states in tree. Final solution cost 18.987
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000482 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 17 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 18 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.06 in 333 iterations (62 vertices in the graph)
+Info:    RRTstar: Created 1103 new states. Checked 375664 rewire options. 1 goal states in tree. Final solution cost 18.973
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000583 seconds and changed from 8 to 9 states
+Info:    Executing post-run event for run 18 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 19 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.87 in 544 iterations (105 vertices in the graph)
+Info:    RRTstar: Created 1119 new states. Checked 382832 rewire options. 1 goal states in tree. Final solution cost 19.231
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000246 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 19 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 20 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.28 in 732 iterations (157 vertices in the graph)
+Info:    RRTstar: Created 1094 new states. Checked 371641 rewire options. 1 goal states in tree. Final solution cost 19.206
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000408 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 20 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 21 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.63 in 466 iterations (102 vertices in the graph)
+Info:    RRTstar: Created 1115 new states. Checked 381040 rewire options. 1 goal states in tree. Final solution cost 18.950
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000263 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 21 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 22 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.19 in 610 iterations (104 vertices in the graph)
+Info:    RRTstar: Created 1094 new states. Checked 371641 rewire options. 1 goal states in tree. Final solution cost 19.277
+Info:    SimpleSetup: Path simplification took 0.000315 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 22 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 23 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.34 in 1889 iterations (483 vertices in the graph)
+Info:    RRTstar: Created 1081 new states. Checked 365835 rewire options. 1 goal states in tree. Final solution cost 19.098
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000535 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 23 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 24 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.25 in 858 iterations (171 vertices in the graph)
+Info:    RRTstar: Created 1108 new states. Checked 377904 rewire options. 1 goal states in tree. Final solution cost 19.179
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000321 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 24 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 25 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.43 in 335 iterations (59 vertices in the graph)
+Info:    RRTstar: Created 1109 new states. Checked 378352 rewire options. 1 goal states in tree. Final solution cost 18.878
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000322 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 25 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 26 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.62 in 375 iterations (63 vertices in the graph)
+Info:    RRTstar: Created 1073 new states. Checked 362267 rewire options. 1 goal states in tree. Final solution cost 18.800
+Info:    SimpleSetup: Path simplification took 0.000439 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 26 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 27 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.79 in 224 iterations (47 vertices in the graph)
+Info:    RRTstar: Created 1077 new states. Checked 364051 rewire options. 1 goal states in tree. Final solution cost 18.740
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000283 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 27 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 28 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.61 in 146 iterations (27 vertices in the graph)
+Info:    RRTstar: Created 1108 new states. Checked 377904 rewire options. 1 goal states in tree. Final solution cost 19.286
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000318 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 28 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 29 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.26 in 268 iterations (63 vertices in the graph)
+Info:    RRTstar: Created 1054 new states. Checked 353808 rewire options. 1 goal states in tree. Final solution cost 18.737
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000257 seconds and changed from 8 to 9 states
+Info:    Executing post-run event for run 29 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 30 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.21 in 555 iterations (97 vertices in the graph)
+Info:    RRTstar: Created 1071 new states. Checked 361375 rewire options. 1 goal states in tree. Final solution cost 18.862
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000363 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 30 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 31 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.29 in 94 iterations (17 vertices in the graph)
+Info:    RRTstar: Created 1077 new states. Checked 364051 rewire options. 1 goal states in tree. Final solution cost 19.037
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000761 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 31 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 32 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.98 in 272 iterations (74 vertices in the graph)
+Info:    RRTstar: Created 1267 new states. Checked 449792 rewire options. 1 goal states in tree. Final solution cost 19.079
+Info:    SimpleSetup: Path simplification took 0.000436 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 32 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 33 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.94 in 765 iterations (131 vertices in the graph)
+Info:    RRTstar: Created 1016 new states. Checked 336959 rewire options. 1 goal states in tree. Final solution cost 19.000
+Info:    SimpleSetup: Path simplification took 0.000429 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 33 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 34 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.28 in 492 iterations (106 vertices in the graph)
+Info:    RRTstar: Created 1123 new states. Checked 384626 rewire options. 1 goal states in tree. Final solution cost 19.030
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000588 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 34 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 35 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.67 in 633 iterations (136 vertices in the graph)
+Info:    RRTstar: Created 1080 new states. Checked 365389 rewire options. 1 goal states in tree. Final solution cost 19.219
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000327 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 35 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 36 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.46 in 385 iterations (79 vertices in the graph)
+Info:    RRTstar: Created 1086 new states. Checked 368065 rewire options. 1 goal states in tree. Final solution cost 19.095
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000556 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 36 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 37 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 23.21 in 190 iterations (47 vertices in the graph)
+Info:    RRTstar: Created 1152 new states. Checked 397660 rewire options. 1 goal states in tree. Final solution cost 18.768
+Info:    SimpleSetup: Path simplification took 0.000405 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 37 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 38 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.31 in 533 iterations (82 vertices in the graph)
+Info:    RRTstar: Created 1145 new states. Checked 394510 rewire options. 1 goal states in tree. Final solution cost 19.219
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000440 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 38 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 39 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.07 in 554 iterations (124 vertices in the graph)
+Info:    RRTstar: Created 1107 new states. Checked 377456 rewire options. 1 goal states in tree. Final solution cost 18.849
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000595 seconds and changed from 8 to 5 states
+Info:    Executing post-run event for run 39 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 40 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.94 in 349 iterations (61 vertices in the graph)
+Info:    RRTstar: Created 1029 new states. Checked 342714 rewire options. 1 goal states in tree. Final solution cost 19.077
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000230 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 40 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 41 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.48 in 443 iterations (64 vertices in the graph)
+Info:    RRTstar: Created 1046 new states. Checked 350255 rewire options. 1 goal states in tree. Final solution cost 19.025
+Info:    SimpleSetup: Path simplification took 0.000291 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 41 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 42 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 23.93 in 687 iterations (107 vertices in the graph)
+Info:    RRTstar: Created 1045 new states. Checked 349811 rewire options. 1 goal states in tree. Final solution cost 19.060
+Info:    SimpleSetup: Path simplification took 0.000300 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 42 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 43 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.36 in 84 iterations (19 vertices in the graph)
+Info:    RRTstar: Created 1103 new states. Checked 375664 rewire options. 1 goal states in tree. Final solution cost 19.025
+Info:    SimpleSetup: Path simplification took 0.000328 seconds and changed from 9 to 9 states
+Info:    Executing post-run event for run 43 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 44 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.81 in 359 iterations (63 vertices in the graph)
+Info:    RRTstar: Created 1054 new states. Checked 353808 rewire options. 1 goal states in tree. Final solution cost 19.110
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000377 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 44 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 45 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.50 in 191 iterations (34 vertices in the graph)
+Info:    RRTstar: Created 961 new states. Checked 312732 rewire options. 1 goal states in tree. Final solution cost 19.120
+Info:    SimpleSetup: Path simplification took 0.000489 seconds and changed from 9 to 10 states
+Info:    Executing post-run event for run 45 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 46 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.76 in 925 iterations (148 vertices in the graph)
+Info:    RRTstar: Created 1078 new states. Checked 364497 rewire options. 1 goal states in tree. Final solution cost 18.833
+Info:    SimpleSetup: Path simplification took 0.000403 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 46 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 47 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.58 in 173 iterations (29 vertices in the graph)
+Info:    RRTstar: Created 1093 new states. Checked 371194 rewire options. 1 goal states in tree. Final solution cost 19.021
+Info:    SimpleSetup: Path simplification took 0.000478 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 47 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 48 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.61 in 292 iterations (43 vertices in the graph)
+Info:    RRTstar: Created 1114 new states. Checked 380592 rewire options. 1 goal states in tree. Final solution cost 18.749
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000342 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 48 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 49 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.90 in 1899 iterations (294 vertices in the graph)
+Info:    RRTstar: Created 1094 new states. Checked 371641 rewire options. 1 goal states in tree. Final solution cost 19.130
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000403 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 49 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 50 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.89 in 678 iterations (115 vertices in the graph)
+Info:    RRTstar: Created 1155 new states. Checked 399010 rewire options. 1 goal states in tree. Final solution cost 19.075
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000425 seconds and changed from 8 to 9 states
+Info:    Executing post-run event for run 50 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 51 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.23 in 236 iterations (39 vertices in the graph)
+Info:    RRTstar: Created 1120 new states. Checked 383280 rewire options. 1 goal states in tree. Final solution cost 19.257
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000998 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 51 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 52 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.60 in 178 iterations (37 vertices in the graph)
+Info:    RRTstar: Created 1188 new states. Checked 413904 rewire options. 1 goal states in tree. Final solution cost 19.128
+Info:    SimpleSetup: Path simplification took 0.000130 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 52 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 53 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.28 in 547 iterations (123 vertices in the graph)
+Info:    RRTstar: Created 1071 new states. Checked 361375 rewire options. 1 goal states in tree. Final solution cost 18.988
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000447 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 53 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 54 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.70 in 117 iterations (30 vertices in the graph)
+Info:    RRTstar: Created 1115 new states. Checked 381040 rewire options. 1 goal states in tree. Final solution cost 19.117
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000412 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 54 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 55 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.81 in 330 iterations (70 vertices in the graph)
+Info:    RRTstar: Created 1052 new states. Checked 352919 rewire options. 1 goal states in tree. Final solution cost 18.822
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000560 seconds and changed from 7 to 10 states
+Info:    Executing post-run event for run 55 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 56 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.44 in 372 iterations (74 vertices in the graph)
+Info:    RRTstar: Created 1009 new states. Checked 333865 rewire options. 1 goal states in tree. Final solution cost 19.135
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000442 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 56 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 57 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.14 in 292 iterations (51 vertices in the graph)
+Info:    RRTstar: Created 1051 new states. Checked 352475 rewire options. 1 goal states in tree. Final solution cost 18.923
+Info:    SimpleSetup: Path simplification took 0.000355 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 57 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 58 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.08 in 364 iterations (67 vertices in the graph)
+Info:    RRTstar: Created 1032 new states. Checked 344043 rewire options. 1 goal states in tree. Final solution cost 19.031
+Info:    SimpleSetup: Path simplification took 0.000245 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 58 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 59 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.79 in 51 iterations (16 vertices in the graph)
+Info:    RRTstar: Created 1039 new states. Checked 347147 rewire options. 1 goal states in tree. Final solution cost 18.780
+Info:    SimpleSetup: Path simplification took 0.000455 seconds and changed from 6 to 7 states
+Info:    Executing post-run event for run 59 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 60 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.15 in 376 iterations (63 vertices in the graph)
+Info:    RRTstar: Created 1010 new states. Checked 334307 rewire options. 1 goal states in tree. Final solution cost 18.898
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000573 seconds and changed from 6 to 7 states
+Info:    Executing post-run event for run 60 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 61 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.27 in 303 iterations (57 vertices in the graph)
+Info:    RRTstar: Created 980 new states. Checked 321080 rewire options. 1 goal states in tree. Final solution cost 18.897
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000227 seconds and changed from 7 to 5 states
+Info:    Executing post-run event for run 61 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 62 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.70 in 211 iterations (42 vertices in the graph)
+Info:    RRTstar: Created 1037 new states. Checked 346259 rewire options. 1 goal states in tree. Final solution cost 19.142
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000284 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 62 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 63 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.36 in 1461 iterations (274 vertices in the graph)
+Info:    RRTstar: Created 1068 new states. Checked 360038 rewire options. 1 goal states in tree. Final solution cost 19.798
+Info:    SimpleSetup: Path simplification took 0.000291 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 63 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 64 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.93 in 118 iterations (24 vertices in the graph)
+Info:    RRTstar: Created 1014 new states. Checked 336075 rewire options. 1 goal states in tree. Final solution cost 18.741
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000589 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 64 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 65 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.30 in 1318 iterations (212 vertices in the graph)
+Info:    RRTstar: Created 1045 new states. Checked 349811 rewire options. 1 goal states in tree. Final solution cost 18.969
+Info:    SimpleSetup: Path simplification took 0.000290 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 65 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 66 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 24.20 in 192 iterations (36 vertices in the graph)
+Info:    RRTstar: Created 1035 new states. Checked 345372 rewire options. 1 goal states in tree. Final solution cost 18.976
+Info:    SimpleSetup: Path simplification took 0.000231 seconds and changed from 8 to 9 states
+Info:    Executing post-run event for run 66 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 67 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.37 in 673 iterations (104 vertices in the graph)
+Info:    RRTstar: Created 1100 new states. Checked 374323 rewire options. 1 goal states in tree. Final solution cost 18.823
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000472 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 67 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 68 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.87 in 154 iterations (46 vertices in the graph)
+Info:    RRTstar: Created 1123 new states. Checked 384626 rewire options. 1 goal states in tree. Final solution cost 19.181
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000173 seconds and changed from 7 to 9 states
+Info:    Executing post-run event for run 68 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 69 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.11 in 473 iterations (79 vertices in the graph)
+Info:    RRTstar: Created 1095 new states. Checked 372088 rewire options. 1 goal states in tree. Final solution cost 18.919
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000585 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 69 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 70 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.15 in 507 iterations (107 vertices in the graph)
+Info:    RRTstar: Created 1172 new states. Checked 406675 rewire options. 1 goal states in tree. Final solution cost 18.826
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000282 seconds and changed from 7 to 9 states
+Info:    Executing post-run event for run 70 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 71 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.30 in 184 iterations (39 vertices in the graph)
+Info:    RRTstar: Created 1097 new states. Checked 372982 rewire options. 1 goal states in tree. Final solution cost 18.865
+Info:    SimpleSetup: Path simplification took 0.000184 seconds and changed from 9 to 8 states
+Info:    Executing post-run event for run 71 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 72 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.75 in 87 iterations (22 vertices in the graph)
+Info:    RRTstar: Created 1168 new states. Checked 404871 rewire options. 1 goal states in tree. Final solution cost 19.031
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000303 seconds and changed from 9 to 7 states
+Info:    Executing post-run event for run 72 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 73 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.41 in 463 iterations (83 vertices in the graph)
+Info:    RRTstar: Created 1080 new states. Checked 365389 rewire options. 1 goal states in tree. Final solution cost 19.081
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000292 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 73 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 74 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.31 in 282 iterations (42 vertices in the graph)
+Info:    RRTstar: Created 1088 new states. Checked 368959 rewire options. 1 goal states in tree. Final solution cost 19.035
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000379 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 74 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 75 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.00 in 349 iterations (56 vertices in the graph)
+Info:    RRTstar: Created 1023 new states. Checked 340056 rewire options. 1 goal states in tree. Final solution cost 19.287
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000713 seconds and changed from 9 to 9 states
+Info:    Executing post-run event for run 75 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 76 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 23.79 in 169 iterations (20 vertices in the graph)
+Info:    RRTstar: Created 1266 new states. Checked 449336 rewire options. 1 goal states in tree. Final solution cost 19.162
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000306 seconds and changed from 9 to 8 states
+Info:    Executing post-run event for run 76 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 77 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.70 in 1145 iterations (261 vertices in the graph)
+Info:    RRTstar: Created 1129 new states. Checked 387320 rewire options. 1 goal states in tree. Final solution cost 19.156
+Info:    SimpleSetup: Path simplification took 0.000123 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 77 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 78 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.71 in 1590 iterations (301 vertices in the graph)
+Info:    RRTstar: Created 1086 new states. Checked 368065 rewire options. 1 goal states in tree. Final solution cost 18.926
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000167 seconds and changed from 8 to 9 states
+Info:    Executing post-run event for run 78 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 79 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.35 in 448 iterations (74 vertices in the graph)
+Info:    RRTstar: Created 1114 new states. Checked 380592 rewire options. 1 goal states in tree. Final solution cost 19.003
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000170 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 79 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 80 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.02 in 168 iterations (30 vertices in the graph)
+Info:    RRTstar: Created 1163 new states. Checked 402616 rewire options. 1 goal states in tree. Final solution cost 18.980
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000738 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 80 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 81 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.93 in 210 iterations (40 vertices in the graph)
+Info:    RRTstar: Created 1072 new states. Checked 361821 rewire options. 1 goal states in tree. Final solution cost 18.832
+Info:    SimpleSetup: Path simplification took 0.000366 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 81 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 82 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.56 in 324 iterations (72 vertices in the graph)
+Info:    RRTstar: Created 1105 new states. Checked 376560 rewire options. 1 goal states in tree. Final solution cost 18.961
+Info:    SimpleSetup: Path simplification took 0.000313 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 82 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 83 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.73 in 370 iterations (77 vertices in the graph)
+Info:    RRTstar: Created 1059 new states. Checked 356033 rewire options. 1 goal states in tree. Final solution cost 18.905
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000317 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 83 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 84 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.97 in 150 iterations (34 vertices in the graph)
+Info:    RRTstar: Created 1122 new states. Checked 384177 rewire options. 1 goal states in tree. Final solution cost 18.784
+Info:    SimpleSetup: Path simplification took 0.000159 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 84 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 85 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.63 in 552 iterations (96 vertices in the graph)
+Info:    RRTstar: Created 1122 new states. Checked 384177 rewire options. 1 goal states in tree. Final solution cost 19.256
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000335 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 85 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 86 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.59 in 197 iterations (34 vertices in the graph)
+Info:    RRTstar: Created 1179 new states. Checked 409836 rewire options. 1 goal states in tree. Final solution cost 19.155
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000327 seconds and changed from 7 to 8 states
+Info:    Executing post-run event for run 86 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 87 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 23.11 in 235 iterations (43 vertices in the graph)
+Info:    RRTstar: Created 1131 new states. Checked 388218 rewire options. 1 goal states in tree. Final solution cost 19.094
+Info:    SimpleSetup: Path simplification took 0.000315 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 87 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 88 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.92 in 522 iterations (93 vertices in the graph)
+Info:    RRTstar: Created 1124 new states. Checked 385075 rewire options. 1 goal states in tree. Final solution cost 19.017
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000348 seconds and changed from 7 to 6 states
+Info:    Executing post-run event for run 88 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 89 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.92 in 244 iterations (45 vertices in the graph)
+Info:    RRTstar: Created 1049 new states. Checked 351587 rewire options. 1 goal states in tree. Final solution cost 18.930
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000252 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 89 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 90 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 25.04 in 100 iterations (26 vertices in the graph)
+Info:    RRTstar: Created 990 new states. Checked 325481 rewire options. 1 goal states in tree. Final solution cost 19.062
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000833 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 90 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 91 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.40 in 327 iterations (54 vertices in the graph)
+Info:    RRTstar: Created 1083 new states. Checked 366727 rewire options. 1 goal states in tree. Final solution cost 18.904
+Info:    SimpleSetup: Path simplification took 0.000304 seconds and changed from 8 to 9 states
+Info:    Executing post-run event for run 91 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 92 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.63 in 853 iterations (210 vertices in the graph)
+Info:    RRTstar: Created 1126 new states. Checked 385973 rewire options. 1 goal states in tree. Final solution cost 18.866
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000284 seconds and changed from 8 to 6 states
+Info:    Executing post-run event for run 92 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 93 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.69 in 488 iterations (94 vertices in the graph)
+Info:    RRTstar: Created 1104 new states. Checked 376112 rewire options. 1 goal states in tree. Final solution cost 18.901
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000484 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 93 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 94 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 19.47 in 1424 iterations (375 vertices in the graph)
+Info:    RRTstar: Created 1073 new states. Checked 362267 rewire options. 1 goal states in tree. Final solution cost 18.852
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000358 seconds and changed from 8 to 8 states
+Info:    Executing post-run event for run 94 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 95 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.07 in 303 iterations (49 vertices in the graph)
+Info:    RRTstar: Created 1128 new states. Checked 386871 rewire options. 1 goal states in tree. Final solution cost 19.227
+Info:    SimpleSetup: Path simplification took 0.000265 seconds and changed from 7 to 10 states
+Info:    Executing post-run event for run 95 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 96 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.43 in 332 iterations (77 vertices in the graph)
+Info:    RRTstar: Created 1175 new states. Checked 408028 rewire options. 1 goal states in tree. Final solution cost 18.851
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000621 seconds and changed from 8 to 7 states
+Info:    Executing post-run event for run 96 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 97 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 22.29 in 147 iterations (31 vertices in the graph)
+Info:    RRTstar: Created 1109 new states. Checked 378352 rewire options. 1 goal states in tree. Final solution cost 18.962
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000351 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 97 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 98 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 21.45 in 481 iterations (103 vertices in the graph)
+Info:    RRTstar: Created 1163 new states. Checked 402616 rewire options. 1 goal states in tree. Final solution cost 19.279
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.000375 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 98 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 99 of geometric_RRTstar
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 45
+Info:    RRTstar: Found an initial solution with a cost of 20.34 in 510 iterations (101 vertices in the graph)
+Info:    RRTstar: Created 1180 new states. Checked 410288 rewire options. 1 goal states in tree. Final solution cost 18.859
+Info:    SimpleSetup: Path simplification took 0.000315 seconds and changed from 7 to 7 states
+Info:    Executing post-run event for run 99 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Benchmark complete

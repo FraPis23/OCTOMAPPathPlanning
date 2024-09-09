@@ -1,0 +1,36 @@
+[0.012s] Invoking command in '/home/ws/build/tesi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12
+[0.085s] [ 33%] Built target octo_publisher
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o[0m
+[0.098s] [ 83%] Built target octo_benchmark
+[6.356s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:202:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[6.357s]   202 | }
+[6.357s]       |  [01;31m[K^[m[K
+[6.357s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:35:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[6.357s]    35 | [01;36m[K{[m[K
+[6.357s]       | [01;36m[K^[m[K
+[6.884s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In constructor ‘[01m[KOctoPlanner::OctoPlanner()[m[K’:
+[6.884s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:40:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kocto_subs_[m[K’ was not declared in this scope
+[6.884s]    40 |         [01;31m[Kocto_subs_[m[K = this->create_subscription<octomap_msgs::msg::Octomap>("octomap_topic", 100, std::bind(&OctoPlanner::octo_callback, this, _1));
+[6.885s]       |         [01;31m[K^~~~~~~~~~[m[K
+[6.975s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:41:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_pub_[m[K’ was not declared in this scope
+[6.975s]    41 |         [01;31m[Kpath_pub_[m[K = this->create_publisher<geometry_msgs::msg::PoseArray>("path_topic", 100);
+[6.975s]       |         [01;31m[K^~~~~~~~~[m[K
+[7.000s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In lambda function:
+[7.000s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:89:24:[m[K [01;31m[Kerror: [m[K‘[01m[KisStateValid[m[K’ was not declared in this scope
+[7.000s]    89 |                 return [01;31m[KisStateValid[m[K(state, distmap);
+[7.000s]       |                        [01;31m[K^~~~~~~~~~~~[m[K
+[7.027s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K In member function ‘[01m[Kvoid OctoPlanner::octo_callback(const Octomap&)[m[K’:
+[7.027s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:173:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_pub_[m[K’ was not declared in this scope
+[7.028s]   173 |     [01;31m[Kpath_pub_[m[K->publish(poseArray);
+[7.028s]       |     [01;31m[K^~~~~~~~~[m[K
+[7.028s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:183:13:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[7.028s]   183 |             [01;31m[K{[m[K
+[7.028s]       |             [01;31m[K^[m[K
+[7.039s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:[m[K At global scope:
+[7.039s] [01m[K/home/ws/src/tesi/src/octo_planner.cpp:202:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[7.039s]   202 | }
+[7.039s]       |  [01;31m[K^[m[K
+[10.095s] gmake[2]: *** [CMakeFiles/octo_planner.dir/build.make:76: CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o] Error 1
+[10.095s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/octo_planner.dir/all] Error 2
+[10.095s] gmake: *** [Makefile:146: all] Error 2
+[10.098s] Invoked command in '/home/ws/build/tesi' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ws/build/tesi -- -j12 -l12

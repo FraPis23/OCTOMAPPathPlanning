@@ -1022,13 +1022,10 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
   /opt/ros/humble/include/octomap/OcTree.h \
   /opt/ros/humble/include/octomap/OcTreeStamped.h \
   /opt/ros/humble/include/dynamicEDT3D/dynamicEDTOctomap.hxx \
-  /usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRT.h \
-  /usr/include/ompl-1.5/ompl/datastructures/NearestNeighbors.h \
+  /usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTstar.h \
   /usr/include/ompl-1.5/ompl/geometric/planners/PlannerIncludes.h \
-  /usr/include/ompl-1.5/ompl/geometric/planners/AnytimePathShortening.h
+  /usr/include/ompl-1.5/ompl/datastructures/NearestNeighbors.h
 
-
-/usr/include/ompl-1.5/ompl/geometric/planners/AnytimePathShortening.h:
 
 /usr/include/ompl-1.5/ompl/geometric/planners/PlannerIncludes.h:
 
@@ -2008,6 +2005,8 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 
 /usr/include/c++/11/bits/functexcept.h:
 
+/usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRTstar.h:
+
 /usr/include/c++/11/bits/random.tcc:
 
 /usr/include/c++/11/bits/atomic_base.h:
@@ -2873,8 +2872,6 @@ CMakeFiles/octo_planner.dir/tesi/src/octo_planner.cpp.o: /home/ws/src/tesi/src/o
 /usr/include/ompl-1.5/ompl/util/RandomNumbers.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
-
-/usr/include/ompl-1.5/ompl/geometric/planners/rrt/RRT.h:
 
 /usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
